@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app = "myshop" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app = "myshop" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app = "myshop" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app = "myshop" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../bower_components/angular-ui-select/dist/select.min.css">
+
+
+  <base href="/">
+</head>
+<body>
+
+<div ng-include="'partials/header.html'">
+
+</div>
+<div class="content">
+  <div ui-view=""></div>
+</div>
+
+<div ng-include="'partials/footer.html'">
+</div>
+
+
+<script src = "../bower_components/angular/angular.js"></script>
+<script src = "../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src = "../bower_components/angular-ui-select/dist/select.min.js"></script>
+<script src = "../bower_components/jquery/dist/jquery.min.js"></script>
+
+
+<script src = "modules/home/home.module.js"></script>
+<script src = "modules/home/home.controller.js"></script>
+<script src = "modules/home/home.factory.js"></script>
+
+<script src ="modules/app.module.js"></script>
+<script src = "modules/app.controller.js"></script>
+<script src = "modules/app.config.js"></script>
+
+</body>
+</html>

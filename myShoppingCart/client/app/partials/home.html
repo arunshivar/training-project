@@ -1,0 +1,27 @@
+
+
+<!--{{hc.text}}-->
+<div class="col-sm-6 col-md-6">
+    <ui-select  ng-model = 'hc.prod' theme='bootstrap' reset-search-input='false'>
+        <ui-select-match placeHolder="Search by Product name">
+            {{$select.selected.name}}
+        </ui-select-match>
+
+        <ui-select-choices repeat = 'product in products | filter:$select.search'>
+            {{product.name}}
+        </ui-select-choices>
+
+        <ui-select-no-choice>
+            Not Item Found
+        </ui-select-no-choice>
+    </ui-select>
+</div>
+
+
+<div class="col-sm-12 col-md-12">
+    <h1>Top Rated Items</h1>
+    <hr>
+
+    <div id="mobiles" ng-repeat=""></div>
+
+</div>

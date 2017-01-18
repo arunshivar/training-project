@@ -1,0 +1,453 @@
+[
+  {
+    "id": "ELEC_PRD_1",
+    "name": "SAMSUNG Galaxy 1",
+    "price": 5500,
+    "description": "SAMSUNG Galaxy 1 is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Samsung",
+    "RAM": "1GB",
+    "modelName": "Galaxy 1",
+    "color": "Gold",
+    "battery": "2600 mAh Li-Ion Battery",
+    "imgPath": "images/ELEC_PRD_1",
+    "camera": {
+      "front": "5MP",
+      "rear": "8MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_2",
+    "name": "SAMSUNG Galaxy 2",
+    "price": 7500,
+    "description": "SAMSUNG Galaxy 2 is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Samsung",
+    "RAM": "1GB",
+    "modelName": "Galaxy 2",
+    "color": "Gold",
+    "battery": "2600 mAh Li-Ion Battery",
+    "imgPath": "images/ELEC_PRD_2",
+    "camera": {
+      "front": "5MP",
+      "rear": "8MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "id":"ELEC_PRD_5",
+    "name": "Moto E3 Power",
+    "price": 7999,
+    "description": "Black, 16 GB",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Motorola",
+    "RAM": "2GB",
+    "modelName": "Moto E3 Power",
+    "color": "Black",
+    "battery": "3500 mAh Battery",
+    "imgPath": "images/ELEC_PRD_5",
+    "comments": [
+      {
+        "text": "smart",
+        "rating": "5",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Bravo"
+      },
+      {
+        "text": "Awesome",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "John Cena"
+      },
+      {
+        "text": "Worth price. The mobile does not look cheap from any angle.",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Silver"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 7000
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_6",
+    "name": "Lenovo Vibe",
+    "price": 7499,
+    "description": "Gold, Snapdragon 616, VoLTE update",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Lenovo",
+    "RAM": "2GB",
+    "modelName": "K5",
+    "color": "Gold",
+    "battery": "2750mAH ",
+    "imgPath": "images/ELEC_PRD_6",
+    "comments": [
+      {
+        "text": "smart",
+        "rating": "5",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Bravo"
+      },
+      {
+        "text": "Awesome",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "John Cena"
+      },
+      {
+        "text": "Worth price. The mobile does not look cheap from any angle.",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Silver"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 4999
+      }
+    ]
+  },
+{
+    "id":"ELEC_PRD_7",
+    "name": "SAMSUNG Guru",
+    "price": 1760,
+    "description": "Simple design, coupled with user-friendly features is what sums up this Samsung Guru Music 2 feature phone, giving you reason enough to rely on this device for your important calls.",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Samsung",
+    "RAM": "",
+    "modelName": "Music 2",
+    "color": "Black",
+    "battery": "800 mAh Li-Ion Battery ",
+    "imgPath": "images/ELEC_PRD_7",
+    "comments": [
+      {
+        "text": "Nice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Jhonny Bravo"
+      },
+      {
+        "text": "Awesome Life",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "John Cena"
+      },
+      {
+        "text": "Worth price. The mobile does not look cheap from any angle.",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Silvester"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Axis Bank",
+        "amount": "5% off"
+      }
+    ]
+  },
+  {
+    "id":"ELEC_PRD_99",
+    "name": "Apple iPhone",
+    "price": 36999,
+    "description": "Rich Kids",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Apple",
+    "RAM": "1 GB RAM",
+    "modelName": "iPhone 6",
+    "color": "White",
+    "battery": "Li-Ion Battery",
+    "imgPath": "images/ELEC_PRD_99",
+    "comments": [
+      {
+        "text": "Costly",
+        "rating": "2",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Life ",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Worth price",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "5000"
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_9",
+    "name": "Acer ES 15",
+    "price": 19290,
+    "description": "Acer ES 15 APU Quad Core A4 - (4 GB/500 GB HDD/Windows 10 Home) ES1-521 Notebook  (15.6 inch, Black, 2.4 kg)",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Acer",
+    "RAM": "2 GB RAM",
+    "modelName": "Apire",
+    "color": "Black",
+    "battery": "Li-Ion Battery",
+    "imgPath": "images/ELEC_PRD_9",
+    "comments": [
+      {
+        "text": "Costly",
+        "rating": "2",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Life ",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Worth price",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "5000"
+      }
+    ]
+  },
+  
+  {
+    "id":"ELEC_PRD_10",
+    "name": "Dell Inspiron 3558 Notebook",
+    "price": 27250.00,
+    "description": "Big entertainment, bold features, get your hands on a versatile 15 inches laptop packed with entertainment features that deliver an outstanding multimedia experience at an affordable price, with Ubuntu Linux OS - for a smooth, versatile PC experience.",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Dell",
+    "RAM": "4GB DDR3L",
+    "modelName": "Inspiron 3558 Notebook",
+    "color": "Black",
+    "battery": "40 Watt Hours",
+    "imgPath": "images/ELEC_PRD_10",
+    "comments": [
+      {
+        "text": "Affordable laptop",
+        "rating": "4",
+        "commentedOn": "18/12/2016",
+        "username": "Abraham Joseph"
+      },
+      {
+        "text": "Misleading product description",
+        "rating": "1",
+        "commentedOn": "07/09/2016",
+        "username": "Sunit D Chaudhari"
+      },
+      {
+        "text": "Decent buy considering the price. An average performer. Comes bundled with a free Mcafee Security which is another addon. Price could be slightly lower considering the market competition. It will have ubuntu Linux OS installed with Dell backup and restore.",
+        "rating": "4",
+        "commentedOn": "29/12/2016",
+        "username": "Abhinav Arya"
+      }
+    ],
+    "offers": [
+      {
+        "type": "No exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id":"ELEC_PRD_11",
+    "name": "HP 15 Core i3 5th Gen",
+    "price": 39990.00,
+    "description": "4 cell Lithium ion battery allows you to keep working for longer.Backed by the 6th generation Intel Core i5 processor which clocks at 2.3GHz and with Turbo Boost 2.0 goes up to 2.8 GHz",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "HP",
+    "RAM": "4GB DDR4",
+    "modelName": "14-AM081TU",
+    "color": "Turbo Silver",
+    "battery": "4 cell Lithium ion ",
+    "imgPath": "images/ELEC_PRD_11",
+    "comments": [
+      {
+        "text": "Good laptop for office and medium use purpose",
+        "rating": "4",
+        "commentedOn": "02/11/2016",
+        "username": "Pranav S"
+      },
+      {
+        "text": "Excellent and Beautiful Product with good processing speed and THE PERFECT DESIGN",
+        "rating": "5",
+        "commentedOn": "06/08/2016",
+        "username": "Shakeel Samdani"
+      },
+      {
+        "text": "Worst Experience with the Product & the Services.",
+        "rating": "1",
+        "commentedOn": "10/10/2016",
+        "username": "Deadpool"
+      }
+    ],
+    "offers": [
+      {
+        "type": "AmazonBasics 14-Inch Laptop Sleeves (Black)",
+        "amount": 849
+      }
+    ]
+  },
+  {
+    "id":"ELEC_PRD_12",
+    "name": "Apple MacBook Air",
+    "price":  59891.00,
+    "description": "MacBook Air is powered by 5th generation Intel Core i5 and i7 processors. This ultra-efficient architecture was designed to use less power and still deliver high performance. Which means not only can you do whatever you want, you can keep doing it for longer than before.",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Apple",
+    "RAM": "8GB DDR3",
+    "modelName": "MMGF2HN/A",
+    "color": "white",
+    "battery": "12 Hours",
+    "imgPath": "images/ELEC_PRD_12",
+    "comments": [
+      {
+        "text": "Great For College Students & Professionals Alike! Worth Every Penny!",
+        "rating": "5",
+        "commentedOn": "20/11/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "model is not latest its last year model.",
+        "rating": "2",
+        "commentedOn": "16/11/2016",
+        "username": "Gunjan"
+      },
+      {
+        "text": "This is the best buy if you are looking for on ultra portable ",
+        "rating": "5",
+        "commentedOn": "22/08/2016",
+        "username": "Ayush Patel"
+      }
+    ],
+    "offers": [
+      {
+        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
+        "amount": 5999
+      }
+    ]
+  },
+  {
+    "id":"ELEC_PRD_89",
+    "name": "Asus X540LA-XX596D",
+    "price":  24999.00,
+    "description": "Its only for beginners to do basic works.",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Asus",
+    "RAM": "4GB DDR3 SDRAM",
+    "modelName": "X540LA-XX596D",
+    "color": "Silver",
+    "battery": "12 Hours",
+    "imgPath": "images/ELEC_PRD_89",
+    "comments": [
+      {
+        "text": "Very nice laptop",
+        "rating": "5",
+        "commentedOn": "21/12/2016",
+        "username": "Himanshu bansal"
+      },
+      {
+        "text": "Awesome Laptop!!",
+        "rating": "5",
+        "commentedOn": "30/12/2016",
+        "username": "Rakesh Sharma V "
+      },
+      {
+        "text": "Its only for beginners to do basic works",
+        "rating": "2",
+        "commentedOn": "29/12/2016",
+        "username": "SATENDRA P"
+      }
+    ],
+    "offers": [
+      {
+        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
+        "amount": 5999
+      }
+    ]
+  }
+]

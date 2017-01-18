@@ -6,7 +6,7 @@ body
 
 .content {
     margin-top: 40px;
-    min-height: 400px;
+    min-height: 450px;
     padding-bottom: 60px;
     margin-left: 250px;
 
@@ -26,16 +26,6 @@ footer
     background-color: #C36464;
 }
 
-/*
-nav
-{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    !*background-color: ;*!
-}
-
-*/
 
 
 .dropdown-content {
