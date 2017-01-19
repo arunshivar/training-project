@@ -7,13 +7,15 @@
             {{$select.selected.name}}
         </ui-select-match>
 
-        <ui-select-choices repeat = 'product in products | filter:$select.search'>
+        <ui-select-choices refresh="hc.checkName($select.search)"
+                           refresh-delay="0"
+                           repeat = 'product in  products | filter:$select.search | limitTo: hc.limitNameSearch'>
             {{product.name}}
         </ui-select-choices>
 
-        <ui-select-no-choice>
+        <!--<ui-select-no-choice>
             Not Item Found
-        </ui-select-no-choice>
+        </ui-select-no-choice>-->
     </ui-select>
 </div>
 
