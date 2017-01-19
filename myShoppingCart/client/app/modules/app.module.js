@@ -9,6 +9,8 @@
         .module('myshop',
             [
                 'ui.router',
-                'homeModule'
+                'homeModule',
+                'headerModule',
+                'viewModule'
             ]);
 }());

@@ -20,19 +20,43 @@
             </div>
         </li>
     </ul>
+
+    <div style = 'float:right' class="col-sm-6 col-md-6"  ng-controller="HeaderController as headerCtrl">
+        <ui-select  ng-model = 'headerCtrl.prod' theme='bootstrap' reset-search-input='false'> &lt;!&ndash; theme = 'selectize' makes work without refresh but ui effects&ndash;&gt;
+            <ui-select-match placeHolder="Search for Product or Brand " id="automplete">
+                {{$select.selected.name}}
+            </ui-select-match>
+
+            <ui-select-choices refresh="headerCtrl.checkName($select.search)"
+                               refresh-delay="0"
+                               repeat = 'product in  products | filter:$select.search | limitTo: headerCtrl.limitNameSearch'>
+                {{product.name}}
+            </ui-select-choices>
+
+        </ui-select>
+
+    </div>
 </nav>
 
-<!-- Bootstrap search box
-<div >&lt;!&ndash;class="col-sm-3 col-md-3"&ndash;&gt;
-    <form class="navbar-form" role="search" >
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
-            <div class="input-group-btn">
-                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-            </div>
-        </div>
-    </form>
+<!-- ****
+    ui select autocomplete to serch a product
+    ***** -->
+<!--
+<div class = 'searchBox'>
+<div class="col-sm-6 col-md-6">
+    <ui-select  ng-model = 'headerCtrl.prod' theme='bootstrap' reset-search-input='false'> &lt;!&ndash; theme = 'selectize' makes work without refresh but ui effects&ndash;&gt;
+        <ui-select-match placeHolder="Search for Product or Brand " id="automplete">
+            {{$select.selected.name}}
+        </ui-select-match>
+
+        <ui-select-choices refresh="headerCtrl.checkName($select.search)"
+                           refresh-delay="0"
+                           repeat = 'product in  products | filter:$select.search | limitTo: headerCtrl.limitNameSearch'>
+            {{product.name}}
+        </ui-select-choices>
+
+    </ui-select>
+
+</div>
+
 </div>-->
-
-
-

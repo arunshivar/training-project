@@ -6,5 +6,5 @@
 {
     "use strict";
     angular
-        .module('homeModule',['ui.select']);
+        .module('homeModule',[]);
 }());

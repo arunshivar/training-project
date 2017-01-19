@@ -9,9 +9,11 @@
         .module('myshop')
         .controller('appController',appController);
 
+    appController.$inject = ['$rootScope'];
     function appController()
     {
         console.log("App Controller");
+        $
     }
 
 }());

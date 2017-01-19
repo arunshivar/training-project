@@ -1,9 +1,9 @@
-
-
-<!--{{hc.text}}-->
-<div class="col-sm-6 col-md-6">
-    <ui-select  ng-model = 'hc.prod' theme='bootstrap' reset-search-input='false'>
-        <ui-select-match placeHolder="Search by Product name" id="automplete">
+<!-- ****
+    ui select autocomplete to serch a product
+    ***** -->
+<!--<div class="col-sm-6 col-md-6">
+    <ui-select  ng-model = 'hc.prod' theme='bootstrap' reset-search-input='false'> &lt;!&ndash; theme = 'selectize' makes work without refresh but ui effects&ndash;&gt;
+        <ui-select-match placeHolder="Search for Product or Brand " id="automplete">
             {{$select.selected.name}}
         </ui-select-match>
 
@@ -13,17 +13,42 @@
             {{product.name}}
         </ui-select-choices>
 
-        <!--<ui-select-no-choice>
-            Not Item Found
-        </ui-select-no-choice>-->
     </ui-select>
-</div>
+
+</div>-->
 
 
-
+<!-- ****
+    to display top rated mobiles
+ ****   -->
 <div class="col-sm-10 col-md-10">
     <h1>Top Rated Items</h1>
     <hr>
-    <h1>Arun Shiva</h1>
+    <div class = "imgRepeat" ng-repeat="product in products | orderBy : '-rating' | limitTo: 10 | filter: { subType: 'mobile' }" >
 
+        <figure class="zoom_img">
+            <a ui-sref='view({id:product.id})'>
+                <img ng-src="{{'../data/images/'+product.imgPath+'.jpeg'}} " ng-alt="{{product.name}}" ng-title="{{product.name}}" class="img-thumbnail" width="120" height="120" style="border:0px;margin:0px;"/>
+            </a>
+        </figure>
+        {{product.name}}<br/>
+        Price : {{product.price | currency:'&#8377;'}}<br/>
+        Rating : {{product.rating}}
+
+    </div>
+
+    <hr>
+    <div class = "imgRepeat" ng-repeat="product in products | orderBy : '-rating' | limitTo: 10 | filter: { subType: 'laptop' }" >
+
+        <figure class="zoom_img">
+            <a ui-sref='view({id:product.id})'>
+                <img ng-src="{{'../data/images/'+product.imgPath+'.jpeg'}} " ng-alt="{{product.name}}" ng-title="{{product.name}}" class="img-thumbnail" width="120" height="120" style="border:0px;margin:0px;"/><!--style="border:0px;margin:0px;"-->
+            </a>
+        </figure>
+        {{product.name}}<br/>
+        Price : {{product.price | currency:'&#8377;'}}<br/>
+        Rating : {{product.rating}}
+
+    </div>
 </div>
+

@@ -9,11 +9,10 @@
         .module('homeModule')
         .factory('homeFactory',homeFactory);
 
-    homeFactory.$inject = ['$http','$rootScope', '$q'];
-    function homeFactory($http,$rootScope,$q)
+    homeFactory.$inject = ['$http','$q']; // $q to returned promised reply
+    function homeFactory($http,$q)
     {
-
-        console.log("Home Factory invoked")
+        console.log("Home Factory")
         var service =
         {
             getData : getData,
@@ -23,16 +22,11 @@
         function getData()
         {
             var def = $q.defer();
-            console.log("get data from home factory");
+            console.log("Get data from home factory ");
             $http.get('../../data/data.json')
                 .success(function(data)
                 {
-                    console.log(data)
                     def.resolve(data);
-
-                    /*console.log(" ** "+$rootScope.products);
-                    displayTopRated(data);*/
-
                 })
                 .error(function()
                 {
@@ -40,22 +34,6 @@
                 });
             return def.promise;
         }
-        function displayTopRated(data)
-        {
-
-            /*for( var i=0;i<data.length;i++)
-            {
-                //console.log(data[i].name);
-                console.log(data[i].imgPath);
-                /!*$("ul").append("<li><img src="+data[i].imgPath+"/></li><br />")*!/
-
-
-            }*/
-            console.log($rootScope.itemNames);
-
-
-        }
-
 
     }
 

@@ -1,15 +1,35 @@
 
-body
-{
+div.content {
+    margin-left: 250px;
+    max-width: 1200px;
+    /*border-left: 1px solid gray;*/
+    overflow: hidden;
+    /*padding: 10px 50px 25px;*/
+    /*border: 1px solid gray;*/
+    margin-top:50px;
 
 }
 
-.content {
+div.searchBox
+{
+    margin-left: 250px;
+    overflow: hidden;
+}
+
+
+
+body {
+    /* background-image: url(images/background1.png);*/
+}
+
+.content-wrapper {
     margin-top: 40px;
     min-height: 450px;
     padding-bottom: 60px;
-    margin-left: 250px;
-
+    /*background-image: url(images/bg.png);
+    background-size: 100% 100%;
+    height:100%;
+    width:100%;*/
 }
 header {
     background-color: #C36464;
@@ -18,12 +38,18 @@ header {
     text-align: left;
 }
 
-footer
-{
+footer {
     padding: 10px;
     color: #fff;
     font-size: 12px;
     background-color: #C36464;
+}
+
+.imgRepeat
+{
+    content:" ";
+    display:inline-block;
+    margin-left: 3em;
 }
 
 
@@ -48,4 +74,11 @@ footer
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+
+.zoom_img img:hover{
+    -moz-transform:scale(1.25);
+    -webkit-transform:scale(1.25);
+    -o-transform:scale(1.25);
 }

@@ -11,26 +11,45 @@
 
 
     HomeController.$inject = ['homeFactory','$rootScope'];
-    function HomeController(homeFactory,$rootScope)
+    function HomeController(homeFactory,$rootScope)/*homeFactory,$rootScope*/
     {
         var vm = this;
         console.log("In home controller");
-        /* homeFactory.getData();*/
-        vm.getAlbums = function() {
+
+        /* ****
+            to fetch data from the json file and add it to $rootscope using promises
+         ****   */
+        vm.getData = function() {
             homeFactory.getData()
                 .then(function(data)
                     {
                         $rootScope.products = {};
                         $rootScope.products = data;
-                        console.log('albums returned to controller.'+data);
 
                     },
                     function(data) {
-                        console.log('albums retrieval failed.')
+                        console.log('Data retrieval failed.')
                     });
         };
 
-        vm.getAlbums();
+        vm.getData();
+
+
+        /* ****
+            on entering minimum characters to show autocomplete suggestions
+        ***** */
+        vm.limitNameSearch = 500; //time for displaying suggestion
+        vm.checkName = function(lettersTyped)
+        {
+
+            if(lettersTyped.length > 2)
+            {
+                vm.limitNameSearch = 500;
+            }
+            else{
+                vm.limitNameSearch = 0;
+            }
+        }
 
 
     }

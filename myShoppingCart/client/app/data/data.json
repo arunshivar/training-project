@@ -11,7 +11,8 @@
     "modelName": "Galaxy 1",
     "color": "Gold",
     "battery": "2600 mAh Li-Ion Battery",
-    "imgPath": "images/ELEC_PRD_1",
+    "imgPath": "ELEC_PRD_1",
+    "rating" : 5,
     "camera": {
       "front": "5MP",
       "rear": "8MP"
@@ -55,7 +56,8 @@
     "modelName": "Galaxy 2",
     "color": "Gold",
     "battery": "2600 mAh Li-Ion Battery",
-    "imgPath": "images/ELEC_PRD_2",
+    "imgPath": "ELEC_PRD_2",
+    "rating" : 3,
     "camera": {
       "front": "5MP",
       "rear": "8MP"
@@ -99,17 +101,18 @@
     "modelName": "Moto E3 Power",
     "color": "Black",
     "battery": "3500 mAh Battery",
-    "imgPath": "images/ELEC_PRD_5",
+    "imgPath": "ELEC_PRD_5",
+    "rating" : 4,
     "comments": [
       {
         "text": "smart",
-        "rating": "5",
+        "rating": "4",
         "commentedOn": "13/01/2017",
         "username": "Jhon Bravo"
       },
       {
         "text": "Awesome",
-        "rating": "5",
+        "rating": "4",
         "commentedOn": "15/01/2017",
         "username": "John Cena"
       },
@@ -140,7 +143,8 @@
     "modelName": "K5",
     "color": "Gold",
     "battery": "2750mAH ",
-    "imgPath": "images/ELEC_PRD_6",
+    "imgPath": "ELEC_PRD_6",
+    "rating" : 3,
     "comments": [
       {
         "text": "smart",
@@ -180,7 +184,8 @@
     "modelName": "Music 2",
     "color": "Black",
     "battery": "800 mAh Li-Ion Battery ",
-    "imgPath": "images/ELEC_PRD_7",
+    "imgPath": "ELEC_PRD_7",
+    "rating" : 2,
     "comments": [
       {
         "text": "Nice",
@@ -220,7 +225,8 @@
     "modelName": "iPhone 6",
     "color": "White",
     "battery": "Li-Ion Battery",
-    "imgPath": "images/ELEC_PRD_99",
+    "imgPath": "ELEC_PRD_99",
+    "rating" : 5,
     "comments": [
       {
         "text": "Costly",
@@ -261,7 +267,8 @@
     "modelName": "Apire",
     "color": "Black",
     "battery": "Li-Ion Battery",
-    "imgPath": "images/ELEC_PRD_9",
+    "imgPath": "ELEC_PRD_9",
+    "rating" : 4,
     "comments": [
       {
         "text": "Costly",
@@ -292,7 +299,7 @@
   
   {
     "id":"ELEC_PRD_10",
-    "name": "Dell Inspiron 3558 Notebook",
+    "name": "Dell Inspiron ",
     "price": 27250.00,
     "description": "Big entertainment, bold features, get your hands on a versatile 15 inches laptop packed with entertainment features that deliver an outstanding multimedia experience at an affordable price, with Ubuntu Linux OS - for a smooth, versatile PC experience.",
     "type": "electronics",
@@ -302,7 +309,8 @@
     "modelName": "Inspiron 3558 Notebook",
     "color": "Black",
     "battery": "40 Watt Hours",
-    "imgPath": "images/ELEC_PRD_10",
+    "imgPath": "ELEC_PRD_10",
+    "rating" : 3,
     "comments": [
       {
         "text": "Affordable laptop",
@@ -332,17 +340,18 @@
   },
   {
     "id":"ELEC_PRD_11",
-    "name": "HP 15 Core i3 5th Gen",
+    "name": "HP 15 ",
     "price": 39990.00,
     "description": "4 cell Lithium ion battery allows you to keep working for longer.Backed by the 6th generation Intel Core i5 processor which clocks at 2.3GHz and with Turbo Boost 2.0 goes up to 2.8 GHz",
     "type": "electronics",
     "subType": "laptop",
     "brand": "HP",
     "RAM": "4GB DDR4",
-    "modelName": "14-AM081TU",
+    "modelName": "Core i3 5th Gen",
     "color": "Turbo Silver",
     "battery": "4 cell Lithium ion ",
-    "imgPath": "images/ELEC_PRD_11",
+    "imgPath": "ELEC_PRD_11",
+    "rating" : 5,
     "comments": [
       {
         "text": "Good laptop for office and medium use purpose",
@@ -372,7 +381,7 @@
   },
   {
     "id":"ELEC_PRD_12",
-    "name": "Apple MacBook Air",
+    "name": "Apple MacBook",
     "price":  59891.00,
     "description": "MacBook Air is powered by 5th generation Intel Core i5 and i7 processors. This ultra-efficient architecture was designed to use less power and still deliver high performance. Which means not only can you do whatever you want, you can keep doing it for longer than before.",
     "type": "electronics",
@@ -382,7 +391,8 @@
     "modelName": "MMGF2HN/A",
     "color": "white",
     "battery": "12 Hours",
-    "imgPath": "images/ELEC_PRD_12",
+    "imgPath": "ELEC_PRD_12",
+    "rating" : 5,
     "comments": [
       {
         "text": "Great For College Students & Professionals Alike! Worth Every Penny!",
@@ -412,7 +422,7 @@
   },
   {
     "id":"ELEC_PRD_89",
-    "name": "Asus X540LA-XX596D",
+    "name": "Asus",
     "price":  24999.00,
     "description": "Its only for beginners to do basic works.",
     "type": "electronics",
@@ -422,7 +432,8 @@
     "modelName": "X540LA-XX596D",
     "color": "Silver",
     "battery": "12 Hours",
-    "imgPath": "images/ELEC_PRD_89",
+    "imgPath": "ELEC_PRD_89",
+    "rating" : 3,
     "comments": [
       {
         "text": "Very nice laptop",
