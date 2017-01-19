@@ -9,8 +9,8 @@
         .module('homeModule')
         .factory('homeFactory',homeFactory);
 
-    homeFactory.$inject = ["$http","$rootScope"];
-    function homeFactory($http,$rootScope)
+    homeFactory.$inject = ['$http','$rootScope', '$q'];
+    function homeFactory($http,$rootScope,$q)
     {
 
         console.log("Home Factory invoked")
@@ -22,32 +22,35 @@
 
         function getData()
         {
+            var def = $q.defer();
             console.log("get data from home factory");
             $http.get('../../data/data.json')
                 .success(function(data)
                 {
                     console.log(data)
-                    $rootScope.products = {};
-                    $rootScope.products = data;
-                    console.log(" ** "+$rootScope.products);
-                    displayTopRated(data);
+                    def.resolve(data);
+
+                    /*console.log(" ** "+$rootScope.products);
+                    displayTopRated(data);*/
 
                 })
-                .error(function() {
-                    console.log("File not found");
+                .error(function()
+                {
+                    def.reject("Failed to get albums");
                 });
+            return def.promise;
         }
         function displayTopRated(data)
         {
 
-            for( var i=0;i<data.length;i++)
+            /*for( var i=0;i<data.length;i++)
             {
                 //console.log(data[i].name);
                 console.log(data[i].imgPath);
-                /*$("ul").append("<li><img src="+data[i].imgPath+"/></li><br />")*/
+                /!*$("ul").append("<li><img src="+data[i].imgPath+"/></li><br />")*!/
 
 
-            }
+            }*/
             console.log($rootScope.itemNames);
 
 
