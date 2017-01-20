@@ -15,7 +15,7 @@
         console.log("Home Factory")
         var service =
         {
-            getData : getData,
+            getData : getData
         };
         return service;
 

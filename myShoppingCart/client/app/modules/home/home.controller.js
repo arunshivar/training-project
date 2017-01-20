@@ -19,6 +19,7 @@
         /* ****
             to fetch data from the json file and add it to $rootscope using promises
          ****   */
+
         vm.getData = function() {
             homeFactory.getData()
                 .then(function(data)
