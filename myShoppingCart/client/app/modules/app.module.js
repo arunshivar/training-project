@@ -11,8 +11,6 @@
                 'ui.router',
                 'ngRateIt',
                 'homeModule',
-                'headerModule',
                 'viewModule'
-
             ]);
 }());

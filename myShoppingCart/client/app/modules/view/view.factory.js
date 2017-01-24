@@ -26,7 +26,10 @@
             {
 
                 if(products[i].id == id)
+                {
+                    console.log("Product  found "+id);
                     return products[i]
+                }
             }
 
         }

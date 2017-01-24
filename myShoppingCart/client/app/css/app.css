@@ -12,8 +12,9 @@ div.content {
 
 div.searchBox
 {
-    margin-left: 250px;
-    overflow: hidden;
+
+    margin-left: 750px;
+    /*overflow: hidden;*/
 }
 
 

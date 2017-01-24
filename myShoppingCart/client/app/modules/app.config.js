@@ -9,9 +9,9 @@
         .module('myshop')
         .config(appConfig);
 
-    appConfig.$inject = ['$stateProvider','$urlRouterProvider','$locationProvider'];
+    appConfig.$inject = ['$stateProvider','$urlRouterProvider'];
 
-    function appConfig($stateProvider, $urlRouterProvider,$locationProvider)
+    function appConfig($stateProvider, $urlRouterProvider)
     {
         console.log("App Config");
         /*$locationProvider.html5Mode(true);*/

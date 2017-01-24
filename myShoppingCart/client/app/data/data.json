@@ -529,70 +529,8 @@
     ]
   },
 
-  {
-    "id":"BOOK_PRD_1",
-    "name": "Wings of Fire:An Autobiography of Abdul Kalam ",
-    "price":  411.00,
-    "description": "Every common man who by his sheer grit and hard work achieves success should share his story with the rest for they may find inspiration and strength to go on, in his story. The 'Wings of Fire' is one such autobiography by visionary scientist Dr. APJ Abdul Kalam, who from very humble beginnings rose to be the President of India. The book is full of insights, personal moments and life experiences of Dr. Kalam. It gives us an understanding on his journey of success. ",
-    "type": "books",
-    "subType": "biography",
-    "by": "Tiwari",
-    "imgPath": "BOOK_PRD_1",
-    "rating" : 4.5,
-    "comments": [
 
-      {
-        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
-        "rating": "5",
-        "commentedOn": "30 July 2015",
-        "username": "Siddharth "
-      },
-      {
-        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
-        "rating": "5",
-        "commentedOn": "6 June 2013",
-        "username": "Luiz"
-      }
-    ],
-    "offers": [
-      {
-        "type": "Book now",
-        "amount": 59
-      }
-    ]
-  },
-  {
-    "id":"BOOK_PRD_2",
-    "name": "Biography: Dhirubhai Ambani",
-    "price":  227,
-    "description": "The biography of Dhirubhai Ambani is truly India’s rags to riches story. The inside pages contain an interesting and elevating story of how a poor village boy rose to become the legendary figure in the history of business what the well-established corporate houses of India with abundant resources could not achieve over a period of a century.",
-    "type": "books",
-    "subType": "biography",
-    "by": " RPH Editorial Board",
-    "imgPath": "BOOK_PRD_2",
-    "rating" : 4,
-    "comments": [
 
-      {
-        "text": "Very good book for the reader who is keen to know about Ambani. It gives a detail about all the success story and rivalry of Ambani.It also has some rare collection of pics of Ambani family.",
-        "rating": "5",
-        "commentedOn": "30 July 2015",
-        "username": "Siddharth "
-      },
-      {
-        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
-        "rating": "5",
-        "commentedOn": "1 September 2016",
-        "username": "Raquieb khan"
-      }
-    ],
-    "offers": [
-      {
-        "type": "Book now",
-        "amount": 59
-      }
-    ]
-  },
   {
     "id":"ELEC_PRD_13",
     "name": "iBall Excelance CompBook",
@@ -636,7 +574,7 @@
   },
   {
     "id":"ELEC_PRD_14",
-    "name": "Micromax Canvas Lapbook",
+    "name": "Micromax Lapbook",
     "price":  9490.00 ,
     "description": "Micromax Canvas Lapbook L1160 11.6-inch Laptop Silver (Intel Quad Core/2GB/32GB emmc Flash Drive/Windows 10/Integrated Graphics)",
     "type": "electronics",
@@ -1039,7 +977,7 @@
 
   {
     "id":"BOOK_PRD_1",
-    "name": "Wings of Fire:An Autobiography of Abdul Kalam ",
+    "name": "Wings of Fire",
     "price":  411.00,
     "description": "Every common man who by his sheer grit and hard work achieves success should share his story with the rest for they may find inspiration and strength to go on, in his story. The 'Wings of Fire' is one such autobiography by visionary scientist Dr. APJ Abdul Kalam, who from very humble beginnings rose to be the President of India. The book is full of insights, personal moments and life experiences of Dr. Kalam. It gives us an understanding on his journey of success. ",
     "type": "books",
@@ -1135,9 +1073,9 @@
   },
   {
     "id":"BOOK_PRD_4",
-    "name": "Cracking the Code : My Journey to Bollywood",
+    "name": "Cracking the Code",
     "price":  110.00,
-    "description": "Ayushmanns journey is a wholesome and insightful account of the trials and tribulations involved in trying to get a break in Mumbai's entertainment industry. - Ranveer Singh",
+    "description": ": My Journey to Bollywood, Ayushmanns journey is a wholesome and insightful account of the trials and tribulations involved in trying to get a break in Mumbai's entertainment industry. - Ranveer Singh",
     "type": "books",
     "subType": "biography",
     "by": "Ayushmann Khurrana,Tahira Kashyap",
@@ -1263,7 +1201,7 @@
   },
   {
     "id":"BOOK_PRD_8",
-    "name": "Captain Cool : The M. S. Dhoni Story 3rd Edition",
+    "name": "Captain Cool",
     "price":  181.00,
     "description": "Captain Cool is the story of Mahendra Singh Dhoni, the Captain of the Indian Cricket Team.",
     "type": "books",
@@ -1333,7 +1271,7 @@
     "type": "books",
     "subType": "fiction",
     "by": "Karan Johar,Poonam Saxena",
-    "imgPath": "BOOK_PRD_9",
+    "imgPath": "BOOK_PRD_10",
     "rating" : 3.4,
     "comments": [
 

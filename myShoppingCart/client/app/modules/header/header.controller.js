@@ -9,16 +9,16 @@
         .module('homeModule')
         .controller('HeaderController',HeaderController);
 
-    HeaderController.$inject = ['$rootScope'];
-    function HeaderController($rootScope)
+    HeaderController.$inject = ['$state'];
+    function HeaderController($state)
     {
         var vm = this;
-        vm.product = {};
         console.log('In header Controller');
     /* ****
      on entering minimum characters to show autocomplete suggestions
      ***** */
-    vm.limitNameSearch = 500; //time for displaying suggestion
+
+        vm.limitNameSearch = 500; //time for displaying suggestion
     vm.checkName = function(lettersTyped)
     {
 
@@ -31,9 +31,10 @@
         }
     }
 
-        vm.onSelect = function()
+        vm.onSelect = function(productId)
         {
-            console.log("ON Select");
+            console.log("ON Select"+productId);
+            $state.go('view',{id:productId});
         }
 
 
