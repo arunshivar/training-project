@@ -1,16 +1,18 @@
 
+(function()
+{
+   angular
+       .module('viewModule')
+       .filter('pagination',pagination);
 
-(function() {
-    angular
-        .module('viewModule')
-        .filter('startFrom',startFrom);
-
-    function startFrom()
+    function pagination()
     {
-        return function(input, start) {
-            start = +start; //parse to int
+        console.log("View Filter");
+        return function(input, start)
+        {
+            start = +start;
             return input.slice(start);
-        }
+        };
 
     }
 

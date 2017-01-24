@@ -9,8 +9,8 @@
         .module('viewModule')
         .controller('ViewController',ViewController);
 
-    ViewController.$inject = ['$stateParams','viewFactory','$rootScope','simplePagination'];
-    function ViewController($stateParams,viewFactory,$rootScope,simplePagination)
+    ViewController.$inject = ['$stateParams','viewFactory','$rootScope'];
+    function ViewController($stateParams,viewFactory,$rootScope)
     {
 
         console.log('View Controller');
@@ -22,6 +22,7 @@
 
         vm.products = $rootScope.products;
         var obj = viewFactory.getProduct(id,vm.products);
+
         console.log(" * "+obj.type)
         if(obj.type == 'electronics')
         {
@@ -83,14 +84,20 @@
 
         }
 
-        /*vm.pagination = Pagination.getNew();
-        vm.pagination.numPages = Math.ceil(vm.products.length/vm.pagination.perPage);*/
-        vm.currentPage = 0;
-        vm.pageSize = 10;
+        vm.curPage = 0;
+        vm.pageSize = 4;
+        
+        vm.numberOfPages = function(subType)
+        {
+            var countSubType = 0;
+            for(var i in vm.products)
+            {
+                if(vm.products[i].subType == subType)
+                    countSubType = countSubType+1;
+            }
+            return Math.ceil(countSubType / vm.pageSize);
+        };
 
-        vm.numberOfPages = function(){
-            return Math.ceil(vm.products.length/vm.pageSize);
-        }
 
     }
 

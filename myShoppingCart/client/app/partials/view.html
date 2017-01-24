@@ -74,14 +74,14 @@
             <div ng-if='vc.comments'>
                 <div ng-click='showComments = !showComments'><label>Comments:</label></div>
                 <div ng-repeat='comment in vc.comments' ng-show='showComments'>
-                By : {{comment.username}} On : {{comment.commentedOn}} Rating : {{comment.rating}}<br>
-                <p>{{comment.text}}</p>
+                    By : {{comment.username}} On : {{comment.commentedOn}} Rating : {{comment.rating}}<br>
+                    <p>{{comment.text}}</p>
 
+                </div>
             </div>
-        </div>
 
+        </div>
     </div>
-</div>
 
 </div>
 
@@ -89,7 +89,9 @@
 <div class="col-sm-10 col-md-10">
     <h3>Similar Products</h3>
     <hr>
-    <div class = "imgRepeat" ng-repeat="product in vc.products| filter: { subType: vc.subType } | orderBy : '-rating'  | startFrom:vc.currentPage*vc.pageSize | limitTo:vc.pageSize" ng-if="product.id!=vc.params.id"> <!--| byRange : vc.price-->
+
+    <div class = "imgRepeat" ng-repeat="product in products| filter: { subType: vc.subType } | orderBy : '-rating'  | pagination: vc.curPage * vc.pageSize | limitTo: vc.pageSize " ng-if="product.id!=vc.params.id"> <!--| byRange : vc.price-->
+
 
         <figure class="zoom_img">
             <a ui-sref='view({id:product.id})'>
@@ -99,13 +101,16 @@
         {{product.name}}<br/>
         Price : {{product.price | currency:'&#8377;'}}<br/>
         <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it>
-        <button ng-disabled="vc.currentPage == 0" ng-click="vc.currentPage = vc.currentPage-1">
-            Previous
-        </button>
-        {{vc.currentPage+1}}/{{vc.numberOfPages()}}
-        <button ng-disabled="vc.currentPage >= vc.products.length/vc.pageSize - 1" ng-click="vc.currentPage = vc.currentPage+1">
-            Next
-        </button>
+
     </div>
+    <!-- -->
+
     <hr/>
+    <button type="button" class="btn btn-primary" ng-disabled="vc.curPage == 0"
+            ng-click="vc.curPage = vc.curPage-1"> PREV</button>
+
+    <span>Page {{vc.curPage + 1}} of {{vc.numberOfPages(vc.subType)}}</span>
+    <button type="button" class="btn btn-primary"
+            ng-disabled="vc.curPage >= vc.numberOfPages(vc.subType) - 1"
+            ng-click="vc.curPage = vc.curPage+1">NEXT </button>
 </div>
