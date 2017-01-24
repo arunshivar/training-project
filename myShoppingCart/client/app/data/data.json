@@ -91,6 +91,98 @@
     ]
   },
   {
+    "id":"ELEC_PRD_3",
+    "name": "HTC DESIRE",
+    "price": 12670,
+    "description": "HTC DESIRE 628 99HAJZ010-00 Dual Sim(4G),(Sunset Blue),An incredible selfie camera helps you look great on the go",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "HTC",
+    "RAM": "3 GB RAM",
+    "modelName": "628 99HAJZ010-00",
+    "color": "Sunset Blue",
+    "battery": "2200mAH",
+    "imgPath": "ELEC_PRD_4",
+    "rating" : 3.5,
+    "camera":
+    {
+      "front": "5MP",
+      "rear": "13MP"
+    },
+    "comments": [
+      {
+        "text": "Cool features keeping in mind the low cost",
+        "rating": "4",
+        "commentedOn": "11/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "the feel and look for this phone is good. Excellent spec",
+        "rating": "3",
+        "commentedOn": "21/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Cool features keeping in mind the low cost",
+        "rating": "4",
+        "commentedOn": "11/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "1131.65"
+      }
+    ]
+  },
+  {
+    "id":"ELEC_PRD_4",
+    "name": "HTC DESIRE 10",
+    "price": 15990,
+    "description": "Hi-resolution audio earphones, clear shield back panel and ultra-hard protective glass cover available in box.1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "HTC",
+    "RAM": "3 GB RAM",
+    "modelName": "2PUK100",
+    "color": "Polar White",
+    "battery": "2700mAH",
+    "imgPath": "ELEC_PRD_4",
+    "rating" : 3,
+    "camera":
+    {
+      "front": "5MP",
+      "rear": "13MP"
+    },
+    "comments": [
+      {
+        "text": "Cool features keeping in mind the low cost",
+        "rating": "4",
+        "commentedOn": "11/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "the feel and look for this phone is good. Excellent spec",
+        "rating": "3",
+        "commentedOn": "21/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Cool features keeping in mind the low cost",
+        "rating": "4",
+        "commentedOn": "11/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "1428.65"
+      }
+    ]
+  },
+  {
     "id":"ELEC_PRD_5",
     "name": "Moto E3 Power",
     "price": 7999,
@@ -245,8 +337,8 @@
     "rating" : 2,
     "camera":
     {
-      "front": "5MP",
-      "rear": "8MP"
+
+      "rear": "2MP"
     },
     "comments": [
       {
@@ -271,7 +363,7 @@
     "offers": [
       {
         "type": "Axis Bank",
-        "amount": "5% off"
+        "percentage": "5% off"
       }
     ]
   },
