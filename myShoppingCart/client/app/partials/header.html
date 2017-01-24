@@ -22,15 +22,22 @@
     </ul>
 
     <div style = 'float:right' class="col-sm-6 col-md-6"  ng-controller="HeaderController as headerCtrl">
-        <ui-select  ng-model = 'headerCtrl.prod' theme='bootstrap' reset-search-input='false'> &lt;!&ndash; theme = 'selectize' makes work without refresh but ui effects&ndash;&gt;
+        <ui-select  ng-model = 'headerCtrl.prod' theme='bootstrap' reset-search-input='false' on-select="headerCtrl.onSelect()">
             <ui-select-match placeHolder="Search for Product or Brand " id="automplete">
                 {{$select.selected.name}}
             </ui-select-match>
 
             <ui-select-choices refresh="headerCtrl.checkName($select.search)"
                                refresh-delay="0"
-                               repeat = 'product in  products | filter:$select.search | limitTo: headerCtrl.limitNameSearch'>
-                {{product.name}}
+                               repeat = 'product in  products |filter: {name: $select.search.name}  | limitTo: headerCtrl.limitNameSearch'><!--filter:$select.search-->
+
+                <div>{{product.name}}
+                <small>
+                    <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it> Price :{{product.price}}
+                </small>
+                </div>
+
+
             </ui-select-choices>
 
         </ui-select>

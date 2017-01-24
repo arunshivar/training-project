@@ -7,11 +7,21 @@
         angular.module('myshop')
             .run(appRun);
 
-        apprun.$inject = ['$rootScope'];
-        function appRun()
+        appRun.$inject = ['$rootScope','$http'];
+        function appRun($rootScope,$http)
         {
-
-        }
+            console.log("App Run")
+            $http.get('../data/data.json')
+                .success(function(data)
+                {
+                    $rootScope.products = {};
+                    $rootScope.products = data;
+                })
+                .error(function()
+                {
+                    console.log("Failed to get data");
+                });
+            }
 
     }
 ());

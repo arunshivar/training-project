@@ -9,8 +9,10 @@
         .module('myshop',
             [
                 'ui.router',
+                'ngRateIt',
                 'homeModule',
                 'headerModule',
                 'viewModule'
+
             ]);
 }());

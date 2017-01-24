@@ -33,13 +33,13 @@
         </figure>
         {{product.name}}<br/>
         Price : {{product.price | currency:'&#8377;'}}<br/>
-        Rating : {{product.rating}}
+        <!--Rating :-->
+        <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it>
 
     </div>
 
     <hr>
     <div class = "imgRepeat" ng-repeat="product in products | orderBy : '-rating' | limitTo: 10 | filter: { subType: 'laptop' }" >
-
         <figure class="zoom_img">
             <a ui-sref='view({id:product.id})'>
                 <img ng-src="{{'../data/images/'+product.imgPath+'.jpeg'}} " ng-alt="{{product.name}}" ng-title="{{product.name}}" class="img-thumbnail" width="120" height="120" style="border:0px;margin:0px;"/><!--style="border:0px;margin:0px;"-->
@@ -47,7 +47,9 @@
         </figure>
         {{product.name}}<br/>
         Price : {{product.price | currency:'&#8377;'}}<br/>
-        Rating : {{product.rating}}
+        <!--Rating : {{product.rating}}-->
+        <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it>
+
 
     </div>
 </div>

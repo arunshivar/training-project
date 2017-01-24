@@ -10,10 +10,11 @@
         .controller('appController',appController);
 
     appController.$inject = ['$rootScope'];
-    function appController()
+
+    function appController($rootScope)
     {
         console.log("App Controller");
-        $
+
     }
 
 }());

@@ -14,7 +14,8 @@
     {
         var service =
         {
-            getProduct : getProduct
+            getProduct : getProduct,
+
         };
         return service;
 
@@ -29,6 +30,7 @@
             }
 
         }
+
 
 
     }

@@ -21,7 +21,10 @@ div.searchBox
 body {
     /* background-image: url(images/background1.png);*/
 }
-
+.myMark {
+    background-color: greenyellow;
+    color: black;
+}
 .content-wrapper {
     margin-top: 40px;
     min-height: 450px;
@@ -82,3 +85,4 @@ footer {
     -webkit-transform:scale(1.25);
     -o-transform:scale(1.25);
 }
+

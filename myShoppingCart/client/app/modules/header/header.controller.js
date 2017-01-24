@@ -13,6 +13,7 @@
     function HeaderController($rootScope)
     {
         var vm = this;
+        vm.product = {};
         console.log('In header Controller');
     /* ****
      on entering minimum characters to show autocomplete suggestions
@@ -29,6 +30,12 @@
             vm.limitNameSearch = 0;
         }
     }
+
+        vm.onSelect = function()
+        {
+            console.log("ON Select");
+        }
+
 
 
 }

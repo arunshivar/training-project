@@ -2,8 +2,8 @@
 <!--{{vc.params}}-->
 
 <div class="col-sm-10 col-md-10">
-    <h1>View Html</h1>
-    <hr/>
+    <!--<h1>View Html</h1>
+    <hr/>-->
 
     <div class="modal-body row">
         <div class="col-md-3">
@@ -16,12 +16,16 @@
             </figure>
         </div>
         <div class="col-md-8">
-            <div>
+            <dl>
+                <dt>{{vc.name}}</dt>
+                <small><dd ng-if='vc.brand'>-by {{vc.brand}}</dd></small>
+            </dl>
+            <!--<div>
                 <label>{{vc.name}}</label>
             </div>
             <div ng-if='vc.brand'>
                 <span>by {{vc.brand}}</span>
-            </div>
+            </div>-->
             <hr/>
             <div>
                 <span>Price : {{vc.price | currency:'&#8377;'}}</span>
@@ -33,33 +37,34 @@
                 <span>RAM : {{vc.ram}}</span>
             </div>
             <div ng-if='vc.frontCamera'>
-                <span>Front Camers : {{vc.frontCamera}}</span>
+                <span>Front Camera : {{vc.frontCamera}}</span>
             </div>
             <div ng-if='vc.rearCamera'>
-                <span>Rear Camers : {{vc.rearCamera}}</span>
+                <span>Rear Camera : {{vc.rearCamera}}</span>
+                <span class="glyphicon glyphicon-camera"></span>
             </div>
             <div ng-if='vc.color'>
                 <span>Color : {{vc.color}}</span>
             </div>
             <div ng-if='vc.battery'>
-                <span>Batter : {{vc.battery}}</span>
+                <span>Battery : {{vc.battery}}</span>
             </div>
             <div ng-if='vc.description'>
                 <span>Description : {{vc.description}}</span>
             </div>
             <div ng-if='vc.rating'>
-                <span>Rating : {{vc.rating}}</span>
+                <ng-rate-it ng-model= vc.rating  read-only="true" ></ng-rate-it>
             </div>
             <div ng-if='vc.offers'>
-                <span>Offers : {{vc.offers}}</span>
+                <div ng-repeat='offer in vc.offers' >
+                    <mark class = "myMark">{{offer.type}}</mark>  <span ng-if = 'offer.amount'>{{offer.amount | currency:'&#8377;'}}</span>
+                    <span ng-if = 'offer.percentage'>{{offer.percentage}}</span>
+                </div>
             </div>
 
             <div ng-if='vc.comments'>
                 <div ng-click='showComments = !showComments'><label>Comments:</label></div>
                 <div ng-repeat='comment in vc.comments' ng-show='showComments'>
-                <!--<br>
-
-                <!--<input type = "text" ng-readonly = 'true' ng-model = 'comment.text' /><br>-->
                 By : {{comment.username}} On : {{comment.commentedOn}} Rating : {{comment.rating}}<br>
                 <p>{{comment.text}}</p>
 
@@ -71,10 +76,11 @@
 
 </div>
 
+<!--Display similar products -->
 <div class="col-sm-10 col-md-10">
     <h3>Similar Products</h3>
     <hr>
-    <div class = "imgRepeat" ng-repeat="product in products | orderBy : '-rating' | filter: { subType: vc.subType } | limitTo: 5 " ng-if="product.id!=vc.params.id">
+    <div class = "imgRepeat" ng-repeat="product in products| filter: { subType: vc.subType } | orderBy : '-rating'  | limitTo: 5 " ng-if="product.id!=vc.params.id"> <!--| byRange : vc.price-->
 
         <figure class="zoom_img">
             <a ui-sref='view({id:product.id})'>
@@ -83,7 +89,7 @@
         </figure>
         {{product.name}}<br/>
         Price : {{product.price | currency:'&#8377;'}}<br/>
-        Rating : {{product.rating}}
+        <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it>
 
     </div>
     <hr/>

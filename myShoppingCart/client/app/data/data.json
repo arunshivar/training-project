@@ -41,7 +41,7 @@
     "offers": [
       {
         "type": "discount",
-        "percentage": 10
+        "percentage": "10 % off"
       }
     ]
   },
@@ -86,7 +86,7 @@
     "offers": [
       {
         "type": "discount",
-        "percentage": 10
+        "percentage": "10 % off"
       }
     ]
   },
@@ -133,6 +133,52 @@
       {
         "type": "exchange",
         "amount": 7000
+      }
+    ]
+  },
+  {
+    "id":"ELEC_PRD_79",
+    "name": "Coolpad Note",
+    "price": 10999,
+    "description": "Coolpad Note 5 (Space Grey, 32 GB)",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Coolpad",
+    "RAM": "2GB",
+    "modelName": "Moto E3 Power",
+    "color": "Space Grey",
+    "battery": "4010 mAh",
+    "imgPath": "ELEC_PRD_79",
+    "rating" : 3.5,
+    "camera":
+    {
+      "front": "8MP",
+      "rear": "13MP"
+    },
+    "comments": [
+      {
+        "text": "smart",
+        "rating": "4",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Bravo"
+      },
+      {
+        "text": "Awesome",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "John Cena"
+      },
+      {
+        "text": "Worth price. The mobile does not look cheap from any angle.",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Silver"
+      }
+    ],
+    "offers": [
+      {
+        "type": "EMI",
+        "amount": 982
       }
     ]
   },
@@ -395,7 +441,7 @@
     ],
     "offers": [
       {
-        "type": "AmazonBasics 14-Inch Laptop Sleeves (Black)",
+        "type": "EMI",
         "amount": 849
       }
     ]
@@ -538,6 +584,770 @@
         "rating": "5",
         "commentedOn": "1 September 2016",
         "username": "Raquieb khan"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id":"ELEC_PRD_13",
+    "name": "iBall Excelance CompBook",
+    "price":  9989.00 ,
+    "description": "iBall Excelance CompBook 11.6-inch Laptop (Atom Z3735F/2GB/32GB/Windows 10/Integrated Graphics)",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "iBall",
+    "RAM": "2GB DDR3",
+    "modelName": "Atom Z3735F",
+    "color": "Black",
+    "battery": "12 Hours",
+    "imgPath": "ELEC_PRD_13",
+    "rating" : 5,
+    "comments": [
+      {
+        "text": "Great For College Students & Professionals Alike! Worth Every Penny!",
+        "rating": "5",
+        "commentedOn": "20/11/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "model is not latest its last year model.",
+        "rating": "2",
+        "commentedOn": "16/11/2016",
+        "username": "Gunjan"
+      },
+      {
+        "text": "This is the best buy if you are looking for on ultra portable ",
+        "rating": "5",
+        "commentedOn": "22/08/2016",
+        "username": "Ayush Patel"
+      }
+    ],
+    "offers": [
+      {
+        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
+        "amount": 5999
+      }
+    ]
+  },
+  {
+    "id":"ELEC_PRD_14",
+    "name": "Micromax Canvas Lapbook",
+    "price":  9490.00 ,
+    "description": "Micromax Canvas Lapbook L1160 11.6-inch Laptop Silver (Intel Quad Core/2GB/32GB emmc Flash Drive/Windows 10/Integrated Graphics)",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Micromax",
+    "RAM": "2GB DDR3",
+    "modelName": "Atom Z3735F",
+    "color": "Black",
+    "battery": "12 Hours",
+    "imgPath": "ELEC_PRD_14",
+    "rating" : 4.5,
+    "comments": [
+      {
+        "text": "Great For College Students & Professionals Alike! Worth Every Penny!",
+        "rating": "5",
+        "commentedOn": "20/11/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "model is not latest its last year model.",
+        "rating": "2",
+        "commentedOn": "16/11/2016",
+        "username": "Gunjan"
+      },
+      {
+        "text": "This is the best buy if you are looking for on ultra portable ",
+        "rating": "5",
+        "commentedOn": "22/08/2016",
+        "username": "Ayush Patel"
+      }
+    ],
+    "offers": [
+      {
+        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
+        "amount": 599
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_15",
+    "name": "Dell Vostro",
+    "price":  19799.00 ,
+    "description": "Dell Vostro 15 3558 15.6-inch Laptop (Celeron Dual Core - 5th Gen /4GB/500GB/DOS) , Black",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Dell",
+    "RAM": "4GB DDR3",
+    "modelName": "Vostro 15 3558",
+    "color": "Black",
+    "battery": "12 Hours",
+    "imgPath": "ELEC_PRD_15",
+    "rating" : 4.5,
+    "comments": [
+      {
+        "text": "Great For College Students & Professionals Alike! Worth Every Penny!",
+        "rating": "5",
+        "commentedOn": "20/11/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "model is not latest its last year model.",
+        "rating": "2",
+        "commentedOn": "16/11/2016",
+        "username": "Gunjan"
+      },
+      {
+        "text": "This is the best buy if you are looking for on ultra portable ",
+        "rating": "5",
+        "commentedOn": "22/08/2016",
+        "username": "Ayush Patel"
+      }
+    ],
+    "offers": [
+      {
+        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
+        "amount": 599
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_16",
+    "name": "Asus X540LA-XX596D",
+    "price":   24699.00 ,
+    "description": "Asus X540LA-XX596D 15.6-inch Laptop (Core i3-5005U/4GB/1TB/DOS/Intel HD Graphics), Silver",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Asus",
+    "RAM": "4GB DDR3",
+    "modelName": "X540LA-XX596D",
+    "color": "Black",
+    "battery": "12 Hours",
+    "imgPath": "ELEC_PRD_16",
+    "rating" : 4,
+    "comments": [
+      {
+        "text": "Great For College Students & Professionals Alike! Worth Every Penny!",
+        "rating": "5",
+        "commentedOn": "20/11/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "model is not latest its last year model.",
+        "rating": "2",
+        "commentedOn": "16/11/2016",
+        "username": "Gunjan"
+      },
+      {
+        "text": "This is the best buy if you are looking for on ultra portable ",
+        "rating": "5",
+        "commentedOn": "22/08/2016",
+        "username": "Ayush Patel"
+      }
+    ],
+    "offers": [
+      {
+        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
+        "amount": 599
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_17",
+    "name": "Coolpad Max ",
+    "price":   12999.00 ,
+    "description": "Dual space technology with privacy protection,13MP primary camera with ISOCELL CMOS and 5MP front facing camera 5.5-inch (13.97 centimeters) FHD IPS capacitive touchscreen with 1920 x 1080 pixels resolution and 401 ppi pixel density    Android v5.1 Lollipop operating system with MSM8952 TBC octa core processor, 4GB RAM, 64GB internal memory, expandable memory up to 64GB and dual SIM (nano+nano (hybrid)) dual-standby (4G+4G)",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Coolpad",
+    "RAM": "2GB DDR3",
+    "modelName": "X540LA-XX596D",
+    "color": "Black",
+    "battery": "12 Hours",
+    "imgPath": "ELEC_PRD_17",
+    "rating" : 3,
+    "camera":
+    {
+      "front": "5MP",
+      "rear": "8MP"
+    },
+    "comments": [
+      {
+        "text": "Great For College Students & Professionals Alike! Worth Every Penny!",
+        "rating": "5",
+        "commentedOn": "20/11/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "model is not latest its last year model.",
+        "rating": "2",
+        "commentedOn": "16/11/2016",
+        "username": "Gunjan"
+      },
+      {
+        "text": "This is the best buy if you are looking for on ultra portable ",
+        "rating": "5",
+        "commentedOn": "22/08/2016",
+        "username": "Ayush Patel"
+      }
+    ],
+    "offers": [
+      {
+        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
+        "amount": 599
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_18",
+    "name": "Lenovo Phab 2 Plus",
+    "price":   13999.00 ,
+    "description": "13 MP primary Dual Camera Milbeaut ISP, f2.0 aperture, 1.34 big pixel, laser focus, PDAF light supplement with Professional Mode, Background Swap and Post Shot Refocus capability. 8 MP front camera with f2.2 aperture and 1.4 μm big pixel with light supplement 16.4 centimeter (6.4-inch) IPS capacitive touchscreen, 1920 X 1080 FHD, 344 PPI with 2.5D curved Gorilla Glass 3 display Android V6.0 Marshmallow OS, 1.3 GHz MT8783 64-bit Octa-Core Processor, 3GB RAM, 32 GB Internal Memory, expandable upto 128 GB (in hybrid SIM slot) and dual SIM (nano+micro), dual-standby (4G+4G), 4G VoLTE",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Lenovo",
+    "RAM": "2GB DDR3",
+    "modelName": "Phab 2 Plus ",
+    "color": "Black",
+    "battery": "12 Hours",
+    "imgPath": "ELEC_PRD_18",
+    "rating" : 3.5,
+    "camera":
+    {
+      "front": "5MP",
+      "rear": "8MP"
+    },
+    "comments": [
+      {
+        "text": "Great For College Students & Professionals Alike! Worth Every Penny!",
+        "rating": "5",
+        "commentedOn": "20/11/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "model is not latest its last year model.",
+        "rating": "2",
+        "commentedOn": "16/11/2016",
+        "username": "Gunjan"
+      },
+      {
+        "text": "This is the best buy if you are looking for on ultra portable ",
+        "rating": "5",
+        "commentedOn": "22/08/2016",
+        "username": "Ayush Patel"
+      }
+    ],
+    "offers": [
+      {
+        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
+        "amount": 599
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_19",
+    "name": "Obi Worldphone",
+    "price":   9999.00 ,
+    "description": "13 MP primary Dual Camera Milbeaut ISP, f2.0 aperture, 1.34 big pixel, laser focus, PDAF light supplement with Professional Mode, Background Swap and Post Shot Refocus capability. 8 MP front camera with f2.2 aperture and 1.4 μm big pixel with light supplement 16.4 centimeter (6.4-inch) IPS capacitive touchscreen, 1920 X 1080 FHD, 344 PPI with 2.5D curved Gorilla Glass 3 display Android V6.0 Marshmallow OS, 1.3 GHz MT8783 64-bit Octa-Core Processor, 3GB RAM, 32 GB Internal Memory, expandable upto 128 GB (in hybrid SIM slot) and dual SIM (nano+micro), dual-standby (4G+4G), 4G VoLTE",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Lenovo",
+    "RAM": "2GB DDR3",
+    "modelName": "SF1",
+    "color": "Black",
+    "battery": "12 Hours",
+    "imgPath": "ELEC_PRD_19",
+    "rating" : 3.5,
+    "camera":
+    {
+      "front": "5MP",
+      "rear": "12MP"
+    },
+    "comments": [
+      {
+        "text": "Great For College Students & Professionals Alike! Worth Every Penny!",
+        "rating": "5",
+        "commentedOn": "20/11/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "model is not latest its last year model.",
+        "rating": "2",
+        "commentedOn": "16/11/2016",
+        "username": "Gunjan"
+      },
+      {
+        "text": "This is the best buy if you are looking for on ultra portable ",
+        "rating": "5",
+        "commentedOn": "22/08/2016",
+        "username": "Ayush Patel"
+      }
+    ],
+    "offers": [
+      {
+        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
+        "amount": 599
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_20",
+    "name": "InFocus",
+    "price":   11490.00 ,
+    "description": "16 MP primary camera with PDAF, Auto Image stabilization (AIS), Object Tracking, Dynamic Auto Focus, Dual Tone Flash, Slow Motion Video recording and 8 MP Front Facing camera with f/1.8 aperture and Adaptive De-noise technology for low light 13.97 centimeters (5.5-inch) LTPS full HD display with Corning Gorilla Glass, multi-touch capacitive touchscreen with full HD (403 ppi) 1920 x 1080 pixels resolution; 360 degree recognition based Fingerprint scanner with unlock time of <1 second",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Lenovo",
+    "RAM": "2GB DDR3",
+    "modelName": " Epic 1",
+    "color": "Silver",
+    "battery": "12 Hours",
+    "imgPath": "ELEC_PRD_20",
+    "rating" : 4,
+    "camera":
+    {
+      "front": "5MP",
+      "rear": "12MP"
+    },
+    "comments": [
+      {
+        "text": "Great For College Students & Professionals Alike! Worth Every Penny!",
+        "rating": "5",
+        "commentedOn": "20/11/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "model is not latest its last year model.",
+        "rating": "2",
+        "commentedOn": "16/11/2016",
+        "username": "Gunjan"
+      },
+      {
+        "text": "This is the best buy if you are looking for on ultra portable ",
+        "rating": "5",
+        "commentedOn": "22/08/2016",
+        "username": "Ayush Patel"
+      }
+    ],
+    "offers": [
+      {
+        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
+        "amount": 599
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_21",
+    "name": "Moto G",
+    "price":   7990.00 ,
+    "description": "8MP primary camera with LED flash and 5MP front facing camera with 1080p HD video (30 fps) 12.7 centimeters (5inch) HD display, 720p HD (1280x720) resolution and 294 ppi pixel density, comes with Water Repellent nano coating",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Motorola",
+    "RAM": "2GB DDR3",
+    "modelName": "G Play, 4th Gen",
+    "color": "Black",
+    "battery": "12 Hours",
+    "imgPath": "ELEC_PRD_21",
+    "rating" : 3.5,
+    "camera":
+    {
+      "front": "5MP",
+      "rear": "12MP"
+    },
+    "comments": [
+      {
+        "text": "Great For College Students & Professionals Alike! Worth Every Penny!",
+        "rating": "5",
+        "commentedOn": "20/11/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "model is not latest its last year model.",
+        "rating": "2",
+        "commentedOn": "16/11/2016",
+        "username": "Gunjan"
+      },
+      {
+        "text": "This is the best buy if you are looking for on ultra portable ",
+        "rating": "5",
+        "commentedOn": "22/08/2016",
+        "username": "Ayush Patel"
+      }
+    ],
+    "offers": [
+      {
+        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
+        "amount": 599
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_89",
+    "name": "Asus",
+    "price":  24999.00,
+    "description": "Its only for beginners to do basic works.",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Asus",
+    "RAM": "4GB DDR3 SDRAM",
+    "modelName": "X540LA-XX596D",
+    "color": "Silver",
+    "battery": "12 Hours",
+    "imgPath": "ELEC_PRD_89",
+    "rating" : 3,
+    "comments": [
+      {
+        "text": "Very nice laptop",
+        "rating": "5",
+        "commentedOn": "21/12/2016",
+        "username": "Himanshu bansal"
+      },
+      {
+        "text": "Awesome Laptop!!",
+        "rating": "5",
+        "commentedOn": "30/12/2016",
+        "username": "Rakesh Sharma V "
+      },
+      {
+        "text": "Its only for beginners to do basic works",
+        "rating": "2",
+        "commentedOn": "29/12/2016",
+        "username": "SATENDRA P"
+      }
+    ],
+    "offers": [
+      {
+        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
+        "amount": 5999
+      }
+    ]
+  },
+
+  {
+    "id":"BOOK_PRD_1",
+    "name": "Wings of Fire:An Autobiography of Abdul Kalam ",
+    "price":  411.00,
+    "description": "Every common man who by his sheer grit and hard work achieves success should share his story with the rest for they may find inspiration and strength to go on, in his story. The 'Wings of Fire' is one such autobiography by visionary scientist Dr. APJ Abdul Kalam, who from very humble beginnings rose to be the President of India. The book is full of insights, personal moments and life experiences of Dr. Kalam. It gives us an understanding on his journey of success. ",
+    "type": "books",
+    "subType": "biography",
+    "by": "Tiwari",
+    "imgPath": "BOOK_PRD_1",
+    "rating" : 4.5,
+    "comments": [
+
+      {
+        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id":"BOOK_PRD_2",
+    "name": "Biography: Dhirubhai Ambani",
+    "price":  227,
+    "description": "The biography of Dhirubhai Ambani is truly India’s rags to riches story. The inside pages contain an interesting and elevating story of how a poor village boy rose to become the legendary figure in the history of business what the well-established corporate houses of India with abundant resources could not achieve over a period of a century.",
+    "type": "books",
+    "subType": "biography",
+    "by": " RPH Editorial Board",
+    "imgPath": "BOOK_PRD_2",
+    "rating" : 4,
+    "comments": [
+
+      {
+        "text": "Very good book for the reader who is keen to know about Ambani. It gives a detail about all the success story and rivalry of Ambani.It also has some rare collection of pics of Ambani family.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "1 September 2016",
+        "username": "Raquieb khan"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id":"BOOK_PRD_3",
+    "name": "TURNING POINTS",
+    "price":  151.00,
+    "description": "Turning Points: A Journey Through Challenges picks up where Wings of Fire finished.",
+    "type": "books",
+    "subType": "biography",
+    "by": "Kalam, A P J Abdul",
+    "imgPath": "BOOK_PRD_3",
+    "rating" : 4.5,
+    "comments": [
+
+      {
+        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id":"BOOK_PRD_4",
+    "name": "Cracking the Code : My Journey to Bollywood",
+    "price":  110.00,
+    "description": "Ayushmanns journey is a wholesome and insightful account of the trials and tribulations involved in trying to get a break in Mumbai's entertainment industry. - Ranveer Singh",
+    "type": "books",
+    "subType": "biography",
+    "by": "Ayushmann Khurrana,Tahira Kashyap",
+    "imgPath": "BOOK_PRD_4",
+    "rating" : 4.5,
+    "comments": [
+
+      {
+        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id":"BOOK_PRD_5",
+    "name": "Curfewed Night",
+    "price":  110.00,
+    "description": "Curfewed Night is a moving memoir on the conflict in Kashmir by Basharat Peer, an eminent and renowned Indian journalist.",
+    "type": "books",
+    "subType": "Fiction",
+    "by": "Basharat Peer",
+    "imgPath": "BOOK_PRD_5",
+    "rating" : 4.5,
+    "comments": [
+
+      {
+        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id":"BOOK_PRD_6",
+    "name": "BYCULLA TO BANGKOK",
+    "price":  180.00,
+    "description": "Sequel to the best-selling Dongri to Dubai, S. Hussain Zaidi’s Byculla to Bangkok returns to the Mumbai Underworld and tells the story of its dons.",
+    "type": "books",
+    "subType": "Fiction",
+    "by": "Zaidi, S. Hussain",
+    "imgPath": "BOOK_PRD_6",
+    "rating" : 4.2,
+    "comments": [
+
+      {
+        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id":"BOOK_PRD_7",
+    "name": "My Days with Baasha:",
+    "price":  199.00,
+    "description": "Suresh Krissna tells the story of the South Indian film legend who has become one of the greatest actors of his generation: the Superstar Rajnikant in My Days With Baasha: The Rajnikanth Phenomenon.",
+    "type": "books",
+    "subType": "Fiction",
+    "by": "Suresh Krissna,Malathi Rangarajan",
+    "imgPath": "BOOK_PRD_7",
+    "rating" : 4.6,
+    "comments": [
+
+      {
+        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id":"BOOK_PRD_8",
+    "name": "Captain Cool : The M. S. Dhoni Story 3rd Edition",
+    "price":  181.00,
+    "description": "Captain Cool is the story of Mahendra Singh Dhoni, the Captain of the Indian Cricket Team.",
+    "type": "books",
+    "subType": "biograpgy",
+    "by": "Gulu Ezekiel",
+    "imgPath": "BOOK_PRD_8",
+    "rating" : 4.6,
+    "comments": [
+
+      {
+        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id":"BOOK_PRD_9",
+    "name": "Train To Pakistan (PB)",
+    "price":  148.00,
+    "description": "Train To Pakistan shows what it must have been for the people caught in the middle of the Partition, when a country is divided along communal lines",
+    "type": "books",
+    "subType": "fiction",
+    "by": "Khushwant Singh",
+    "imgPath": "BOOK_PRD_9",
+    "rating" : 4.3,
+    "comments": [
+
+      {
+        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id":"BOOK_PRD_10",
+    "name": "An Unsuitable Boy",
+    "price":  412.00,
+    "description": "Karan Johar is synonymous with success, panache, quick wit and outspokenness, which sometimes inadvertently creates controversy and makes headlines.",
+    "type": "books",
+    "subType": "fiction",
+    "by": "Karan Johar,Poonam Saxena",
+    "imgPath": "BOOK_PRD_9",
+    "rating" : 3.4,
+    "comments": [
+
+      {
+        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
       }
     ],
     "offers": [
