@@ -1,5 +1,7 @@
 /**
  * Created by sb-c2-02 on 19/1/17.
+ *
+ * Header controller
  */
 
 (function()
@@ -15,30 +17,7 @@
         var vm = this;
         console.log('In header Controller');
         vm.products = $rootScope.products;
-    /* ****
-     on entering minimum characters to show autocomplete suggestions
-     ***** */
 
-    vm.limitNameSearch = 500; //time for displaying suggestion
-    vm.checkName = function(lettersTyped)
-    {
-
-        if(lettersTyped.length > 2)
-        {
-            vm.limitNameSearch = 500;
-        }
-        else{
-            vm.limitNameSearch = 0;
-        }
     }
 
-        vm.onSelect = function(productId)
-        {
-            console.log("ON Select"+productId);
-            $state.go('view',{id:productId});
-        }
-
-
-
-}
 }());

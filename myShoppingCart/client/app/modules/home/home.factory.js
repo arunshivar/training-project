@@ -2,7 +2,7 @@
  * Created by Arun 18/1/17.
  */
 
-
+/*to get data from json file*/
 (function () {
     "use strict";
     angular

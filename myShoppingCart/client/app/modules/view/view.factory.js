@@ -19,6 +19,7 @@
         };
         return service;
 
+        /*to return the selected product*/
         function getProduct(id,products)
         {
 

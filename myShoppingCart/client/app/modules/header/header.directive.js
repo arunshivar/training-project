@@ -1,4 +1,5 @@
 
+/*custom directive for header used in index.html */
 (function ()
 {
     angular
@@ -8,7 +9,7 @@
     myHeader.$inject = ['$state'];
     function myHeader($state)
     {
-        console.log("My Header")
+        console.log("My Header");
         var directive = {
             restrict: 'EA',
             templateUrl: '../../partials/header.html',
@@ -18,9 +19,12 @@
             link:link
         };
 
+
+
         function link(scope, elem, attr)
         {
-            scope.limitNameSearch = 500; //time for displaying suggestion
+            scope.limitNameSearch = 300; //time for displaying suggestion
+            /*on entering minimum of three characters display suggestions*/
             scope.checkName = function(lettersTyped)
             {
 
@@ -33,8 +37,10 @@
                 }
             }
         }
+
+        /*to change the state from home to view page on entering select */
         MyHeaderController.$inject = ['$state'];
-        function MyHeaderController($state, $stateParams)
+        function MyHeaderController($state)
         {
             var vm = this;
 

@@ -1,5 +1,7 @@
 /**
  * Created by sb-c2-02 on 24/1/17.
+ *
+ * custom directive for footer
  */
 
 (function()
@@ -10,7 +12,7 @@
 
     function myFooter()
     {
-        console.log("My Footer");
+        console.log("My Footer directive");
 
         var directive =
         {

@@ -21,9 +21,9 @@
         var id = $stateParams.id;
 
         vm.products = $rootScope.products;
+
         var obj = viewFactory.getProduct(id,vm.products);
 
-        console.log(" * "+obj.type)
         if(obj.type == 'electronics')
         {
             vm.subType = obj.subType;
@@ -84,19 +84,9 @@
 
         }
 
-        vm.curPage = 0;
-        vm.pageSize = 4;
-        
-        vm.numberOfPages = function(subType)
-        {
-            var countSubType = 0;
-            for(var i in vm.products)
-            {
-                if(vm.products[i].subType == subType)
-                    countSubType = countSubType+1;
-            }
-            return Math.ceil(countSubType / vm.pageSize);
-        };
+
+
+
 
 
     }

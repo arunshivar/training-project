@@ -10,8 +10,8 @@
         .controller('HomeController',HomeController);
 
 
-    HomeController.$inject = ['homeFactory','$rootScope'];
-    function HomeController(homeFactory,$rootScope)/*homeFactory,$rootScope*/
+    HomeController.$inject = ['$rootScope'];
+    function HomeController($rootScope)/*homeFactory,$rootScope*/
     {
         var vm = this;
         console.log("In home controller");

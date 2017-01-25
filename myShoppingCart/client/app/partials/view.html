@@ -87,12 +87,16 @@
 
 <!--Display similar products -->
 <div class="col-sm-10 col-md-10">
-    <h3>Similar Products</h3>
+    <h4>Similar Products</h4>
     <hr>
-    <button type="button" class="btn btn-primary" ng-disabled="vc.curPage == 0"
+
+
+    <similar-products product-list = products product-type = {{vc.subType}}  ></similar-products>
+
+    <!--<button type="button" class="btn btn-primary" ng-disabled="vc.curPage == 0"
             ng-click="vc.curPage = vc.curPage-1"> PREV</button>
 
-    <div class = "imgRepeat" ng-repeat="product in products| filter: { subType: vc.subType } | orderBy : '-rating'  | pagination: vc.curPage * vc.pageSize | limitTo: vc.pageSize " > <!--ng-if="product.id!=vc.params.id"-->
+    <div class = "imgRepeat" ng-repeat="product in products| filter: { subType: vc.subType } | orderBy : '-rating'  | pagination: vc.curPage * vc.pageSize | limitTo: vc.pageSize " >&lt;!&ndash; ng-if="product.id!=vc.params.id"&ndash;&gt;
 
 
         <figure class="zoom_img">
@@ -105,12 +109,10 @@
         <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it>
 
     </div>
-    <!-- -->
+
     <button type="button" class="btn btn-primary"
             ng-disabled="vc.curPage >= vc.numberOfPages(vc.subType) - 1"
             ng-click="vc.curPage = vc.curPage+1">NEXT </button>
-    <hr/>
-
-   <!-- <span>Page {{vc.curPage + 1}} of {{vc.numberOfPages(vc.subType)}}</span>-->
+    <hr/>-->
 
 </div>

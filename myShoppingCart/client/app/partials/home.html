@@ -1,53 +1,18 @@
 <!-- ****
-    to display top rated mobiles
+    to display top rated products using custom directives -- top-rated-products
  ****   -->
+
 <div class="col-sm-10 col-md-10" >
-    <h1>Top Rated Products</h1>
+    <h4>Top Rated Products</h4>
     <hr>
 
-
-
-
-    <div class = "imgRepeat" ng-repeat="product in hc.products | orderBy : '-rating' | filter: { subType: 'mobile' } | limitTo: 5 " >
-
-        <figure class="zoom_img">
-            <a ui-sref='view({id:product.id})'>
-                <img ng-src="{{'../data/images/'+product.imgPath+'.jpeg'}} " ng-alt="{{product.name}}" ng-title="{{product.name}}" class="img-thumbnail" width="120" height="120" style="border:0px;margin:0px;"/>
-            </a>
-        </figure>
-        {{product.name}}<br/>
-        Price : {{product.price | currency:'&#8377;'}}<br/>
-        <!--Rating :-->
-        <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it>
-
-    </div>
+    <top-rated-products product-list = products product-type = 'mobile'></top-rated-products>
 
     <hr>
-    <div class = "imgRepeat" ng-repeat="product in products | orderBy : '-rating'  | filter: { subType: 'laptop' } | limitTo : 5" >
-        <figure class="zoom_img">
-            <a ui-sref='view({id:product.id})'>
-                <img ng-src="{{'../data/images/'+product.imgPath+'.jpeg'}} " ng-alt="{{product.name}}" ng-title="{{product.name}}" class="img-thumbnail" width="120" height="120" style="border:0px;margin:0px;"/><!--style="border:0px;margin:0px;"-->
-            </a>
-        </figure>
-        {{product.name}}<br/>
-        Price : {{product.price | currency:'&#8377;'}}<br/>
-        <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it>
 
-
-    </div>
+    <top-rated-products product-list = products product-type = 'laptop'></top-rated-products>
 
     <hr>
-    <div class = "imgRepeat" ng-repeat="product in products | orderBy : '-rating' | filter: { type: 'books' }| limitTo: 5" >
-        <figure class="zoom_img">
-            <a ui-sref='view({id:product.id})'>
-                <img ng-src="{{'../data/images/'+product.imgPath+'.jpeg'}} " ng-alt="{{product.name}}" ng-title="{{product.name}}" class="img-thumbnail" width="120" height="120" style="border:0px;margin:0px;"/><!--style="border:0px;margin:0px;"-->
-            </a>
-        </figure>
-        {{product.name}}<br/>
-        Price : {{product.price | currency:'&#8377;'}}<br/>
-        <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it>
-
-
-    </div>
+    <top-rated-products product-list = products product-type = 'biography'></top-rated-products>
 </div>
 

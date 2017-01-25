@@ -43,6 +43,7 @@ header {
 }
 
 footer {
+    text-align: center;
     padding: 10px;
     color: #fff;
     font-size: 12px;
