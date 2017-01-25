@@ -50,25 +50,5 @@
     }
 
 }())
-/*
 
- vm.limitNameSearch = 500; //time for displaying suggestion
- vm.checkName = function(lettersTyped)
- {
-
- if(lettersTyped.length > 2)
- {
- vm.limitNameSearch = 500;
- }
- else{
- vm.limitNameSearch = 0;
- }
- }
-
- vm.onSelect = function(productId)
- {
- console.log("ON Select"+productId);
- $state.go('view',{id:productId});
- }
- */
 

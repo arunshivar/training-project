@@ -15,44 +15,7 @@
     {
         var vm = this;
         console.log("In home controller");
-
-        /* ****
-            to fetch data from the json file and add it to $rootscope using promises
-         ****   */
-
-        /*vm.getData = function() {
-            homeFactory.getData()
-                .then(function(data)
-                    {
-                        $rootScope.products = {};
-                        $rootScope.products = data;
-
-                    },
-                    function(data) {
-                        console.log('Data retrieval failed.')
-                    });
-        };
-         vm.getData();
-*/
-
-
-
-        /* ****
-            on entering minimum characters to show autocomplete suggestions
-        ***** */
-        vm.limitNameSearch = 500; //time for displaying suggestion
-        vm.checkName = function(lettersTyped)
-        {
-
-            if(lettersTyped.length > 2)
-            {
-                vm.limitNameSearch = 500;
-            }
-            else{
-                vm.limitNameSearch = 0;
-            }
-        }
-
+        vm.products = $rootScope.products;
 
     }
 }());

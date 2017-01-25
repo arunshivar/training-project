@@ -9,16 +9,17 @@
         .module('homeModule')
         .controller('HeaderController',HeaderController);
 
-    HeaderController.$inject = ['$state'];
+    HeaderController.$inject = ['$state','$rootScope'];
     function HeaderController($state)
     {
         var vm = this;
         console.log('In header Controller');
+        vm.products = $rootScope.products;
     /* ****
      on entering minimum characters to show autocomplete suggestions
      ***** */
 
-        vm.limitNameSearch = 500; //time for displaying suggestion
+    vm.limitNameSearch = 500; //time for displaying suggestion
     vm.checkName = function(lettersTyped)
     {
 
