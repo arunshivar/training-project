@@ -1,0 +1,118 @@
+<!--View page to display details of an image-->
+<!--{{vc.params}}-->
+
+<div class="col-sm-10 col-md-10">
+    <!--<h1>View Html</h1>
+    <hr/>-->
+
+    <div class="modal-body row">
+        <div class="col-md-3">
+            <figure  ng-if = 'vc.subType == "mobile"'>
+
+                <img ng-src="{{'../data/images/'+vc.params.id+'.jpeg'}}" class="img-thumbnail"   width="150" height="150" style="border:0px;margin:0px;"/>
+                <!--<img  ng-src="{{'../data/images/'+vc.params.id+'.jpeg'}}" class="img-thumbnail" width="130" height="130" style="border:0px;margin:0px;"/>-->
+            </figure>
+
+            <figure  ng-if = 'vc.subType == "laptop"'>
+                <img  ng-src="{{'../data/images/'+vc.params.id+'.jpeg'}}" class="img-thumbnail"  style="border:0px;margin:0px;"/>
+            </figure>
+
+            <figure  ng-if = 'vc.subType == "biography"'>
+
+                <img  ng-src="{{'../data/images/'+vc.params.id+'.jpeg'}}" class="img-thumbnail"  style="border:0px;margin:0px;"/>
+            </figure>
+        </div>
+        <div class="col-md-8">
+            <dl>
+                <dt>{{vc.name}}</dt>
+                <small><dd ng-if='vc.brand'>-by {{vc.brand}}</dd>
+                        <dd ng-if='vc.author'>-by {{vc.author}}</dd>
+                </small>
+            </dl>
+            <!--<div>
+                <label>{{vc.name}}</label>
+            </div>
+            <div ng-if='vc.brand'>
+                <span>by {{vc.brand}}</span>
+            </div>-->
+            <hr/>
+            <div>
+                <span>Price : {{vc.price | currency:'&#8377;'}}</span>
+            </div>
+            <div ng-if='vc.modelName'>
+                <span>Model : {{vc.modelName}}</span>
+            </div>
+            <div ng-if='vc.ram'>
+                <span>RAM : {{vc.ram}}</span>
+            </div>
+            <div ng-if='vc.frontCamera'>
+                <span>Front Camera : {{vc.frontCamera}}</span>
+            </div>
+            <div ng-if='vc.rearCamera'>
+                <span>Rear Camera : {{vc.rearCamera}}</span>
+                <span class="glyphicon glyphicon-camera"></span>
+            </div>
+            <div ng-if='vc.color'>
+                <span>Color : {{vc.color}}</span>
+            </div>
+            <div ng-if='vc.battery'>
+                <span>Battery : {{vc.battery}}</span>
+            </div>
+            <div ng-if='vc.description'>
+                <span>Description : {{vc.description}}</span>
+            </div>
+            <div ng-if='vc.rating'>
+                <ng-rate-it ng-model= vc.rating  read-only="true" ></ng-rate-it>
+            </div>
+            <div ng-if='vc.offers'>
+                <div ng-repeat='offer in vc.offers' >
+                    <mark class = "myMark">{{offer.type}}</mark> - <span ng-if = 'offer.amount'>{{offer.amount | currency:'&#8377;'}}</span>
+                    <span ng-if = 'offer.percentage'>{{offer.percentage}}</span>
+                </div>
+            </div>
+
+            <div ng-if='vc.comments'>
+                <div ng-click='showComments = !showComments'><label>Comments:</label></div>
+                <div ng-repeat='comment in vc.comments' ng-show='showComments'>
+                    By : {{comment.username}} On : {{comment.commentedOn}}  <br>
+                    <p>{{comment.text}} </p> <ng-rate-it ng-model= comment.rating  read-only="true" ></ng-rate-it>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!--Display similar products -->
+<div class="col-sm-10 col-md-10">
+    <h4>Similar Products</h4>
+    <hr>
+
+
+    <similar-products product-list = products product-type = {{vc.subType}}  ></similar-products>
+
+    <!--<button type="button" class="btn btn-primary" ng-disabled="vc.curPage == 0"
+            ng-click="vc.curPage = vc.curPage-1"> PREV</button>
+
+    <div class = "imgRepeat" ng-repeat="product in products| filter: { subType: vc.subType } | orderBy : '-rating'  | pagination: vc.curPage * vc.pageSize | limitTo: vc.pageSize " >&lt;!&ndash; ng-if="product.id!=vc.params.id"&ndash;&gt;
+
+
+        <figure class="zoom_img">
+            <a ui-sref='view({id:product.id})'>
+                <img ng-src="{{'../data/images/'+product.imgPath+'.jpeg'}} " ng-alt="{{product.name}}" ng-title="{{product.name}}" class="img-thumbnail" width="120" height="120" style="border:0px;margin:0px;"/>
+            </a>
+        </figure>
+        {{product.name}}<br/>
+        Price : {{product.price | currency:'&#8377;'}}<br/>
+        <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it>
+
+    </div>
+
+    <button type="button" class="btn btn-primary"
+            ng-disabled="vc.curPage >= vc.numberOfPages(vc.subType) - 1"
+            ng-click="vc.curPage = vc.curPage+1">NEXT </button>
+    <hr/>-->
+
+</div>

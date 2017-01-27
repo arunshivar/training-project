@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app = "myshop" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app = "myshop" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app = "myshop" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app = "myshop" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My AngularJS App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../bower_components/angular-ui-select/dist/select.css">
+    <link rel="stylesheet" href="../bower_components/angular-rateit/dist/ng-rateit.css">
+
+
+    <!--<base href="/">-->
+</head>
+<body ng-controller="appController">
+<!-- Fixed header -->
+<my-header>
+</my-header>
+
+<!--other pages are inserted using state providers-->
+<div class="content-wrapper">
+
+    <div class="content">
+        <div ui-view="">
+
+        </div>
+    </div>
+</div>
+
+
+
+<!--Fixed footer-->
+<my-footer>
+</my-footer>
+
+
+<script src = "../bower_components/angular/angular.js"></script>
+<script src = "../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src = "../bower_components/angular-ui-select/dist/select.min.js"></script>
+<script src = "../bower_components/jquery/dist/jquery.min.js"></script>
+<script src = "../bower_components/jquery-ui/jquery-ui.min.js"></script>
+<script src = "../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src = "../bower_components/angular-rateit/dist/ng-rateit.js"></script>
+<script src = "../bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<script src = "../bower_components/ng-simplePagination/simplePagination.js"></script>
+
+
+<script src = "modules/home/home.module.js"></script>
+<script src = "modules/home/home.controller.js"></script>
+<script src = "modules/home/home.factory.js"></script>
+
+<script src = "modules/view/view.module.js"></script>
+<script src = "modules/view/view.controller.js"></script>
+<script src = "modules/view/view.factory.js"></script>
+<script src = "modules/view/view.filter.js"></script>
+
+<script src ="modules/app.module.js"></script>
+<script src = "modules/app.controller.js"></script>
+<script src = "modules/app.config.js"></script>
+<script src = "modules/app.run.js"></script>
+
+<!--Custom Directives-->
+<script src = "modules/header/header.directive.js"></script>
+<script src = "modules/footer/myFooter.js"></script>
+<script src = "modules/home/home.directive.js"></script>
+<script src = "modules/view/view.directive.js"></script>
+
+</body>
+</html>
