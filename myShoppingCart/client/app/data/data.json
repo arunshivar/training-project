@@ -1024,6 +1024,424 @@
       }
     ]
   },
+  {
+    "id":"ELEC_PRD_22",
+    "name": "Xiaomi Mi",
+    "price":   19999.00 ,
+    "description": "Android v6.0.1 Marshmallow OS with MIUI 8 (Volte enabled & Dual Whatsapp) with 1.8GHz ARM Cortex A72 + ARM Cortex A53 64-bit Qualcomm Snapdragon 652 octa core processor, Adreno 510 GPU, 4GB RAM, 128GB internal memory expandable up to 256GB and dual SIM (micro+nano) dual-standby (4G+4G)",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Mi",
+    "RAM": "4GB RAM",
+    "modelName": "Max Prime",
+    "color": "Gold",
+    "battery": "4850mAh",
+    "imgPath": "ELEC_PRD_22",
+    "rating" : 4.5,
+    "camera":
+    {
+      "front": "5MP",
+      "rear": "16MP"
+    },
+    "comments": [
+      {
+        "text": "Best 6.44 inch phone / pahablet from xiaomi",
+        "rating": "5",
+        "commentedOn": "13/12/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "Good overall performance phone- 4gb ram version",
+        "rating": "4",
+        "commentedOn": "26/10/2016",
+        "username": "Gunjan"
+      },
+      {
+        "text": "Battery backup is good..",
+        "rating": "4",
+        "commentedOn": "22/08/2016",
+        "username": "Ayush Patel"
+      }
+    ],
+    "offers": [
+      {
+        "type": "EMI",
+        "amount": 1782
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_23",
+    "name": "OnePlus 3T",
+    "price":   29999.00 ,
+    "description": "OxygenOS based on Android 6.0.1 Marshmallow with Qualcomm® SnapdragonTM 821 MSM8996 Pro (2.35 GHz) quad core processor; Adreno 530 GPU 6GB LPDDR4 RAM, ",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "OnePlus",
+    "RAM": "6GB RAM",
+    "modelName": "3T",
+    "color": "Soft Gold",
+    "battery": "3400 mAh",
+    "imgPath": "ELEC_PRD_23",
+    "rating" : 4.5,
+    "camera":
+    {
+      "front": "5MP",
+      "rear": "16MP"
+    },
+    "comments": [
+      {
+        "text": "OnePlus 3T: More than a flagship killer",
+        "rating": "5",
+        "commentedOn": "23/12/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "My Full And Honest Review!!! A Serial Flagship Killer Phone!!!",
+        "rating": "5",
+        "commentedOn": "3/1/2017",
+        "username": "Gunjan"
+      },
+      {
+        "text": "starsOnePlus 3T review: A little bit of tweaking goes a long way",
+        "rating": "5",
+        "commentedOn": "22/1/2017",
+        "username": "Ayush Patel"
+      }
+    ],
+    "offers": [
+      {
+        "type": "EMI",
+        "amount": 1782
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_24",
+    "name": "Panasonic Eluga",
+    "price":   16999.00 ,
+    "description": "Panasonic Eluga A2 Metallic Gold 4000 Mah 3GB RAM",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Panasonic",
+    "RAM": "3GB RAM",
+    "modelName": "Eluga A2",
+    "color": "Metallic gold",
+    "battery": "4000 mAh",
+    "imgPath": "ELEC_PRD_24",
+    "rating" : 3.5,
+    "camera":
+    {
+      "front": "5MP",
+      "rear": "8MP"
+    },
+    "comments": [
+      {
+        "text": "starsNot happy with it",
+        "rating": "1",
+        "commentedOn": "23/12/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "Avoid Buying",
+        "rating": "1",
+        "commentedOn": "3/1/2017",
+        "username": "Gunjan"
+      }
+    ],
+    "offers": [
+      {
+        "type": "EMI",
+        "amount": 1518
+      }
+    ]
+  },
+  {
+    "id":"ELEC_PRD_25",
+    "name": "Asus ZenFone",
+    "price":   13149.00 ,
+    "description": "Android v6.0.1 Marshmallow operating system 1.2GHz MediaTek MT6737 64-bit quad core processor, 3GB RAM, 32GB internal memory and dual SIM dual-standby (4G+4G)",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Asus",
+    "RAM": "3GB RAM",
+    "modelName": "ZC520TL-4G110IN",
+    "color": "Gold",
+    "battery": "4130 mAh",
+    "imgPath": "ELEC_PRD_25",
+    "rating" : 3,
+    "camera":
+    {
+      "front": "5MP",
+      "rear": "13MP"
+    },
+    "comments": [
+      {
+        "text": "Good phone at the range of Rs 13000 as compared ...",
+        "rating": "4",
+        "commentedOn": "23/12/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "good phone with a good battery life",
+        "rating": "4",
+        "commentedOn": "3/1/2017",
+        "username": "Gunjan"
+      }
+    ],
+    "offers": [
+      {
+        "type": "EMI",
+        "amount": 1171
+      }
+    ]
+  },
+  {
+    "id":"ELEC_PRD_26",
+    "name": "Xiaomi Redmi",
+    "price":   9999.00 ,
+    "description": "Android v6.0.1 Marshmallow operating system 1.2GHz MediaTek MT6737 64-bit quad core processor, 3GB RAM, 32GB internal memory and dual SIM dual-standby (4G+4G)",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Mi",
+    "RAM": "2GB RAM",
+    "modelName": "Gold 16GB",
+    "color": "Gold",
+    "battery": "4050 mAh",
+    "imgPath": "ELEC_PRD_26",
+    "rating" : 4,
+    "camera":
+    {
+      "front": "5MP",
+      "rear": "16MP"
+    },
+    "comments": [
+      {
+        "text": "Great budget phone with lots of bugs.",
+        "rating": "4",
+        "commentedOn": "23/12/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "good phone with a good battery life",
+        "rating": "4",
+        "commentedOn": "3/1/2017",
+        "username": "Gunjan"
+      }
+    ],
+    "offers": [
+      {
+        "type": "EMI",
+        "amount": 1171
+      }
+    ]
+  },
+  {
+    "id":"ELEC_PRD_27",
+    "name": "Sony Xperia",
+    "price":   14990.00 ,
+    "description": "Android v6.0.1 Marshmallow operating system with 2GHz MediaTek Helio octa core processor, 2GB RAM, 16GB internal memory expandable up to 200GB and dual SIM (nano+nano) dual-standby (4G+2G)",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Sony",
+    "RAM": "2GB RAM",
+    "modelName": "Gold 16GB",
+    "color": " Graphite Black",
+    "battery": "2300 mAh",
+    "imgPath": "ELEC_PRD_27",
+    "rating" : 4,
+    "camera":
+    {
+      "front": "8MP",
+      "rear": "13MP"
+    },
+    "comments": [
+      {
+        "text": "Pros- Looks premium Good Performance Camera Quality etc",
+        "rating": "5",
+        "commentedOn": "28/10/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "Read It before buying and also check the sample photos!!",
+        "rating": "4",
+        "commentedOn": "3/1/2017",
+        "username": "Gunjan"
+      }
+    ],
+    "offers": [
+      {
+        "type": "EMI",
+        "amount": 1333
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_28",
+    "name": "Gionee S6s",
+    "price":   15070.00 ,
+    "description": "Android v6 Marshmallow operating system with 1.3GHz MediaTek MT6753 octa core processor, 3GB, 32GB internal memory expandable up to 128GB and dual SIM dual-standby (4G+4G)",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Gionee",
+    "RAM": "3GB RAM",
+    "modelName": "S6s",
+    "color": "Mocha Gold",
+    "battery": "2300 mAh",
+    "imgPath": "ELEC_PRD_28",
+    "rating" : 4,
+    "camera":
+    {
+      "front": "8MP",
+      "rear": "13MP"
+    },
+    "comments": [
+      {
+        "text": "Pros- Looks premium Good Performance Camera Quality etc",
+        "rating": "5",
+        "commentedOn": "28/10/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "Read It before buying and also check the sample photos!!",
+        "rating": "4",
+        "commentedOn": "3/1/2017",
+        "username": "Gunjan"
+      }
+    ],
+    "offers": [
+      {
+        "type": "EMI",
+        "amount": 1346
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_29",
+    "name": "Apple iPhone 7",
+    "price":   82000.00 ,
+    "description": "iOS 10 and iCloud operating system with A10 Fusion chip with integrated M10 motion coprocessor, 128GB internal memory and single Nano-SIM",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Apple",
+    "RAM": "3GB RAM",
+    "modelName": "7 Plus",
+    "color": "Rose Gold",
+    "battery": "2900 mAh",
+    "imgPath": "ELEC_PRD_29",
+    "rating" : 4,
+    "camera":
+    {
+      "front": "7MP",
+      "rear": "12MP"
+    },
+    "comments": [
+      {
+        "text": "Pros- Looks premium Good Performance Camera Quality etc",
+        "rating": "5",
+        "commentedOn": "28/10/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "Read It before buying and also check the sample photos!!",
+        "rating": "4",
+        "commentedOn": "3/1/2017",
+        "username": "Gunjan"
+      }
+    ],
+    "offers": [
+      {
+        "type": "EMI",
+        "amount": 7324
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_30",
+    "name": "Microsoft Lumia",
+    "price":   17175.00 ,
+    "description": "Windows Phone v8.1 operating system with 1.2GHz Qualcomm Snapdragon 400 quad core processor, 1GB RAM, 8GB internal memory expandable up to 128GB and dual SIM (GSM+WCDMA)",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Microsoft",
+    "RAM": "1GB RAM",
+    "modelName": "Lumia 640 XL",
+    "color": "Black",
+    "battery": "3000 mAh",
+    "imgPath": "ELEC_PRD_30",
+    "rating" : 4,
+    "camera":
+    {
+      "front": "5MP",
+      "rear": "13MP"
+    },
+    "comments": [
+      {
+        "text": "Pros- Looks premium Good Performance Camera Quality etc",
+        "rating": "5",
+        "commentedOn": "28/10/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "Read It before buying and also check the sample photos!!",
+        "rating": "4",
+        "commentedOn": "3/1/2017",
+        "username": "Gunjan"
+      }
+    ],
+    "offers": [
+      {
+        "type": "EMI",
+        "amount": 1234
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_31",
+    "name": "Microsoft Lumia 950",
+    "price":   26999.00 ,
+    "description": "Windows 10 operating system with 2GHz octa core processor, 3GB RAM, 32GB internal memory and dual nano SIM (GSM+GSM)",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Microsoft",
+    "RAM": "3GB RAM",
+    "modelName": "Lumia 950 XL",
+    "color": "Black",
+    "battery": "3340 mAh",
+    "imgPath": "ELEC_PRD_31",
+    "rating" : 3.5,
+    "camera":
+    {
+      "front": "5MP",
+      "rear": "20MP"
+    },
+    "comments": [
+      {
+        "text": "Pros- Looks premium Good Performance Camera Quality etc",
+        "rating": "5",
+        "commentedOn": "28/10/2016",
+        "username": "Seabiscuit"
+      },
+      {
+        "text": "Read It before buying and also check the sample photos!!",
+        "rating": "4",
+        "commentedOn": "3/1/2017",
+        "username": "Gunjan"
+      }
+    ],
+    "offers": [
+      {
+        "type": "EMI",
+        "amount": 2324
+      }
+    ]
+  },
 
   {
     "id":"ELEC_PRD_89",
@@ -1066,6 +1484,7 @@
       }
     ]
   },
+
 
   {
     "id":"BOOK_PRD_1",
