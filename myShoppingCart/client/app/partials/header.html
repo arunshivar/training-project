@@ -20,8 +20,15 @@
             </div>
         </li>
     </ul>
-    <!--search box-->
-    <div style = 'float:right' class="col-sm-6 col-md-6">
+
+</nav>
+
+<!--search box-->
+
+<!--<div  class="center-block   ">--><!--style = 'float:none' class="col-md-10 col-md-10"-->
+<div class="row">
+    <div class="col-sm-offset-4 col-sm-5">
+
         <ui-select  ng-model = 'MyHCtrl.prod' theme='bootstrap'  on-select="MyHCtrl.onSelect(MyHCtrl.prod.id)">;
 
             <ui-select-match placeHolder="Search for Product or Brand " id="automplete">
@@ -36,9 +43,6 @@
 
                 </div>
             </ui-select-choices>
-
         </ui-select>
     </div>
-
-</nav>
-
+</div>

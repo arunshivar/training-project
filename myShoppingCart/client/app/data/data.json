@@ -3,7 +3,7 @@
     "id": "ELEC_PRD_1",
     "name": "SAMSUNG Galaxy 1",
     "price": 5500,
-    "description": "SAMSUNG Galaxy 1 is a smart phone and blah blah",
+    "description": "SAMSUNG Galaxy 1 is a smart phone at available price and customer satisfaction",
     "type": "electronics",
     "subType": "mobile",
     "brand": "Samsung",
@@ -12,7 +12,7 @@
     "color": "Gold",
     "battery": "2600 mAh Li-Ion Battery",
     "imgPath": "ELEC_PRD_1",
-    "rating" : 5,
+    "rating" : 3.5,
     "camera":
     {
       "front": "5MP",
@@ -49,7 +49,7 @@
     "id": "ELEC_PRD_2",
     "name": "SAMSUNG Galaxy 2",
     "price": 7500,
-    "description": "SAMSUNG Galaxy 2 is a smart phone and blah blah",
+    "description": "SAMSUNG Galaxy 2 is a smart phone",
     "type": "electronics",
     "subType": "mobile",
     "brand": "Samsung",
@@ -58,7 +58,7 @@
     "color": "Gold",
     "battery": "2600 mAh Li-Ion Battery",
     "imgPath": "ELEC_PRD_2",
-    "rating" : 3,
+    "rating" : 3.6,
     "camera": {
       "front": "5MP",
       "rear": "8MP"
@@ -103,7 +103,7 @@
     "color": "Sunset Blue",
     "battery": "2200mAH",
     "imgPath": "ELEC_PRD_4",
-    "rating" : 3.5,
+    "rating" : 4,
     "camera":
     {
       "front": "5MP",
@@ -149,7 +149,7 @@
     "color": "Polar White",
     "battery": "2700mAH",
     "imgPath": "ELEC_PRD_4",
-    "rating" : 3,
+    "rating" : 3.5,
     "camera":
     {
       "front": "5MP",
@@ -228,53 +228,6 @@
       }
     ]
   },
-  {
-    "id":"ELEC_PRD_79",
-    "name": "Coolpad Note",
-    "price": 10999,
-    "description": "Coolpad Note 5 (Space Grey, 32 GB)",
-    "type": "electronics",
-    "subType": "mobile",
-    "brand": "Coolpad",
-    "RAM": "2GB",
-    "modelName": "Moto E3 Power",
-    "color": "Space Grey",
-    "battery": "4010 mAh",
-    "imgPath": "ELEC_PRD_79",
-    "rating" : 3.5,
-    "camera":
-    {
-      "front": "8MP",
-      "rear": "13MP"
-    },
-    "comments": [
-      {
-        "text": "smart",
-        "rating": "4",
-        "commentedOn": "13/01/2017",
-        "username": "Jhon Bravo"
-      },
-      {
-        "text": "Awesome",
-        "rating": "4",
-        "commentedOn": "15/01/2017",
-        "username": "John Cena"
-      },
-      {
-        "text": "Worth price. The mobile does not look cheap from any angle.",
-        "rating": "4",
-        "commentedOn": "14/01/2017",
-        "username": "Silver"
-      }
-    ],
-    "offers": [
-      {
-        "type": "EMI",
-        "amount": 982
-      }
-    ]
-  },
-
   {
     "id":"ELEC_PRD_6",
     "name": "Lenovo Vibe",
@@ -368,7 +321,7 @@
     ]
   },
   {
-    "id":"ELEC_PRD_99",
+    "id":"ELEC_PRD_40",
     "name": "Apple iPhone",
     "price": 36999,
     "description": "Rich Kids",
@@ -379,7 +332,7 @@
     "modelName": "iPhone 6",
     "color": "White",
     "battery": "Li-Ion Battery",
-    "imgPath": "ELEC_PRD_99",
+    "imgPath": "ELEC_PRD_40",
     "rating" : 5,
     "camera":
     {
@@ -579,49 +532,6 @@
       }
     ]
   },
-  {
-    "id":"ELEC_PRD_89",
-    "name": "Asus",
-    "price":  24999.00,
-    "description": "Its only for beginners to do basic works.",
-    "type": "electronics",
-    "subType": "laptop",
-    "brand": "Asus",
-    "RAM": "4GB DDR3 SDRAM",
-    "modelName": "X540LA-XX596D",
-    "color": "Silver",
-    "battery": "12 Hours",
-    "imgPath": "ELEC_PRD_89",
-    "rating" : 3,
-    "comments": [
-      {
-        "text": "Very nice laptop",
-        "rating": "5",
-        "commentedOn": "21/12/2016",
-        "username": "Himanshu bansal"
-      },
-      {
-        "text": "Awesome Laptop!!",
-        "rating": "5",
-        "commentedOn": "30/12/2016",
-        "username": "Rakesh Sharma V "
-      },
-      {
-        "text": "Its only for beginners to do basic works",
-        "rating": "2",
-        "commentedOn": "29/12/2016",
-        "username": "SATENDRA P"
-      }
-    ],
-    "offers": [
-      {
-        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
-        "amount": 5999
-      }
-    ]
-  },
-
-
 
   {
     "id":"ELEC_PRD_13",
@@ -1444,47 +1354,1225 @@
   },
 
   {
-    "id":"ELEC_PRD_89",
-    "name": "Asus",
-    "price":  24999.00,
-    "description": "Its only for beginners to do basic works.",
+    "id":"ELEC_PRD_32",
+    "name": "Google Pixel",
+    "price":   57000.00 ,
+    "description": "The power of Google(TM), at your fingertips. Every touch, every interaction, every moment - made easy. Available in two sizes.",
     "type": "electronics",
-    "subType": "laptop",
-    "brand": "Asus",
-    "RAM": "4GB DDR3 SDRAM",
-    "modelName": "X540LA-XX596D",
-    "color": "Silver",
-    "battery": "12 Hours",
-    "imgPath": "ELEC_PRD_89",
-    "rating" : 3,
+    "subType": "mobile",
+    "brand": "Google",
+    "RAM": "4GB RAM",
+    "modelName": "Pixel",
+    "color": "Black",
+    "battery": "2770  mAh",
+    "imgPath": "ELEC_PRD_32",
+    "rating" : 4.5,
+    "camera":
+    {
+      "front": "5MP",
+      "rear": "20MP"
+    },
     "comments": [
       {
-        "text": "Very nice laptop",
+        "text": "A True Android experience.",
         "rating": "5",
-        "commentedOn": "21/12/2016",
-        "username": "Himanshu bansal"
+        "commentedOn": "1/11/2016",
+        "username": "Seabiscuit"
       },
       {
-        "text": "Awesome Laptop!!",
-        "rating": "5",
-        "commentedOn": "30/12/2016",
-        "username": "Rakesh Sharma V "
-      },
-      {
-        "text": "Its only for beginners to do basic works",
-        "rating": "2",
-        "commentedOn": "29/12/2016",
-        "username": "SATENDRA P"
+        "text": "Read It before buying and also check the sample photos!!",
+        "rating": "4",
+        "commentedOn": "3/1/2017",
+        "username": "Gunjan"
       }
     ],
     "offers": [
       {
-        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
-        "amount": 5999
+        "type": "EMI",
+        "amount": 2764
       }
     ]
   },
 
+  {
+    "id":"ELEC_PRD_33",
+    "name": "Moto Z",
+    "price":   24999.00 ,
+    "description": "Say hello to an exciting and new smartphone experience with Moto Z Play. Featuring a powerful processor, high-capacity RAM, ample storage space and sleek design, this smartphone is as impressive as it looks.",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Motorola",
+    "RAM": "3GB RAM",
+    "modelName": "Moto Z Play with Style Mod",
+    "color": "White",
+    "battery": "3510  mAh",
+    "imgPath": "ELEC_PRD_33",
+    "rating" : 4.4,
+    "camera":
+    {
+      "front": "5MP",
+      "rear": "16MP"
+    },
+    "comments": [
+      {
+        "text": "Mind-blowing purchase",
+        "rating": "5",
+        "commentedOn": "1/11/2016",
+        "username": "Vamshi"
+      },
+      {
+        "text": "-superb battery life and also fast charging (Turbo charging)",
+        "rating": "5",
+        "commentedOn": "3/1/2017",
+        "username": "Gunjan"
+      }
+    ],
+    "offers": [
+      {
+        "type": "EMI",
+        "amount": 2084
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_34",
+    "name": "Lenovo Z2",
+    "price":   17499.00 ,
+    "description": "The flaunt-worthy Lenovo Z2 Plus isn't just a treat to the eye, it also comes with cutting-edge technologies which make it the perfect entertainment-companion, whether you are a cinephile, a gamer or a digital socialite.",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Lenovo",
+    "RAM": "4GB RAM",
+    "modelName": "Z2 Plus",
+    "color": "Black",
+    "battery": "3500  mAh",
+    "imgPath": "ELEC_PRD_34",
+    "rating" : 4.1,
+    "camera":
+    {
+      "front": "8MP",
+      "rear": "13MP"
+    },
+    "comments": [
+      {
+        "text": "Mind-blowing purchase",
+        "rating": "5",
+        "commentedOn": "1/11/2016",
+        "username": "Vamshi"
+      },
+      {
+        "text": "-superb battery life and also fast charging (Turbo charging)",
+        "rating": "5",
+        "commentedOn": "3/1/2017",
+        "username": "Gunjan"
+      }
+    ],
+    "offers": [
+      {
+        "type": "EMI",
+        "amount": 849
+      }
+    ]
+  },
+  {
+    "id":"ELEC_PRD_35",
+    "name": "Nexus 6P",
+    "price":   30998.00 ,
+    "description": "A 14.478 cm (5.7), high-resolution WQHD AMOLED display and front-facing stereo speakers - all housed in a contoured aluminium body and powered by Android 6.0 Marshmallow.",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Huawei",
+    "RAM": "3GB RAM",
+    "modelName": "Nexus 6P Special Edition",
+    "color": "Gold",
+    "battery": "3450  mAh",
+    "imgPath": "ELEC_PRD_35",
+    "rating" : 4.4,
+    "camera":
+    {
+      "front": "8MP",
+      "rear": "12.3MP"
+    },
+    "comments": [
+      {
+        "text": "Yellow is a feature, not a fault. Every brand does it now.",
+        "rating": "5",
+        "commentedOn": "1/11/2016",
+        "username": "Vamshi"
+      },
+      {
+        "text": "Winner in all aspects",
+        "rating": "5",
+        "commentedOn": "3/1/2017",
+        "username": "Gunjan"
+      }
+    ],
+    "offers": [
+      {
+        "type": "EMI",
+        "amount": 1503
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_36",
+    "name": "LG G5",
+    "price":   40990.00 ,
+    "description": "Play more, do more, go that extra mile and enjoy with this LG G5 smartphone. Featuring a breathtaking, modular design and stunning specifications, this G5 will make your life more fun. Its sleek design ensures easy handling while its easy customizable options allow you to set your phone depending on your needs.",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "LG",
+    "RAM": "3GB RAM",
+    "modelName": "G5",
+    "color": "Gold",
+    "battery": "2800  mAh",
+    "imgPath": "ELEC_PRD_36",
+    "rating" : 5,
+    "camera":
+    {
+      "front": "8MP",
+      "rear": "16MP"
+    },
+    "comments": [
+      {
+        "text": "Yellow is a feature, not a fault. Every brand does it now.",
+        "rating": "5",
+        "commentedOn": "1/11/2016",
+        "username": "Vamshi"
+      },
+      {
+        "text": "Not So Worth According to Price",
+        "rating": "2",
+        "commentedOn": "3/1/2017",
+        "username": "Gunjan"
+      }
+    ],
+    "offers": [
+      {
+        "type": "EMI",
+        "amount": 1988
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_37",
+    "name": "Moto M(XT1663)",
+    "price":   17999.00 ,
+    "description": "Meet the all-new Moto M. Crafted in all-metal, this stylish smartphone will keep you up-to-date in fashion and technology. Powered by MTK Helio P15 64-bit Processor and 3050 battery, the Moto M keeps you going all day long.",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Motorola",
+    "RAM": "4GB RAM",
+    "modelName": "Moto M",
+    "color": "Gold",
+    "battery": "3050  mAh",
+    "imgPath": "ELEC_PRD_37",
+    "rating" : 4,
+    "camera":
+    {
+      "front": "8MP",
+      "rear": "16MP"
+    },
+    "comments": [
+      {
+        "text": "Met some expectations",
+        "rating": "2",
+        "commentedOn": "1/11/2016",
+        "username": "Vamshi"
+      },
+      {
+        "text": "mesmerizing look !!",
+        "rating": "5",
+        "commentedOn": "3/1/2017",
+        "username": "Gunjan"
+      }
+    ],
+    "offers": [
+      {
+        "type": "EMI",
+        "amount": 1988
+      }
+    ]
+  },
+  {
+    "id":"ELEC_PRD_38",
+    "name": "Coolpad Note",
+    "price": 10999,
+    "description": "Coolpad Note 5 (Space Grey, 32 GB)",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Coolpad",
+    "RAM": "2GB",
+    "modelName": "Moto E3 Power",
+    "color": "Space Grey",
+    "battery": "4010 mAh",
+    "imgPath": "ELEC_PRD_38",
+    "rating" : 3.5,
+    "camera":
+    {
+      "front": "8MP",
+      "rear": "13MP"
+    },
+    "comments": [
+      {
+        "text": "smart",
+        "rating": "4",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Bravo"
+      },
+      {
+        "text": "Awesome",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "John Cena"
+      },
+      {
+        "text": "Worth price. The mobile does not look cheap from any angle.",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Silver"
+      }
+    ],
+    "offers": [
+      {
+        "type": "EMI",
+        "amount": 982
+      }
+    ]
+  },
+
+
+  {
+    "id":"ELEC_PRD_41",
+    "name": "HP APU",
+    "price": 24990,
+    "description": "Storage space is not something you’ll ever have to worry about, with this HP APU Quad Core laptop. Download and save as many TV shows and movies you want to on ints 1 TB HDD storage drive. You’re also going to love its sleek 15.6 inch wide screen.",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "HP",
+    "RAM": "4 GB RAM",
+    "modelName": "15-bg002AU",
+    "color": "Turbo SIlver",
+    "battery": "4 cell",
+    "imgPath": "ELEC_PRD_41",
+    "rating" : 4,
+    "comments": [
+      {
+        "text": "Awesome product at amazing price.",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Life ",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Worth price",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "1212"
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_42",
+    "name": "Lenovo Ideapad",
+    "price": 18990,
+    "description": "With an efficient Intel processor, high-capacity RAM and ample ROM, here’s a laptop that is as hardworking as you. In addition to that, the Lenovo Ideapad 100 also features a stylish and lightweight design, specially crafted to go wherever you go. Moreover, you will never have a dull moment, thanks to its long-lasting battery.",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Lenovo",
+    "RAM": "4 GB RAM",
+    "modelName": "IP 110-14IBR",
+    "color": "Black",
+    "battery": "4 cell",
+    "imgPath": "ELEC_PRD_42",
+    "rating" : 3.6,
+    "comments": [
+      {
+        "text": "Stupidly designed Product & NOT AS PER THE PHOTO",
+        "rating": "1",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "921"
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_43",
+    "name": "Acer E15 Celeron",
+    "price": 15490,
+    "description": "Acer E15 Celeron Dual Core 4th Gen - (2 GB/500 GB HDD/Linux) UN.MZ8SI.023, UN.GFTSI.007 ES1-531-C2YE/ ES1-533 Notebook  (15.6 inch, Diamond Black /Midnight Black, 2.4 kg)",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Acer",
+    "RAM": "2 GB RAM",
+    "modelName": "ES1-531-C2YE/ ES1-533",
+    "color": "Diamond Black /Midnight Black",
+    "battery": "4 cell",
+    "imgPath": "ELEC_PRD_43",
+    "rating" : 3.8,
+    "comments": [
+      {
+        "text": "Very cool Laptop",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "2582"
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_44",
+    "name": "Dell Pentium",
+    "price": 19990,
+    "description": "Dell Pentium Quad Core - (4 GB/500 GB HDD/Ubuntu) Z565161UIN4/Z565162HIN9 3552 Notebook  (15.6 inch, Black, 2.1 kg)",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Dell",
+    "RAM": "4 GB RAM",
+    "modelName": "Inspiron",
+    "color": "Black",
+    "battery": "6 hours",
+    "imgPath": "ELEC_PRD_44",
+    "rating" : 3.8,
+    "comments": [
+      {
+        "text": "Very cool Laptop",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "970"
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_45",
+    "name": "Lenovo 310 Core",
+    "price": 46990,
+    "description": "If Friday nights are reserved for movies and Saturday nights for some soulful music, then the Lenovo Ideapad 310 is the laptop for you. This laptop is a fusion of quick processing and innovative design and enhances your multimedia experience.",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Dell",
+    "RAM": "8 GB RAM",
+    "modelName": "Ideapad",
+    "color": "Black",
+    "battery": "6 hours",
+    "imgPath": "ELEC_PRD_45",
+    "rating" : 4.8,
+    "comments": [
+      {
+        "text": "Very cool Laptop",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "5222"
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_46",
+    "name": "Acer Aspire",
+    "price": 26790,
+    "description": "Acer brings to you a smart device that’s as stylish as it is versatile - this is a 2-in-1 laptop that you can use as both a laptop and a tablet. Thanks to its long-lasting battery, you can expect uninterrupted use of it for hours on end.",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Acer",
+    "RAM": "4 GB RAM",
+    "modelName": "R3 Pentium",
+    "color": "SKy Blue",
+    "battery": "8 hours",
+    "imgPath": "ELEC_PRD_46",
+    "rating" : 4.2,
+    "comments": [
+      {
+        "text": "Size is small.rest all is good",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "1299"
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_47",
+    "name": "Lenovo Yoga 500",
+    "price": 39990,
+    "description": "Use it as a laptop when you need it or use it as a tablet when you are on the move, either way, the Lenovo Yoga 500 makes computing stylish and effortless. Featuring a 360-degree flip-and-fold design, an ultra-thin body and a powerful processor, this laptop is as hardworking as you.",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Lenovo",
+    "RAM": "4 GB RAM",
+    "modelName": "Yoga 500 Core i3",
+    "color": "Black",
+    "battery": "5 hours",
+    "imgPath": "ELEC_PRD_47",
+    "rating" : 4,
+    "comments": [
+      {
+        "text": "Size is small.rest all is good",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "1939"
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_48",
+    "name": "HP Pavilion x360",
+    "price": 42990,
+    "description": "With a thin profile and 360 degree foldable design, this laptop from HP is portable and versatile. You can fold the laptop completely backwards and use it as a tablet while you are in the bus, fold it halfway backwards and set it on a table to watch a movie, set it like a tent on a desk while you enjoy playing a game and use it like a laptop to work. This makes the laptop ideal for students, working professionals, bachelors and even artists.",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "HP",
+    "RAM": "4 GB RAM",
+    "modelName": "Pavilion",
+    "color": "Natural SIlver Colour",
+    "battery": "6 hours",
+    "imgPath": "ELEC_PRD_48",
+    "rating" : 4.1,
+    "comments": [
+      {
+        "text": "Size is small.rest all is good",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "2085"
+      }
+    ]
+  },
+
+
+  {
+    "id":"ELEC_PRD_49",
+    "name": "HP Core i7 6th Gen",
+    "price": 56990,
+    "description": "HP Core i7 6th Gen - (8 GB/1 TB HDD/DOS/4 GB Graphics) X5Q23PA#ACJ 15-ay078TX Notebook  (15.6 inch, SIlver, 2.19 kg)",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "HP",
+    "RAM": "8 GB RAM",
+    "modelName": "15-ay078TX",
+    "color": "SIlver Colour",
+    "battery": "4 Cell",
+    "imgPath": "ELEC_PRD_49",
+    "rating" : 4.1,
+    "comments": [
+      {
+        "text": "Size is small.rest all is good",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "2764"
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_50",
+    "name": "HP Pavilion Core i5 6th Gen",
+    "price": 56490,
+    "description": "HP Pavilion Core i5 6th Gen - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics) W6T19PA 15-au006TX Notebook  (15.6 inch, Natural SIlver, 2.03 kg)",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "HP",
+    "RAM": "8 GB RAM",
+    "modelName": "Pavilion",
+    "color": "Natural SIlver Colour",
+    "battery": "4 Cell",
+    "imgPath": "ELEC_PRD_50",
+    "rating" : 4.1,
+    "comments": [
+      {
+        "text": "Size is small.rest all is good",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "2740"
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_51",
+    "name": "Lenovo G50-80 Core i5 5th Gen",
+    "price": 44490,
+    "description": "Your son's first laptop could be this Lenovo laptop. It comes with an HD display, a powerful processor, and big RAM capacity, ensuring that your son has an immersive viewing experience coupled with lag-free and seamless multitasking.",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Lenovo",
+    "RAM": "8 GB RAM",
+    "modelName": "G50-80",
+    "color": "Black",
+    "battery": "4 Hours",
+    "imgPath": "ELEC_PRD_51",
+    "rating" : 4.1,
+    "comments": [
+      {
+        "text": "Size is small.rest all is good",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "2158"
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_52",
+    "name": "Apple Macbook Pro Core i5",
+    "price": 52490,
+    "description": "If you are looking for a high-end laptop with plenty of features and high-performance, then what you need to be doing is investing in this Apple MacBook Pro. Stylish and powerful, this laptop delivers seamless multitasking and lag-free computing for maximum efficiency and productivity.",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Apple",
+    "RAM": "4 GB RAM",
+    "modelName": "A1278",
+    "color": "SIlver",
+    "battery": "7 Hours",
+    "imgPath": "ELEC_PRD_52",
+    "rating" : 4.4,
+    "comments": [
+      {
+        "text": "Size is small.rest all is good",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "2546"
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_53",
+    "name": "Acer Atom Quad Core",
+    "price": 13990,
+    "description": "Acer Atom Quad Core - (2 GB/32 GB EMMC Storage/Windows 10 Home) NT.G8VSI.001 SW3-016 2 in 1 Laptop  (10.1 inch, SHark Grey)",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Acer",
+    "RAM": "2 GB RAM",
+    "modelName": "Switch",
+    "color": "SHark Grey",
+    "battery": "5 Hours",
+    "imgPath": "ELEC_PRD_53",
+    "rating" : 4.4,
+    "comments": [
+      {
+        "text": "Size is small.rest all is good",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "2332"
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_54",
+    "name": "Micromax Alpha Core i3 5th Gen",
+    "price": 24990,
+    "description": "Experience a whole new level of smart technology with the Micromax Alpha LI351 Core i3 (5th Gen) Notebook. Sleek in design and equipped with features that are technologically advanced yet user-friendly, this notebook is designed to keep up with your fast-paced life and multitasking needs and multi-tasking needs.",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Micromax",
+    "RAM": "6 GB RAM",
+    "modelName": "Alpha",
+    "color": "Grey",
+    "battery": "5 Hours",
+    "imgPath": "ELEC_PRD_54",
+    "rating" : 4.1,
+    "comments": [
+      {
+        "text": "Size is small.rest all is good",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "3249"
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_55",
+    "name": "Dell Inspiron Pentium Quad Core 4th Gen",
+    "price": 24990,
+    "description": "Dell Inspiron Pentium Quad Core 4th Gen - (4 GB/500 GB HDD/Windows 10 Home) Z569106HIN9 3162 Notebook  (11.6 inch, Blue, 1.22 kg)",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Dell",
+    "RAM": "4 GB RAM",
+    "modelName": "Inspiron",
+    "color": "Blue",
+    "battery": "5 Hours",
+    "imgPath": "ELEC_PRD_55",
+    "rating" : 3.4,
+    "comments": [
+      {
+        "text": "Size is small.rest all is good",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "1212"
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_56",
+    "name": "Lenovo Core i7 6th Gen",
+    "price": 66990,
+    "description": "Lenovo Core i7 6th Gen - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics) 80SR00JTIH IP 510 Notebook  (15.6 inch, Pearl Black, 2.2 kg)",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Lenovo ",
+    "RAM": "8 GB RAM",
+    "modelName": "Ideapad",
+    "color": "Pearl Black",
+    "battery": "5 Hours",
+    "imgPath": "ELEC_PRD_56",
+    "rating" : 3.2,
+    "comments": [
+      {
+        "text": "Size is small.rest all is good",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "3249"
+      }
+    ]
+  },
+
+
+  {
+    "id":"ELEC_PRD_57",
+    "name": "Dell Inspiron 7000 Core i7 7th Gen",
+    "price": 85990,
+    "description": "Dell Inspiron 7000 Core i7 7th Gen - (8 GB/1 TB HDD/128 GB SSD/Windows 10 Home/4 GB Graphics) Z561503SIN9G 7560 Notebook  (15.6 inch, Gray)",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Dell ",
+    "RAM": "8 GB RAM",
+    "modelName": "Inspiron",
+    "color": "Gray",
+    "battery": "5 Hours",
+    "imgPath": "ELEC_PRD_57",
+    "rating" : 4.3,
+    "comments": [
+      {
+        "text": "Size is small.rest all is good",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "4170"
+      }
+    ]
+  },
+
+
+  {
+    "id":"ELEC_PRD_58",
+    "name": "Lenovo IdeaPad 300 Core i7 6th Gen",
+    "price": 60990,
+    "description": "Lenovo IdeaPad 300 Core i7 6th Gen - (8 GB/1 TB HDD/Windows 10 Home/2 GB Graphics) 80Q700V1IH 300-15ISK Notebook  (15.6 inch, SIlver, 2.3 kg)",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Lenovo",
+    "RAM": "8 GB RAM",
+    "modelName": "Ideapad",
+    "color": "SIlver",
+    "battery": "5 Hours",
+    "imgPath": "ELEC_PRD_58",
+    "rating" : 3.3,
+    "comments": [
+      {
+        "text": "Size is small.rest all is good",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "2958"
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_59",
+    "name": "HP Core i7 7th Gen",
+    "price": 75990,
+    "description": "HP Core i7 7th Gen - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics) Z4Q47PA#ACJ 15-AU628TX Notebook  (15.6 inch, Natural SIlver, 2.03 kg)",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "HP",
+    "RAM": "8 GB RAM",
+    "modelName": "Pavilion",
+    "color": "Natural SIlver",
+    "battery": "5 Hours",
+    "imgPath": "ELEC_PRD_59",
+    "rating" : 3,
+    "comments": [
+      {
+        "text": "Size is small.rest all is good",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "3685"
+      }
+    ]
+  },
+
+
+  {
+    "id":"ELEC_PRD_60",
+    "name": "Dell Inspiron 3148 ",
+    "price": 43500,
+    "description": "Dell Inspiron 3148 (Intel 2-in-1 Laptop) (Core i3 4th Gen/ 4GB/ 500GB/ Win8.1/ Touch) (314834500iST1)  (11.49 inch, Silver, 1.41 kg)",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Dell",
+    "RAM": "4 GB RAM",
+    "modelName": "Inspiron",
+    "color": "SIlver",
+    "battery": "5 Hours",
+    "imgPath": "ELEC_PRD_60",
+    "rating" : 3.9,
+    "comments": [
+      {
+        "text": "Size is small.rest all is good",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "4350"
+      }
+    ]
+  },
+
+
+  {
+    "id":"ELEC_PRD_61",
+    "name": "Dell Inspiron 5000",
+    "price": 65190,
+    "description": "Dell Inspiron 5000 Core i5 7th Gen - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics) Z563503SIN9G 5567 Notebook  (15.6 inch, Grey, 2.36 kg)",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "Dell",
+    "RAM": "8 GB RAM",
+    "modelName": "Inspiron",
+    "color": "Grey",
+    "battery": "5 Hours",
+    "imgPath": "ELEC_PRD_61",
+    "rating" : 3.9,
+    "comments": [
+      {
+        "text": "Size is small.rest all is good",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "3161"
+      }
+    ]
+  },
+
+  {
+    "id":"ELEC_PRD_62",
+    "name": "HP Envy Core i7",
+    "price": 93290,
+    "description": "HP Envy Core i7 6th Gen - (8 GB/256 GB SSD/Windows 10 Home) V5D70PA#ACJ 13-d115TU Notebook  (13.3 inch, SIlver, 1.35 kg)",
+    "type": "electronics",
+    "subType": "laptop",
+    "brand": "HP",
+    "RAM": "8 GB RAM",
+    "modelName": "Envy",
+    "color": "Silver",
+    "battery": "5 Hours",
+    "imgPath": "ELEC_PRD_62",
+    "rating" : 4.4,
+    "comments": [
+      {
+        "text": "Size is small.rest all is good",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Does the job",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Good choice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "4524"
+      }
+    ]
+  },
 
   {
     "id":"BOOK_PRD_1",
