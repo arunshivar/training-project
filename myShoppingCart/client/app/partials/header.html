@@ -1,0 +1,48 @@
+<header>MyShoppingCart</header>
+
+<!-- Bootstrap nav bar -->
+<nav class="navbar" role="navigation">
+
+    <ul class="nav navbar-nav">
+        <li class="dropdown">
+            <a class="dropbtn">Electronics</a>
+            <div class="dropdown-content">
+                <a ui-sref="mobiles">Mobiles</a>
+                <a ui-sref="laptops">Laptops</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a class="dropbtn">Books</a>
+            <div class="dropdown-content">
+                <a ui-sref="fiction">Fiction</a>
+                <a ui-sref="comic">Comic</a>
+                <a ui-sref="biographies">Biographies</a>
+            </div>
+        </li>
+    </ul>
+
+</nav>
+
+<!--search box-->
+
+<!--<div  class="center-block   ">--><!--style = 'float:none' class="col-md-10 col-md-10"-->
+<div class="row">
+    <div class="col-sm-offset-4 col-sm-5">
+
+    <ui-select  ng-model = 'MyHCtrl.prod' theme='bootstrap'  on-select="MyHCtrl.onSelect(MyHCtrl.prod.id)">;
+
+        <ui-select-match placeHolder="Search for Product or Brand " id="automplete">
+            {{$select.selected.name}}
+        </ui-select-match>
+
+        <ui-select-choices refresh="checkName($select.search)"
+                           refresh-delay="0"
+                           repeat = 'product in  products |filter: $select.search  | limitTo:   limitNameSearch'>
+            <div>{{product.name}}
+                <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it> Price :{{product.price}}
+
+            </div>
+        </ui-select-choices>
+    </ui-select>
+</div>
+</div>
