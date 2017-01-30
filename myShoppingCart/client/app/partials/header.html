@@ -29,20 +29,20 @@
 <div class="row">
     <div class="col-sm-offset-4 col-sm-5">
 
-    <ui-select  ng-model = 'MyHCtrl.prod' theme='bootstrap'  on-select="MyHCtrl.onSelect(MyHCtrl.prod.id)">;
+        <ui-select  ng-model = 'MyHCtrl.prod' theme='bootstrap'  on-select="MyHCtrl.onSelect(MyHCtrl.prod.id)">;
 
-        <ui-select-match placeHolder="Search for Product or Brand " id="automplete">
-            {{$select.selected.name}}
-        </ui-select-match>
+            <ui-select-match placeHolder="Search for Product or Brand " id="automplete">
+                {{$select.selected.name}}
+            </ui-select-match>
 
-        <ui-select-choices refresh="checkName($select.search)"
-                           refresh-delay="0"
-                           repeat = 'product in  products |filter: $select.search  | limitTo:   limitNameSearch'>
-            <div>{{product.name}}
-                <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it> Price :{{product.price}}
+            <ui-select-choices refresh="checkName($select.search)"
+                               refresh-delay="0"
+                               repeat = 'product in  products |filter: $select.search  | limitTo:   limitNameSearch'>
+                <div>{{product.name}}
+                    <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it> Price :{{product.price}}
 
-            </div>
-        </ui-select-choices>
-    </ui-select>
-</div>
+                </div>
+            </ui-select-choices>
+        </ui-select>
+    </div>
 </div>
