@@ -18,16 +18,13 @@
             scope:
             {
                 productList : '=',
-                productType: '@'
+                productType : '@'
             },
             link:link
         }
         function link(scope, elem, attr)
         {
             console.log("Link Function in toprated directive");
-
-
-
         }
 
 

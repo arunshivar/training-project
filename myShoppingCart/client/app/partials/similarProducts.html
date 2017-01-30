@@ -1,7 +1,11 @@
+<!--
+    Similar poducts in view page
+-->
+
 <button type="button" class="btn btn-primary" ng-disabled="curPage == 0"
         ng-click="curPage = curPage-1"> PREV</button>
 
-<div class = "imgRepeat" ng-repeat="product in productList| filter: { subType: productType } | orderBy : '-rating'  | pagination: curPage * pageSize | limitTo: pageSize " > <!--ng-if="product.id!=vc.params.id"-->
+<div class = "imgRepeat" ng-repeat="product in productList| filter: { subType: productType } | orderBy : '-rating'  | pagination: curPage * pageSize | limitTo: pageSize " ng-if="product.id!=vc.params.id" > <!--ng-if="product.id!=vc.params.id"-->
 
 
     <figure class="zoom_img">
