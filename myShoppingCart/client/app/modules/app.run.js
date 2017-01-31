@@ -24,7 +24,7 @@
             }
 
 
-        function getData()
+        /*function getData()
         {
             var def = $q.defer();
             console.log("Get data from factory method");
@@ -38,6 +38,6 @@
                     def.reject("Failed to get albums");
                 });
             return def.promise;
-        }
+        }*/
     }
 ());
