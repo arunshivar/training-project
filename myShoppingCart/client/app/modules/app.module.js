@@ -11,6 +11,8 @@
                 'ui.router',
                 'ngRateIt',
                 'homeModule',
-                'viewModule'
+                'viewModule',
+                '720kb.tooltips',
+                'ui.bootstrap'
             ]);
 }());

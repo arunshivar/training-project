@@ -26,10 +26,8 @@
 
         if(obj.type == 'electronics')
         {
-            vm.subType = obj.subType;
-            vm.name = obj.name;
+
             vm.brand = obj.brand;
-            vm.price = obj.price;
             vm.modelName = obj.modelName;
             vm.ram = obj.RAM;
 
@@ -44,45 +42,26 @@
                 vm.rearCamera = null;
             }
 
-
-            vm.color = obj.color;
-            vm.battery = obj.battery;
-            vm.rating = obj.rating;
-            vm.description = obj.description;
-
-            vm.offers = obj.offers;
-            vm.comments = obj.comments;
-
         }
 
         else if(obj.type == 'books')
         {
             console.log(obj.subType)
-            vm.subType = obj.subType;
-            vm.name = obj.name;
-            vm.price = obj.price;
+            vm.type = obj.type;
             vm.author = obj.by;
-            if(obj.hasOwnProperty('camera'))
-            {
-
-                vm.frontCamera = obj.camera.front;
-                vm.rearCamera = obj.camera.rear;
-            }
-            else {
-                vm.frontCamera = null;
-                vm.rearCamera = null;
-            }
-
-
-            vm.color = obj.color;
-            vm.battery = obj.battery;
-            vm.rating = obj.rating;
-            vm.description = obj.description;
-
-            vm.offers = obj.offers;
-            vm.comments = obj.comments;
 
         }
+        vm.name = obj.name;
+        vm.price = obj.price;
+        vm.color = obj.color;
+        vm.subType = obj.subType;
+        vm.battery = obj.battery;
+
+        vm.description = obj.description;
+        vm.offers = obj.offers;
+        /*vm.rating = obj.rating;*/
+        vm.rating = viewFactory.getRating(obj.comments);
+        vm.comments = obj.comments;
 
 
 

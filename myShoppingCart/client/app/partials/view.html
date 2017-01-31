@@ -56,8 +56,12 @@
             <div ng-if='vc.description'>
                 <span>Description : {{vc.description}}</span>
             </div>
+
             <div ng-if='vc.rating'>
-                <ng-rate-it ng-model= vc.rating  read-only="true" ></ng-rate-it>
+                <label>
+                    <ng-rate-it ng-model= vc.rating  read-only="true" tooltip-placement="top" uib-tooltip="{{vc.rating}}">
+                    </ng-rate-it>
+                </label>
             </div>
             <div ng-if='vc.offers'>
                 <div ng-repeat='offer in vc.offers' >
