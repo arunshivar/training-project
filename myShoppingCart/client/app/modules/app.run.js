@@ -23,5 +23,21 @@
                 });
             }
 
+
+        /*function getData()
+        {
+            var def = $q.defer();
+            console.log("Get data from factory method");
+            $http.get('../../data/data.json')
+                .success(function(data)
+                {
+                    def.resolve(data);
+                })
+                .error(function()
+                {
+                    def.reject("Failed to get albums");
+                });
+            return def.promise;
+        }*/
     }
 ());

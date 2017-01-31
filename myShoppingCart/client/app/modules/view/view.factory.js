@@ -15,6 +15,7 @@
         var service =
         {
             getProduct : getProduct,
+            getRating : getRating
 
         };
         return service;
@@ -29,9 +30,22 @@
                 if(products[i].id == id)
                 {
                     console.log("Product  found "+id);
-                    return products[i]
+                    return products[i];
                 }
             }
+
+        }
+
+        function getRating(comments)
+        {
+            console.log('get rating')
+            var totalRating = 0;
+            for(var i in comments)
+            {
+                totalRating = totalRating + parseInt(comments[i].rating);
+            }
+
+            return (totalRating/comments.length).toFixed(1);
 
         }
 
