@@ -24,17 +24,12 @@
         </div>
         <div class="col-md-8">
             <dl>
-                <dt>{{vc.name}}</dt>
+                <dt class = "productName">{{vc.name}}</dt>
                 <small><dd ng-if='vc.brand'>-by {{vc.brand}}</dd>
                     <dd ng-if='vc.author'>-by {{vc.author}}</dd>
                 </small>
             </dl>
-            <!--<div>
-                <label>{{vc.name}}</label>
-            </div>
-            <div ng-if='vc.brand'>
-                <span>by {{vc.brand}}</span>
-            </div>-->
+
             <hr/>
             <div>
                 <span>Price : {{vc.price | currency:'&#8377;'}}</span>
@@ -92,27 +87,5 @@
     <hr>
 
     <similar-products product-list = products product-type = {{vc.subType}}  ></similar-products>
-
-    <!--<button type="button" class="btn btn-primary" ng-disabled="vc.curPage == 0"
-            ng-click="vc.curPage = vc.curPage-1"> PREV</button>
-
-    <div class = "imgRepeat" ng-repeat="product in products| filter: { subType: vc.subType } | orderBy : '-rating'  | pagination: vc.curPage * vc.pageSize | limitTo: vc.pageSize " >&lt;!&ndash; ng-if="product.id!=vc.params.id"&ndash;&gt;
-
-
-        <figure class="zoom_img">
-            <a ui-sref='view({id:product.id})'>
-                <img ng-src="{{'../data/images/'+product.imgPath+'.jpeg'}} " ng-alt="{{product.name}}" ng-title="{{product.name}}" class="img-thumbnail" width="120" height="120" style="border:0px;margin:0px;"/>
-            </a>
-        </figure>
-        {{product.name}}<br/>
-        Price : {{product.price | currency:'&#8377;'}}<br/>
-        <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it>
-
-    </div>
-
-    <button type="button" class="btn btn-primary"
-            ng-disabled="vc.curPage >= vc.numberOfPages(vc.subType) - 1"
-            ng-click="vc.curPage = vc.curPage+1">NEXT </button>
-    <hr/>-->
 
 </div>

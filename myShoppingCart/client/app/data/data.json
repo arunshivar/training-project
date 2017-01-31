@@ -1731,7 +1731,7 @@
 
   {
     "id":"ELEC_PRD_43",
-    "name": "Acer E15 Celeron",
+    "name": "Acer E15",
     "price": 15490,
     "description": "Acer E15 Celeron Dual Core 4th Gen - (2 GB/500 GB HDD/Linux) UN.MZ8SI.023, UN.GFTSI.007 ES1-531-C2YE/ ES1-533 Notebook  (15.6 inch, Diamond Black /Midnight Black, 2.4 kg)",
     "type": "electronics",
@@ -1815,7 +1815,7 @@
 
   {
     "id":"ELEC_PRD_45",
-    "name": "Lenovo 310 Core",
+    "name": "Lenovo 310",
     "price": 46990,
     "description": "If Friday nights are reserved for movies and Saturday nights for some soulful music, then the Lenovo Ideapad 310 is the laptop for you. This laptop is a fusion of quick processing and innovative design and enhances your multimedia experience.",
     "type": "electronics",
@@ -1899,7 +1899,7 @@
 
   {
     "id":"ELEC_PRD_47",
-    "name": "Lenovo Yoga 500",
+    "name": "Lenovo Yoga",
     "price": 39990,
     "description": "Use it as a laptop when you need it or use it as a tablet when you are on the move, either way, the Lenovo Yoga 500 makes computing stylish and effortless. Featuring a 360-degree flip-and-fold design, an ultra-thin body and a powerful processor, this laptop is as hardworking as you.",
     "type": "electronics",
@@ -1941,7 +1941,7 @@
 
   {
     "id":"ELEC_PRD_48",
-    "name": "HP Pavilion x360",
+    "name": "HP x360",
     "price": 42990,
     "description": "With a thin profile and 360 degree foldable design, this laptop from HP is portable and versatile. You can fold the laptop completely backwards and use it as a tablet while you are in the bus, fold it halfway backwards and set it on a table to watch a movie, set it like a tent on a desk while you enjoy playing a game and use it like a laptop to work. This makes the laptop ideal for students, working professionals, bachelors and even artists.",
     "type": "electronics",
@@ -1984,7 +1984,7 @@
 
   {
     "id":"ELEC_PRD_49",
-    "name": "HP Core i7 6th Gen",
+    "name": "HP i7 6th Gen",
     "price": 56990,
     "description": "HP Core i7 6th Gen - (8 GB/1 TB HDD/DOS/4 GB Graphics) X5Q23PA#ACJ 15-ay078TX Notebook  (15.6 inch, SIlver, 2.19 kg)",
     "type": "electronics",
@@ -2026,14 +2026,14 @@
 
   {
     "id":"ELEC_PRD_50",
-    "name": "HP Pavilion Core i5 6th Gen",
+    "name": "HP Pavilion",
     "price": 56490,
     "description": "HP Pavilion Core i5 6th Gen - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics) W6T19PA 15-au006TX Notebook  (15.6 inch, Natural SIlver, 2.03 kg)",
     "type": "electronics",
     "subType": "laptop",
     "brand": "HP",
     "RAM": "8 GB RAM",
-    "modelName": "Pavilion",
+    "modelName": "Pavilion  Core i5 6th Gen",
     "color": "Natural SIlver Colour",
     "battery": "4 Cell",
     "imgPath": "ELEC_PRD_50",
@@ -2068,14 +2068,14 @@
 
   {
     "id":"ELEC_PRD_51",
-    "name": "Lenovo G50-80 Core i5 5th Gen",
+    "name": "Lenovo G50-80",
     "price": 44490,
     "description": "Your son's first laptop could be this Lenovo laptop. It comes with an HD display, a powerful processor, and big RAM capacity, ensuring that your son has an immersive viewing experience coupled with lag-free and seamless multitasking.",
     "type": "electronics",
     "subType": "laptop",
     "brand": "Lenovo",
     "RAM": "8 GB RAM",
-    "modelName": "G50-80",
+    "modelName": "G50-80 Core i5 5th Gen",
     "color": "Black",
     "battery": "4 Hours",
     "imgPath": "ELEC_PRD_51",
@@ -2110,14 +2110,14 @@
 
   {
     "id":"ELEC_PRD_52",
-    "name": "Apple Macbook Pro Core i5",
+    "name": "Apple Macbook",
     "price": 52490,
     "description": "If you are looking for a high-end laptop with plenty of features and high-performance, then what you need to be doing is investing in this Apple MacBook Pro. Stylish and powerful, this laptop delivers seamless multitasking and lag-free computing for maximum efficiency and productivity.",
     "type": "electronics",
     "subType": "laptop",
     "brand": "Apple",
     "RAM": "4 GB RAM",
-    "modelName": "A1278",
+    "modelName": "A1278 Pro Core i5",
     "color": "SIlver",
     "battery": "7 Hours",
     "imgPath": "ELEC_PRD_52",
@@ -2152,14 +2152,14 @@
 
   {
     "id":"ELEC_PRD_53",
-    "name": "Acer Atom Quad Core",
+    "name": "Acer Atom",
     "price": 13990,
     "description": "Acer Atom Quad Core - (2 GB/32 GB EMMC Storage/Windows 10 Home) NT.G8VSI.001 SW3-016 2 in 1 Laptop  (10.1 inch, SHark Grey)",
     "type": "electronics",
     "subType": "laptop",
     "brand": "Acer",
     "RAM": "2 GB RAM",
-    "modelName": "Switch",
+    "modelName": "Switch  Quad Core",
     "color": "SHark Grey",
     "battery": "5 Hours",
     "imgPath": "ELEC_PRD_53",
@@ -2194,14 +2194,14 @@
 
   {
     "id":"ELEC_PRD_54",
-    "name": "Micromax Alpha Core i3 5th Gen",
+    "name": "Micromax Alpha ",
     "price": 24990,
     "description": "Experience a whole new level of smart technology with the Micromax Alpha LI351 Core i3 (5th Gen) Notebook. Sleek in design and equipped with features that are technologically advanced yet user-friendly, this notebook is designed to keep up with your fast-paced life and multitasking needs and multi-tasking needs.",
     "type": "electronics",
     "subType": "laptop",
     "brand": "Micromax",
     "RAM": "6 GB RAM",
-    "modelName": "Alpha",
+    "modelName": "Alpha Core i3 5th Gen",
     "color": "Grey",
     "battery": "5 Hours",
     "imgPath": "ELEC_PRD_54",
@@ -2236,14 +2236,14 @@
 
   {
     "id":"ELEC_PRD_55",
-    "name": "Dell Inspiron Pentium Quad Core 4th Gen",
+    "name": "Dell Inspiron Pentium",
     "price": 24990,
     "description": "Dell Inspiron Pentium Quad Core 4th Gen - (4 GB/500 GB HDD/Windows 10 Home) Z569106HIN9 3162 Notebook  (11.6 inch, Blue, 1.22 kg)",
     "type": "electronics",
     "subType": "laptop",
     "brand": "Dell",
     "RAM": "4 GB RAM",
-    "modelName": "Inspiron",
+    "modelName": "Inspiron Quad Core 4th Gen",
     "color": "Blue",
     "battery": "5 Hours",
     "imgPath": "ELEC_PRD_55",
@@ -2278,14 +2278,14 @@
 
   {
     "id":"ELEC_PRD_56",
-    "name": "Lenovo Core i7 6th Gen",
+    "name": "Lenovo Core",
     "price": 66990,
     "description": "Lenovo Core i7 6th Gen - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics) 80SR00JTIH IP 510 Notebook  (15.6 inch, Pearl Black, 2.2 kg)",
     "type": "electronics",
     "subType": "laptop",
     "brand": "Lenovo ",
     "RAM": "8 GB RAM",
-    "modelName": "Ideapad",
+    "modelName": "Ideapad i7 6th Gen",
     "color": "Pearl Black",
     "battery": "5 Hours",
     "imgPath": "ELEC_PRD_56",
@@ -2321,14 +2321,14 @@
 
   {
     "id":"ELEC_PRD_57",
-    "name": "Dell Inspiron 7000 Core i7 7th Gen",
+    "name": "Dell Inspiron",
     "price": 85990,
     "description": "Dell Inspiron 7000 Core i7 7th Gen - (8 GB/1 TB HDD/128 GB SSD/Windows 10 Home/4 GB Graphics) Z561503SIN9G 7560 Notebook  (15.6 inch, Gray)",
     "type": "electronics",
     "subType": "laptop",
     "brand": "Dell ",
     "RAM": "8 GB RAM",
-    "modelName": "Inspiron",
+    "modelName": "Inspiron 7000 Core i7 7th Gen",
     "color": "Gray",
     "battery": "5 Hours",
     "imgPath": "ELEC_PRD_57",
@@ -2364,14 +2364,14 @@
 
   {
     "id":"ELEC_PRD_58",
-    "name": "Lenovo IdeaPad 300 Core i7 6th Gen",
+    "name": "Lenovo IdeaPad ",
     "price": 60990,
     "description": "Lenovo IdeaPad 300 Core i7 6th Gen - (8 GB/1 TB HDD/Windows 10 Home/2 GB Graphics) 80Q700V1IH 300-15ISK Notebook  (15.6 inch, SIlver, 2.3 kg)",
     "type": "electronics",
     "subType": "laptop",
     "brand": "Lenovo",
     "RAM": "8 GB RAM",
-    "modelName": "Ideapad",
+    "modelName": "Ideapad 300 Core i7 6th Gen",
     "color": "SIlver",
     "battery": "5 Hours",
     "imgPath": "ELEC_PRD_58",
@@ -2406,12 +2406,12 @@
 
   {
     "id":"ELEC_PRD_59",
-    "name": "HP Core i7 7th Gen",
+    "name": "HP i7",
     "price": 75990,
     "description": "HP Core i7 7th Gen - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics) Z4Q47PA#ACJ 15-AU628TX Notebook  (15.6 inch, Natural SIlver, 2.03 kg)",
     "type": "electronics",
     "subType": "laptop",
-    "brand": "HP",
+    "brand": "HP 7th gen",
     "RAM": "8 GB RAM",
     "modelName": "Pavilion",
     "color": "Natural SIlver",
@@ -2449,14 +2449,14 @@
 
   {
     "id":"ELEC_PRD_60",
-    "name": "Dell Inspiron 3148 ",
+    "name": "Dell Inspiron",
     "price": 43500,
     "description": "Dell Inspiron 3148 (Intel 2-in-1 Laptop) (Core i3 4th Gen/ 4GB/ 500GB/ Win8.1/ Touch) (314834500iST1)  (11.49 inch, Silver, 1.41 kg)",
     "type": "electronics",
     "subType": "laptop",
     "brand": "Dell",
     "RAM": "4 GB RAM",
-    "modelName": "Inspiron",
+    "modelName": "Inspiron 3148",
     "color": "SIlver",
     "battery": "5 Hours",
     "imgPath": "ELEC_PRD_60",
@@ -2492,14 +2492,14 @@
 
   {
     "id":"ELEC_PRD_61",
-    "name": "Dell Inspiron 5000",
+    "name": "Dell Inspiron",
     "price": 65190,
     "description": "Dell Inspiron 5000 Core i5 7th Gen - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics) Z563503SIN9G 5567 Notebook  (15.6 inch, Grey, 2.36 kg)",
     "type": "electronics",
     "subType": "laptop",
     "brand": "Dell",
     "RAM": "8 GB RAM",
-    "modelName": "Inspiron",
+    "modelName": "Inspiron 5000",
     "color": "Grey",
     "battery": "5 Hours",
     "imgPath": "ELEC_PRD_61",
@@ -2534,14 +2534,14 @@
 
   {
     "id":"ELEC_PRD_62",
-    "name": "HP Envy Core i7",
+    "name": "HP Envy",
     "price": 93290,
     "description": "HP Envy Core i7 6th Gen - (8 GB/256 GB SSD/Windows 10 Home) V5D70PA#ACJ 13-d115TU Notebook  (13.3 inch, SIlver, 1.35 kg)",
     "type": "electronics",
     "subType": "laptop",
     "brand": "HP",
     "RAM": "8 GB RAM",
-    "modelName": "Envy",
+    "modelName": "Envy Core i7",
     "color": "Silver",
     "battery": "5 Hours",
     "imgPath": "ELEC_PRD_62",
