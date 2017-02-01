@@ -18,7 +18,8 @@
     "angular-ui-select": "0.19.6",
     "angular-ui": "0.4.0",
     "angular-rateit": "^3.0.2",
-    "angular-tooltips": "^1.1.10"
+    "angular-tooltips": "^1.1.10",
+    "angular-rangeslider": "^0.0.14"
   },
   "resolutions": {
     "angular": "~1.5.x"

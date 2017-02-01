@@ -36,8 +36,20 @@
             controllerAs:'vc'
         }
 
+        var searchState =
+        {
+            name:'search',
+            url:'/search/:productType',
+            templateUrl: '../partials/search.html',
+            controller : 'searchController',
+            controllerAs:'sc'
+
+        }
+
+
         $stateProvider.state(homeState);
         $stateProvider.state(viewState);
+        $stateProvider.state(searchState);
 
         $urlRouterProvider.otherwise('/');
 

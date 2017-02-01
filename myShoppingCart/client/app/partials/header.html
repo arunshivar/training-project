@@ -7,16 +7,16 @@
         <li class="dropdown">
             <a class="dropbtn">Electronics</a>
             <div class="dropdown-content">
-                <a ui-sref="mobiles">Mobiles</a>
-                <a ui-sref="laptops">Laptops</a>
+                <a ui-sref='search({productType:"Mobiles"})'>Mobiles</a><!--search({type:"mobiles"})-->
+                <a ui-sref='search({productType:"Laptops"})'>Laptops</a>
             </div>
         </li>
         <li class="dropdown">
             <a class="dropbtn">Books</a>
             <div class="dropdown-content">
-                <a ui-sref="fiction">Fiction</a>
-                <a ui-sref="comic">Comic</a>
-                <a ui-sref="biographies">Biographies</a>
+                <a ui-sref='search({productType:"fiction"})'>Fiction</a>
+                <a ui-sref='search({productType:"comic"})'>Comic</a>
+                <a ui-sref='search({productType:"biography"})'>Biographies</a>
             </div>
         </li>
     </ul>
@@ -41,7 +41,7 @@
                 <div>
                     <span>{{product.name}}</span><br>
                     <label><ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it></label>
-                    <span class="priceinSearch">Price :{{product.price}}</span>
+                    <span class="floatRight">Price :{{product.price}}</span>
 
                 </div>
             </ui-select-choices>

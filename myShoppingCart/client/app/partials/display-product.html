@@ -4,17 +4,17 @@
 
     <div class="modal-body row">
         <div class="col-md-3">
-            <figure  ng-if = 'dpc.subType == "mobile"'>
+            <figure  ng-if = 'dpc.subType == "Mobiles"'>
 
                 <img ng-src="{{'../data/images/'+dpc.paramId+'.jpeg'}}" class="img-thumbnail"   width="150" height="150" style="border:0px;margin:0px;"/>
                 <!--<img  ng-src="{{'../data/images/'+dpc.params.id+'.jpeg'}}" class="img-thumbnail" width="130" height="130" style="border:0px;margin:0px;"/>-->
             </figure>
 
-            <figure  ng-if = 'dpc.subType == "laptop"'>
+            <figure  ng-if = 'dpc.subType == "Laptops"'>
                 <img  ng-src="{{'../data/images/'+dpc.paramId+'.jpeg'}}" class="img-thumbnail"  style="border:0px;margin:0px;"/>
             </figure>
 
-            <figure  ng-if = 'dpc.subType == "biography"'>
+            <figure  ng-if = 'dpc.type == "books"'>
                 <img  ng-src="{{'../data/images/'+dpc.paramId+'.jpeg'}}" class="img-thumbnail"  style="border:0px;margin:0px;"/>
             </figure>
         </div>
@@ -50,7 +50,7 @@
                 <span>Battery : {{dpc.battery}}</span>
             </div>
             <div ng-if='dpc.description'>
-                <span>Description : {{dpc.description}}</span>
+                <span>Description : </span><p>{{dpc.description}}</p>
             </div>
 
             <div ng-if='dpc.rating'>
@@ -66,13 +66,18 @@
                 </div>
             </div>
 
+            <div ng-click='showComments = !showComments'>
+                <label>Reviews</label>
+            </div>
             <div ng-if='dpc.comments' class = "scrollComments">
-                <div ng-click='showComments = !showComments'><label>Comments:</label>
-                    <div  ng-repeat='comment in dpc.comments' ng-show='showComments'>
-                        By : {{comment.username}} On : {{comment.commentedOn}}  <br>
-                        <p>{{comment.text}} </p> <ng-rate-it ng-model= comment.rating  read-only="true" ></ng-rate-it>
-                    </div>
+
+                <div  ng-repeat='comment in dpc.comments' ng-show='showComments'>
+                    <label><ng-rate-it ng-model= comment.rating  read-only="true" ></ng-rate-it></label>
+                    <span class = "floatRight">By : {{comment.username}} On : {{comment.commentedOn}}<br></span>
+                    <p>{{comment.text}} </p>
+
                 </div>
+
             </div>
         </div>
     </div>

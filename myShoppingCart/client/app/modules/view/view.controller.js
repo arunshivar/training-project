@@ -18,12 +18,9 @@
 
         /*find the selected product from the products array using view Factory*/
         var id = $stateParams.id;
-
         vm.products = $rootScope.products;
-
         var obj = viewFactory.getProduct(id,vm.products);
         vm.subType = obj.subType;
-
     }
 
 

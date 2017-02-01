@@ -12,7 +12,9 @@
                 'ngRateIt',
                 'homeModule',
                 'viewModule',
+                'searchModule',
                 '720kb.tooltips',
-                'ui.bootstrap'
+                'ui.bootstrap',
+                'ui-rangeSlider'
             ]);
 }());
