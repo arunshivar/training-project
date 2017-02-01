@@ -1,0 +1,80 @@
+<div class="col-sm-10 col-md-10">
+    <!--<h1>View Html</h1>
+    <hr/>-->
+
+    <div class="modal-body row">
+        <div class="col-md-3">
+            <figure  ng-if = 'dpc.subType == "mobile"'>
+
+                <img ng-src="{{'../data/images/'+dpc.paramId+'.jpeg'}}" class="img-thumbnail"   width="150" height="150" style="border:0px;margin:0px;"/>
+                <!--<img  ng-src="{{'../data/images/'+dpc.params.id+'.jpeg'}}" class="img-thumbnail" width="130" height="130" style="border:0px;margin:0px;"/>-->
+            </figure>
+
+            <figure  ng-if = 'dpc.subType == "laptop"'>
+                <img  ng-src="{{'../data/images/'+dpc.paramId+'.jpeg'}}" class="img-thumbnail"  style="border:0px;margin:0px;"/>
+            </figure>
+
+            <figure  ng-if = 'dpc.subType == "biography"'>
+                <img  ng-src="{{'../data/images/'+dpc.paramId+'.jpeg'}}" class="img-thumbnail"  style="border:0px;margin:0px;"/>
+            </figure>
+        </div>
+        <div class="col-md-8">
+            <dl>
+                <dt class = "productName">{{dpc.name}}</dt>
+                <small><dd ng-if='dpc.brand'>-by {{dpc.brand}}</dd>
+                    <dd ng-if='dpc.author'>-by {{dpc.author}}</dd>
+                </small>
+            </dl>
+
+            <hr/>
+            <div>
+                <span>Price : {{dpc.price | currency:'&#8377;'}}</span>
+            </div>
+            <div ng-if='dpc.modelName'>
+                <span>Model : {{dpc.modelName}}</span>
+            </div>
+            <div ng-if='dpc.ram'>
+                <span>RAM : {{dpc.ram}}</span>
+            </div>
+            <div ng-if='dpc.frontCamera'>
+                <span>Front Camera : {{dpc.frontCamera}}</span>
+            </div>
+            <div ng-if='dpc.rearCamera'>
+                <span>Rear Camera : {{dpc.rearCamera}}</span>
+                <span class="glyphicon glyphicon-camera"></span>
+            </div>
+            <div ng-if='dpc.color'>
+                <span>Color : {{dpc.color}}</span>
+            </div>
+            <div ng-if='dpc.battery'>
+                <span>Battery : {{dpc.battery}}</span>
+            </div>
+            <div ng-if='dpc.description'>
+                <span>Description : {{dpc.description}}</span>
+            </div>
+
+            <div ng-if='dpc.rating'>
+                <label>
+                    <ng-rate-it ng-model= dpc.rating  read-only="true" tooltip-placement="top" uib-tooltip="{{dpc.rating}}">
+                    </ng-rate-it>
+                </label>
+            </div>
+            <div ng-if='dpc.offers'>
+                <div ng-repeat='offer in dpc.offers' >
+                    <mark class = "myMark">{{offer.type}}</mark> - <span ng-if = 'offer.amount'>{{offer.amount | currency:'&#8377;'}}</span>
+                    <span ng-if = 'offer.percentage'>{{offer.percentage}}</span>
+                </div>
+            </div>
+
+            <div ng-if='dpc.comments' class = "scrollComments">
+                <div ng-click='showComments = !showComments'><label>Comments:</label>
+                    <div  ng-repeat='comment in dpc.comments' ng-show='showComments'>
+                        By : {{comment.username}} On : {{comment.commentedOn}}  <br>
+                        <p>{{comment.text}} </p> <ng-rate-it ng-model= comment.rating  read-only="true" ></ng-rate-it>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

@@ -14,7 +14,7 @@
         var directive =
         {
             restrict : 'EA',
-            templateUrl : '../../partials/topRatedProducts.html',
+            templateUrl : '../../partials/top-rated-products.html',
             scope:
             {
                 productList : '=',
@@ -25,8 +25,6 @@
         function link(scope, elem, attr)
         {
             console.log("Link Function in toprated directive");
-
-
 
         }
 

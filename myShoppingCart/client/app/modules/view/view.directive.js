@@ -17,7 +17,7 @@
         var directive =
         {
             restrict : 'EA',
-            templateUrl : '../../partials/similarProducts.html',
+            templateUrl : '../../partials/similar-products.html',
             scope:
             {
                 productList : '=',

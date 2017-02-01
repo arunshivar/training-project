@@ -38,8 +38,10 @@
             <ui-select-choices refresh="checkName($select.search)"
                                refresh-delay="0"
                                repeat = 'product in  products |filter: $select.search  | limitTo:   limitNameSearch'>
-                <div>{{product.name}}
-                    <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it> Price :{{product.price}}
+                <div>
+                    <span>{{product.name}}</span><br>
+                    <label><ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it></label>
+                    <span class="priceinSearch">Price :{{product.price}}</span>
 
                 </div>
             </ui-select-choices>

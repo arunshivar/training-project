@@ -2608,7 +2608,7 @@
   },
   {
     "id":"BOOK_PRD_2",
-    "name": "Biography: Dhirubhai Ambani",
+    "name": "Dhirubhai Ambani",
     "price":  227,
     "description": "The biography of Dhirubhai Ambani is truly India’s rags to riches story. The inside pages contain an interesting and elevating story of how a poor village boy rose to become the legendary figure in the history of business what the well-established corporate houses of India with abundant resources could not achieve over a period of a century.",
     "type": "books",
@@ -2736,7 +2736,7 @@
   },
   {
     "id":"BOOK_PRD_6",
-    "name": "BYCULLA TO BANGKOK",
+    "name": "Byculla To Bangkok",
     "price":  180.00,
     "description": "Sequel to the best-selling Dongri to Dubai, S. Hussain Zaidi’s Byculla to Bangkok returns to the Mumbai Underworld and tells the story of its dons.",
     "type": "books",
@@ -2768,7 +2768,7 @@
   },
   {
     "id":"BOOK_PRD_7",
-    "name": "My Days with Baasha:",
+    "name": "My Days with Basha",
     "price":  199.00,
     "description": "Suresh Krissna tells the story of the South Indian film legend who has become one of the greatest actors of his generation: the Superstar Rajnikant in My Days With Baasha: The Rajnikanth Phenomenon.",
     "type": "books",
@@ -2832,7 +2832,7 @@
   },
   {
     "id":"BOOK_PRD_9",
-    "name": "Train To Pakistan (PB)",
+    "name": "Train To Pakistan",
     "price":  148.00,
     "description": "Train To Pakistan shows what it must have been for the people caught in the middle of the Partition, when a country is divided along communal lines",
     "type": "books",
