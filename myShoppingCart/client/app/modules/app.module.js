@@ -15,6 +15,6 @@
                 'searchModule',
                 '720kb.tooltips',
                 'ui.bootstrap',
-                'ui-rangeSlider'
+                'rzModule'
             ]);
 }());
