@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="../bower_components/angular-ui-select/dist/select.css">
     <link rel="stylesheet" href="../bower_components/angular-rateit/dist/ng-rateit.css">
-
+    <link rel="stylesheet" href="../bower_components/angular-tooltips/dist/angular-tooltips.css">
+    <link rel="stylesheet" href="../bower_components/angular-rangeslider/angular.rangeSlider.css">
 
     <!--<base href="/">-->
 </head>
@@ -24,8 +25,7 @@
 
 <!--other pages are inserted using state providers-->
 <div class="content-wrapper">
-
-    <div class="content">
+    <div class="content" >
         <div ui-view="">
 
         </div>
@@ -48,6 +48,9 @@
 <script src = "../bower_components/angular-rateit/dist/ng-rateit.js"></script>
 <script src = "../bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
 <script src = "../bower_components/ng-simplePagination/simplePagination.js"></script>
+<script src = "../bower_components/angular-tooltips/dist/angular-tooltips.min.js"></script>
+<script src = "../bower_components/angular-rangeslider/angular.rangeSlider.js"></script>
+
 
 
 <script src = "modules/home/home.module.js"></script>
@@ -59,6 +62,10 @@
 <script src = "modules/view/view.factory.js"></script>
 <script src = "modules/view/view.filter.js"></script>
 
+<script src = "modules/search/search.module.js"></script>
+<script src = "modules/search/search.controller.js"></script>
+<script src = "modules/search/search.component.js"></script>
+
 <script src ="modules/app.module.js"></script>
 <script src = "modules/app.controller.js"></script>
 <script src = "modules/app.config.js"></script>
@@ -67,8 +74,8 @@
 <!--Custom Directives-->
 <script src = "modules/header/header.directive.js"></script>
 <script src = "modules/footer/myFooter.js"></script>
+<script src = "modules/view/view.component.js"></script>
 <script src = "modules/home/home.directive.js"></script>
 <script src = "modules/view/view.directive.js"></script>
-
 </body>
 </html>
