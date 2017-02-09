@@ -9,12 +9,15 @@
         .module('myshop',
             [
                 'ui.router',
+                'ui.select',
+                'ngSanitize',
                 'ngRateIt',
                 'homeModule',
                 'viewModule',
                 'searchModule',
                 '720kb.tooltips',
                 'ui.bootstrap',
-                'rzModule'
+                'rzModule',
+                'checklist-model'
             ]);
 }());

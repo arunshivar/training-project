@@ -10,11 +10,18 @@
         appRun.$inject = ['$rootScope','$http'];
         function appRun($rootScope,$http)
         {
+            $rootScope.products = {};
+
+            $rootScope.minPrice; //values for price slider in view page
+            $rootScope.maxPrice;
+            $rootScope.stepSize;
+
+
             console.log("App Run")
             $http.get('../data/data.json')
                 .success(function(data)
                 {
-                    $rootScope.products = {};
+
                     $rootScope.products = data;
                 })
                 .error(function()

@@ -43,7 +43,6 @@
             templateUrl: '../partials/search.html',
             controller : 'searchController',
             controllerAs:'sc'
-
         }
 
 

@@ -90,10 +90,21 @@ footer {
     -o-transform:scale(1.25);
 }
 
-.scrollComments
+.scrollDiv
 {
     max-height: 150px;
     overflow-y: scroll;
+}
+/*.brandInput
+{
+    margin-bottom:5px;
+    box-sizing : border-box;
+}*/
+.brandInput
+{
+    width:150px;
+    margin-bottom:5px;
+    box-sizing : border-box;
 }
 
 .productName {
@@ -107,3 +118,11 @@ footer {
 .floatRight {
     float:right
 }
+
+.boxed {
+    border: 1px solid green ;
+}
+
+
+
+

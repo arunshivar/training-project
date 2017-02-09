@@ -1,4 +1,6 @@
-/*custom directive to display top rated items on the subtype of product*/
+/*
+    custom directive to display top rated items on the subtype of product
+*/
 (function ()
 {
     'use-strict'
@@ -27,12 +29,7 @@
             console.log("Link Function in toprated directive");
 
         }
-
-
-
         return directive;
-
     }
-
 
 }());

@@ -1,7 +1,8 @@
+<!--Display list of products of selected type in search page-->
 <div >
     <h4>{{dplc.productType}} List</h4>
     <hr/>
-    <div class = "imgRepeat" ng-repeat="product in dplc.productList | orderBy : '-rating' | filter: { subType: dplc.productType } " ><!--| limitTo: 15-->
+    <div class = "imgRepeat" ng-repeat="product in dplc.productList | orderBy : '-rating' track by $index" ><!--| filter: { subType: dplc.productType } | limitTo: 15-->
         <figure class="zoom_img">
             <a ui-sref='view({id:product.id})'>
                 <img ng-src="{{'../data/images/'+product.imgPath+'.jpeg'}} " ng-alt="{{product.name}}" ng-title="{{product.name}}" class="img-thumbnail" width="120" height="120" style="border:0px;margin:0px;"/>
@@ -9,7 +10,6 @@
         </figure>
         {{product.name}}<br/>
         Price : {{product.price | currency:'&#8377;'}}<br/>
-        <!--Rating :-->
         <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it>
     </div>
 </div>
