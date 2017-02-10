@@ -1,7 +1,7 @@
 /**
  * Created by sb-c2-02 on 2/2/17.
  *
- * search page custom ditective for price slider
+ * search page custom directive for price slider
  */
 
 (function()

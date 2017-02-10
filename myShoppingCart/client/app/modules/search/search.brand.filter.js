@@ -31,18 +31,24 @@
         };
 
         console.log("Brand filter controller");
-        console.log("brandsList"+vm.brandList);
 
         //event function to get the products of checked brand name
 
         vm.brandChecked = function(brandsArray)
         {
-
-            vm.brandName = undefined;
-            vm.checked = true;
-            console.log("Checked brands "+brandsArray)
-            vm.productList = searchFactory.getProductsOnBrandName(vm.productType,brandsArray);
-            console.log(vm.productList);
+            //if only one filter was checked and later uncheked then
+            if(brandsArray.length == 0)
+            {
+                vm.clear();
+            }
+            else
+            {
+                vm.brandName = undefined;
+                vm.checked = true;
+                console.log("Checked brands " + brandsArray)
+                vm.productList = searchFactory.getProductsOnBrandName(vm.productType, brandsArray);
+                console.log(vm.productList);
+            }
 
         }
 

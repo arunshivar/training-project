@@ -1,47 +1,47 @@
 [
   {
-    "id": "ELEC_PRD_1",
-    "name": "SAMSUNG Galaxy 1",
-    "price": 5500,
-    "description": "SAMSUNG Galaxy 1 is a smart phone at available price and customer satisfaction",
+    "id":"ELEC_PRD_4",
+    "name": "HTC DESIRE 10",
+    "price": 15990,
+    "description": "Hi-resolution audio earphones, clear shield back panel and ultra-hard protective glass cover available in box.1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase",
     "type": "electronics",
     "subType": "Mobiles",
-    "brand": "Samsung",
-    "RAM": "1GB",
-    "modelName": "Galaxy 1",
-    "color": "Gold",
-    "battery": "2600 mAh Li-Ion Battery",
-    "imgPath": "ELEC_PRD_1",
+    "brand": "HTC",
+    "RAM": "3 GB RAM",
+    "modelName": "2PUK100",
+    "color": "Polar White",
+    "battery": "2700mAH",
+    "imgPath": "ELEC_PRD_4",
     "rating" : 3.5,
     "camera":
     {
       "front": "5MP",
-      "rear": "8MP"
+      "rear": "13MP"
     },
     "comments": [
       {
-        "text": "Worst phone",
-        "rating": "1",
-        "commentedOn": "13/01/2017",
-        "username": "Jhon Deo"
+        "text": "Cool features keeping in mind the low cost",
+        "rating": "4",
+        "commentedOn": "11/01/2017",
+        "username": "DJ Bravo"
       },
       {
-        "text": "Awesome phone",
-        "rating": "5",
-        "commentedOn": "15/01/2017",
-        "username": "Jhon Deo brother"
+        "text": "the feel and look for this phone is good. Excellent spec",
+        "rating": "3",
+        "commentedOn": "21/01/2017",
+        "username": "Cena John"
       },
       {
-        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
-        "rating": "1",
-        "commentedOn": "14/01/2017",
-        "username": "Jhon Deo Sister"
+        "text": "Cool features keeping in mind the low cost",
+        "rating": "4",
+        "commentedOn": "11/01/2017",
+        "username": "Ramu"
       }
     ],
     "offers": [
       {
-        "type": "discount",
-        "percentage": "10 % off"
+        "type": "Exchange",
+        "amount": "1428.65"
       }
     ]
   },
@@ -85,7 +85,7 @@
     ],
     "offers": [
       {
-        "type": "discount",
+        "type": "Axis Bank",
         "percentage": "10 % off"
       }
     ]
@@ -131,54 +131,54 @@
     ],
     "offers": [
       {
-        "type": "Emi",
-        "amount": "1131.65"
+        "type": "Exchange",
+        "amount": "10000"
       }
     ]
   },
   {
-    "id":"ELEC_PRD_4",
-    "name": "HTC DESIRE 10",
-    "price": 15990,
-    "description": "Hi-resolution audio earphones, clear shield back panel and ultra-hard protective glass cover available in box.1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase",
+    "id": "ELEC_PRD_1",
+    "name": "SAMSUNG Galaxy 1",
+    "price": 5500,
+    "description": "SAMSUNG Galaxy 1 is a smart phone at available price and customer satisfaction",
     "type": "electronics",
     "subType": "Mobiles",
-    "brand": "HTC",
-    "RAM": "3 GB RAM",
-    "modelName": "2PUK100",
-    "color": "Polar White",
-    "battery": "2700mAH",
-    "imgPath": "ELEC_PRD_4",
+    "brand": "Samsung",
+    "RAM": "1GB",
+    "modelName": "Galaxy 1",
+    "color": "Gold",
+    "battery": "2600 mAh Li-Ion Battery",
+    "imgPath": "ELEC_PRD_1",
     "rating" : 3.5,
     "camera":
     {
       "front": "5MP",
-      "rear": "13MP"
+      "rear": "8MP"
     },
     "comments": [
       {
-        "text": "Cool features keeping in mind the low cost",
-        "rating": "4",
-        "commentedOn": "11/01/2017",
-        "username": "DJ Bravo"
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
       },
       {
-        "text": "the feel and look for this phone is good. Excellent spec",
-        "rating": "3",
-        "commentedOn": "21/01/2017",
-        "username": "Cena John"
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
       },
       {
-        "text": "Cool features keeping in mind the low cost",
-        "rating": "4",
-        "commentedOn": "11/01/2017",
-        "username": "Ramu"
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
       }
     ],
     "offers": [
       {
-        "type": "Emi",
-        "amount": "1428.65"
+        "type": "Axis Bank",
+        "percentage": "10 % off"
       }
     ]
   },
@@ -223,7 +223,7 @@
     ],
     "offers": [
       {
-        "type": "exchange",
+        "type": "Exchange",
         "amount": 7000
       }
     ]
@@ -269,7 +269,7 @@
     ],
     "offers": [
       {
-        "type": "exchange",
+        "type": "Exchange",
         "amount": 4999
       }
     ]
@@ -361,7 +361,7 @@
     ],
     "offers": [
       {
-        "type": "Emi",
+        "type": "EMI",
         "amount": "5000"
       }
     ]
@@ -403,8 +403,8 @@
     ],
     "offers": [
       {
-        "type": "Emi",
-        "amount": "5000"
+        "type": "Axis Bank",
+        "percentage": "10 % off"
       }
     ]
   },
@@ -445,8 +445,8 @@
     ],
     "offers": [
       {
-        "type": "No exchange",
-        "amount": 2000
+        "type": "Exchange",
+        "amount": 20000
       }
     ]
   },
@@ -527,8 +527,8 @@
     ],
     "offers": [
       {
-        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
-        "amount": 5999
+        "type": "Axis Bank",
+        "percentage": "10 % off"
       }
     ]
   },
@@ -569,8 +569,8 @@
     ],
     "offers": [
       {
-        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
-        "amount": 5999
+        "type": "Axis Bank",
+        "percentage": "10 % off"
       }
     ]
   },
@@ -610,7 +610,7 @@
     ],
     "offers": [
       {
-        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
+        "type": "EMI",
         "amount": 599
       }
     ]
@@ -652,8 +652,8 @@
     ],
     "offers": [
       {
-        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
-        "amount": 599
+        "type": "EMI",
+        "amount": 799
       }
     ]
   },
@@ -694,8 +694,8 @@
     ],
     "offers": [
       {
-        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
-        "amount": 599
+        "type": "EMI",
+        "amount": 899
       }
     ]
   },
@@ -741,8 +741,8 @@
     ],
     "offers": [
       {
-        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
-        "amount": 599
+        "type": "Axis Bank",
+        "percentage": "10 % off"
       }
     ]
   },
@@ -788,8 +788,8 @@
     ],
     "offers": [
       {
-        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
-        "amount": 599
+        "type": "Axis Bank",
+        "percentage": "10 % off"
       }
     ]
   },
@@ -835,8 +835,8 @@
     ],
     "offers": [
       {
-        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
-        "amount": 599
+        "type": "Axis Bank",
+        "percentage": "10 % off"
       }
     ]
   },
@@ -882,8 +882,8 @@
     ],
     "offers": [
       {
-        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
-        "amount": 599
+        "type": "Axis Bank",
+        "percentage": "10 % off"
       }
     ]
   },
@@ -929,8 +929,8 @@
     ],
     "offers": [
       {
-        "type": "OnsiteGo 2 Year Extended Warranty for Laptops from Rs. 50001 to Rs. 70000",
-        "amount": 599
+        "type": "Axis Bank",
+        "percentage": "10 % off"
       }
     ]
   },
@@ -1022,8 +1022,8 @@
     ],
     "offers": [
       {
-        "type": "EMI",
-        "amount": 1782
+        "type": "Exchange",
+        "amount": 17820
       }
     ]
   },
@@ -1063,8 +1063,8 @@
     ],
     "offers": [
       {
-        "type": "EMI",
-        "amount": 1518
+        "type": "Exchange",
+        "amount": 15180
       }
     ]
   },
@@ -1169,7 +1169,7 @@
     },
     "comments": [
       {
-        "text": "Pros- Looks premium Good Performance Camera Quality etc",
+        "text": "Pros- Looks prEMIum Good Performance Camera Quality etc",
         "rating": "5",
         "commentedOn": "28/10/2016",
         "username": "Seabiscuit"
@@ -1183,8 +1183,8 @@
     ],
     "offers": [
       {
-        "type": "EMI",
-        "amount": 1333
+        "type": "Exchange",
+        "amount": 13330
       }
     ]
   },
@@ -1210,7 +1210,7 @@
     },
     "comments": [
       {
-        "text": "Pros- Looks premium Good Performance Camera Quality etc",
+        "text": "Pros- Looks prEMIum Good Performance Camera Quality etc",
         "rating": "5",
         "commentedOn": "28/10/2016",
         "username": "Seabiscuit"
@@ -1251,7 +1251,7 @@
     },
     "comments": [
       {
-        "text": "Pros- Looks premium Good Performance Camera Quality etc",
+        "text": "Pros- Looks prEMIum Good Performance Camera Quality etc",
         "rating": "5",
         "commentedOn": "28/10/2016",
         "username": "Seabiscuit"
@@ -1265,8 +1265,8 @@
     ],
     "offers": [
       {
-        "type": "EMI",
-        "amount": 7324
+        "type": "Exchange",
+        "amount": 73240
       }
     ]
   },
@@ -1292,7 +1292,7 @@
     },
     "comments": [
       {
-        "text": "Pros- Looks premium Good Performance Camera Quality etc",
+        "text": "Pros- Looks prEMIum Good Performance Camera Quality etc",
         "rating": "5",
         "commentedOn": "28/10/2016",
         "username": "Seabiscuit"
@@ -1306,8 +1306,8 @@
     ],
     "offers": [
       {
-        "type": "EMI",
-        "amount": 1234
+        "type": "Exchange",
+        "amount": 12340
       }
     ]
   },
@@ -1333,7 +1333,7 @@
     },
     "comments": [
       {
-        "text": "Pros- Looks premium Good Performance Camera Quality etc",
+        "text": "Pros- Looks prEMIum Good Performance Camera Quality etc",
         "rating": "5",
         "commentedOn": "28/10/2016",
         "username": "Seabiscuit"
@@ -1347,8 +1347,8 @@
     ],
     "offers": [
       {
-        "type": "EMI",
-        "amount": 2324
+        "type": "Exchange",
+        "amount": 23240
       }
     ]
   },
@@ -1429,8 +1429,8 @@
     ],
     "offers": [
       {
-        "type": "EMI",
-        "amount": 2084
+        "type": "Exchange",
+        "amount": 20840
       }
     ]
   },
@@ -1681,7 +1681,7 @@
     ],
     "offers": [
       {
-        "type": "Emi",
+        "type": "EMI",
         "amount": "1212"
       }
     ]
@@ -1723,7 +1723,7 @@
     ],
     "offers": [
       {
-        "type": "Emi",
+        "type": "EMI",
         "amount": "921"
       }
     ]
@@ -1765,8 +1765,8 @@
     ],
     "offers": [
       {
-        "type": "Emi",
-        "amount": "2582"
+        "type": "Exchange",
+        "amount": "14000"
       }
     ]
   },
@@ -1807,8 +1807,8 @@
     ],
     "offers": [
       {
-        "type": "Emi",
-        "amount": "970"
+        "type": "Exchange",
+        "amount": "18000"
       }
     ]
   },
@@ -1849,7 +1849,7 @@
     ],
     "offers": [
       {
-        "type": "Emi",
+        "type": "EMI",
         "amount": "5222"
       }
     ]
@@ -1891,7 +1891,7 @@
     ],
     "offers": [
       {
-        "type": "Emi",
+        "type": "EMI",
         "amount": "1299"
       }
     ]
@@ -1933,8 +1933,8 @@
     ],
     "offers": [
       {
-        "type": "Emi",
-        "amount": "1939"
+        "type": "Exchange",
+        "amount": "29390"
       }
     ]
   },
@@ -1975,7 +1975,7 @@
     ],
     "offers": [
       {
-        "type": "Emi",
+        "type": "EMI",
         "amount": "2085"
       }
     ]
@@ -2018,8 +2018,8 @@
     ],
     "offers": [
       {
-        "type": "Emi",
-        "amount": "2764"
+        "type": "Exchange",
+        "amount": "50000"
       }
     ]
   },
@@ -2060,7 +2060,7 @@
     ],
     "offers": [
       {
-        "type": "Emi",
+        "type": "EMI",
         "amount": "2740"
       }
     ]
@@ -2102,7 +2102,7 @@
     ],
     "offers": [
       {
-        "type": "Emi",
+        "type": "EMI",
         "amount": "2158"
       }
     ]
@@ -2144,7 +2144,7 @@
     ],
     "offers": [
       {
-        "type": "Emi",
+        "type": "EMI",
         "amount": "2546"
       }
     ]
@@ -2186,8 +2186,8 @@
     ],
     "offers": [
       {
-        "type": "Emi",
-        "amount": "2332"
+        "type": "Exchange",
+        "amount": "12990"
       }
     ]
   },
@@ -2228,7 +2228,7 @@
     ],
     "offers": [
       {
-        "type": "Emi",
+        "type": "EMI",
         "amount": "3249"
       }
     ]
@@ -2270,7 +2270,7 @@
     ],
     "offers": [
       {
-        "type": "Emi",
+        "type": "EMI",
         "amount": "1212"
       }
     ]
@@ -2312,8 +2312,8 @@
     ],
     "offers": [
       {
-        "type": "Emi",
-        "amount": "3249"
+        "type": "Exchange",
+        "amount": "55990"
       }
     ]
   },
@@ -2355,7 +2355,7 @@
     ],
     "offers": [
       {
-        "type": "Emi",
+        "type": "EMI",
         "amount": "4170"
       }
     ]
@@ -2398,7 +2398,7 @@
     ],
     "offers": [
       {
-        "type": "Emi",
+        "type": "EMI",
         "amount": "2958"
       }
     ]
@@ -2440,8 +2440,8 @@
     ],
     "offers": [
       {
-        "type": "Emi",
-        "amount": "3685"
+        "type": "Exchange",
+        "amount": "66950"
       }
     ]
   },
@@ -2483,7 +2483,7 @@
     ],
     "offers": [
       {
-        "type": "Emi",
+        "type": "EMI",
         "amount": "4350"
       }
     ]
@@ -2526,8 +2526,8 @@
     ],
     "offers": [
       {
-        "type": "Emi",
-        "amount": "3161"
+        "type": "Exchange",
+        "amount": "63161"
       }
     ]
   },
@@ -2568,8 +2568,8 @@
     ],
     "offers": [
       {
-        "type": "Emi",
-        "amount": "4524"
+        "type": "Exchange",
+        "amount": "92920"
       }
     ]
   },
@@ -2706,7 +2706,7 @@
     "id":"BOOK_PRD_5",
     "name": "Curfewed Night",
     "price":  110.00,
-    "description": "Curfewed Night is a moving memoir on the conflict in Kashmir by Basharat Peer, an eminent and renowned Indian journalist.",
+    "description": "Curfewed Night is a moving memoir on the conflict in Kashmir by Basharat Peer, an EMInent and renowned Indian journalist.",
     "type": "books",
     "subType": "Fiction",
     "by": "Basharat Peer",
@@ -2922,27 +2922,27 @@
     ],
     "offers": [
       {
-        "type": "Bank Offer on Axis Bank",
+        "type": "Axis Bank",
         "percentage": "5 % off"
       }
     ]
   },
 
   {
-    "id":"BOOK_PRD_11",
-    "name": "Palace Of Illusions",
-    "price":  219.00,
-    "description": "The Palace Of Illusions, written by Chitra Divakaruni, is a tale of honor and humiliation, love and passion, kings and queens, featuring the epic story of the Mahabharata, but from a female perspective.",
+    "id":"BOOK_PRD_12",
+    "name": "The Way of the Samurai",
+    "price":  205.00,
+    "description": "The Way Of The Samurai is the story of a city-dwelling mouse named Geronimo Stilton, who always lands up in the middle of adventures. Along with his friend Wild Willie, the protagonist tries to retrieve a valuable Japanese scroll from some villians. ",
     "type": "books",
     "subType": "fiction",
-    "by": "Chitra Banerjee Divakaruni",
-    "imgPath": "BOOK_PRD_11",
-    "rating" : 4.4,
+    "by": "Elisabetta Dami",
+    "imgPath": "BOOK_PRD_12",
+    "rating" : 4.7,
     "comments": [
 
       {
-        "text": "BOOK_PRD_11",
-        "rating": "4",
+        "text": "a nice book for kids",
+        "rating": "5",
         "commentedOn": "30 July 2015",
         "username": "Siddharth "
       },
@@ -2955,7 +2955,7 @@
     ],
     "offers": [
       {
-        "type": "Bank Offer on Axis Bank",
+        "type": "Axis Bank",
         "percentage": "5 % off"
       }
     ]

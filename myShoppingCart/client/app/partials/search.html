@@ -7,8 +7,12 @@
     </div>
 
     <!--Brand filter is applicable for only mobiles and l-->
-    <div ng-if = 'sc.productType == "Mobiles" || "Laptops" '>
+    <div ng-if = 'sc.productType == "Mobiles"  || sc.productType == "Laptops" '>
         <brand-filter product-list="sc.products" product-type="{{sc.productType}}" brand-list="sc.brands"></brand-filter>
+    </div>
+
+    <div>
+        <offer-filter product-list="sc.products"  product-type="{{sc.productType}}" offer-list="sc.offers" ></offer-filter>
     </div>
 </div>
 

@@ -22,6 +22,8 @@
         //get the brandnames only if product type is mobiles and laptops books doesn't have any brand
         if(vm.productType == "Mobiles" || vm.productType == "Laptops")
             vm.brands = searchFactory.getBrands(vm.productType);
+
+        vm.offers = searchFactory.getOffers(vm.productType);
     }
 
 }());

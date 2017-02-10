@@ -18,14 +18,18 @@
         var productsOfType = [];
         var productsWithinRange = [];
         var productsOnBrand = [];
+        var productsOnOffer = [];
         var brands = [];
+        var offers = [];
         console.log("Search Factory")
         var service =
         {
             getProducts : getProducts,
             getProductsWithinRange : getProductsWithinRange,
             getBrands : getBrands,
-            getProductsOnBrandName :getProductsOnBrandName
+            getProductsOnBrandName : getProductsOnBrandName,
+            getOffers : getOffers,
+            getProductsOnOffer : getProductsOnOffer
         };
 
         return service;
@@ -85,6 +89,7 @@
             return brands;
         }
 
+        //get the products of selected brand
         function getProductsOnBrandName(productType,brandsArray)
         {
             console.log("In getProductsOnBrandName "+brandsArray)
@@ -94,16 +99,72 @@
             {
                 if(products[i].subType == productType && brandsArray.includes(products[i].brand))
                 {
-                    console.log(products[i].subType+" * "+products[i].brand+" * "+products[i].name)
+                    //console.log(products[i].subType+" * "+products[i].brand+" * "+products[i].name)
                     productsOnBrand.push(products[i]);
                 }
             }
             return productsOnBrand;
+        }
 
+        //get Offers of a product type
+        function getOffers(productType)
+        {
+            console.log("In getProducts on Offer");
 
+            offers = [];
+            /*for(var i in products)
+             {
+             var offers = products[i].offers;
+             /!*var numberOfOffers = products[i].offers.length;*!/
+             if (offers.indexOf() == -1)
+             {
+             offers.push();
+             }
 
+             }*/
+            offers.push("Bank");
+            offers.push("Exchange");
+            offers.push("EMI");
+
+            return offers;
 
         }
+
+        function getProductsOnOffer(productType,offersArray)
+        {
+            console.log("In get Products on Offers ")
+            productsOnOffer = [];
+
+            for(var i in products)
+            {
+                if(products[i].subType == productType)/* && brandsArray.includes(products[i].brand))*/
+                {
+                    var offers = products[i].offers;
+
+                    for(var j in offersArray)
+                    {
+                        if(offers[0].type.includes(offersArray[j]))
+                        {
+
+                            productsOnOffer.push(products[i]);
+
+                        }
+                    }
+
+                    /*for(var j in offers)
+                     {
+                     console.log(offers[j].type)
+                     if(offersArray.includes(offers[j].type))
+                     console.log(offers[j].type)
+                     }*/
+                }
+
+            }
+            return productsOnOffer;
+
+        }
+
+
 
     }
 }());

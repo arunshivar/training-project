@@ -3,9 +3,11 @@
 <!--{{bfc.brands.array}}-->
 <div>
 
-    <input type="text" ng-model="bfc.brandName" class = "brandInput">
+    <input type="text" ng-model="bfc.brandName" class = "filterInput">
     <div ng-hide="!bfc.checked" class="ng-hide">
-        <a  ng-click="bfc.clear();" style="text-decoration: none;">Clear</a><!--class="floatRight"-->
+        <a  ng-click="bfc.clear();" style="text-decoration: none;">
+            <span >Clear</span><!--class="glyphicon glyphicon-remove"-->
+        </a>
     </div>
     <div class = "scrollDiv">
         <div ng-repeat = "brand in bfc.brandList | filter : bfc.brandName ">

@@ -10,6 +10,10 @@
         </figure>
         {{product.name}}<br/>
         Price : {{product.price | currency:'&#8377;'}}<br/>
+        <div ng-repeat='offer in product.offers' >
+            {{offer.type}} - <span ng-if = 'offer.amount'>{{offer.amount | currency:'&#8377;'}}</span>
+            <span ng-if = 'offer.percentage'>{{offer.percentage}}</span>
+        </div>
         <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it>
     </div>
 </div>
