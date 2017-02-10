@@ -1,5 +1,7 @@
 /**
  * Created by sb-c2-02 on 1/2/17.
+ *
+ * Custom component to display list of products in search page
  */
 
 (function(){
@@ -10,6 +12,7 @@
             {
                 bindings:
                 {
+                    productList : '=',
                     productType : '@'
                 },
                 templateUrl: '../../partials/display-products-list.html',
@@ -17,16 +20,13 @@
                 controllerAs:'dplc'
             });
 
-    displayProductsListController.$inject = ['$rootScope'];
-    function displayProductsListController($rootScope)
+    displayProductsListController.$inject = ['searchFactory'];
+    function displayProductsListController(searchFactory)
     {
-        console.log("displayProductsListController");
+        console.log("DisplayProducts List Controller");
         var vm = this;
-        console.log("In Component "+vm.productType);
-        vm.productList = $rootScope.products;
-
+        console.log("In displayProductsList Component "+vm.productType);
 
     }
-
 
 }());

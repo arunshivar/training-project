@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../bower_components/angular-ui-select/dist/select.css">
     <link rel="stylesheet" href="../bower_components/angular-rateit/dist/ng-rateit.css">
     <link rel="stylesheet" href="../bower_components/angular-tooltips/dist/angular-tooltips.css">
-    <link rel="stylesheet" href="../bower_components/angular-rangeslider/angular.rangeSlider.css">
+    <link rel="stylesheet" href="../bower_components/angularjs-slider/dist/rzslider.css">
 
     <!--<base href="/">-->
 </head>
@@ -38,7 +38,6 @@
 <my-footer>
 </my-footer>
 
-
 <script src = "../bower_components/angular/angular.js"></script>
 <script src = "../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 <script src = "../bower_components/angular-ui-select/dist/select.min.js"></script>
@@ -47,26 +46,36 @@
 <script src = "../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src = "../bower_components/angular-rateit/dist/ng-rateit.js"></script>
 <script src = "../bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-<script src = "../bower_components/ng-simplePagination/simplePagination.js"></script>
 <script src = "../bower_components/angular-tooltips/dist/angular-tooltips.min.js"></script>
-<script src = "../bower_components/angular-rangeslider/angular.rangeSlider.js"></script>
+<script src = "../bower_components/angularjs-slider/dist/rzslider.js"></script>
+<script src = "../bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src = "../bower_components/angular-resource/angular-resource.js"></script>
+<script src = "../bower_components/angular-animate/angular-animate.js"></script>
+<script src = "../bower_components/checklist-model/checklist-model.js"></script>
 
 
 
 <script src = "modules/home/home.module.js"></script>
 <script src = "modules/home/home.controller.js"></script>
 <script src = "modules/home/home.factory.js"></script>
+<script src = "modules/home/home.directive.js"></script>
 
 <script src = "modules/view/view.module.js"></script>
 <script src = "modules/view/view.controller.js"></script>
 <script src = "modules/view/view.factory.js"></script>
 <script src = "modules/view/view.filter.js"></script>
+<script src = "modules/view/view.component.js"></script>
+<script src = "modules/view/view.directive.js"></script>
 
 <script src = "modules/search/search.module.js"></script>
 <script src = "modules/search/search.controller.js"></script>
-<script src = "modules/search/search.component.js"></script>
+<script src = "modules/search/search.factory.js"></script>
+<script src = "modules/search/search.priceSlider.js"></script>
+<script src = "modules/search/search.brand.filter.js"></script>
+<script src = "modules/search/search.display.products.list.js"></script>
+<script src = "modules/search/search.offer.filter.js"></script>
 
-<script src ="modules/app.module.js"></script>
+<script src = "modules/app.module.js"></script>
 <script src = "modules/app.controller.js"></script>
 <script src = "modules/app.config.js"></script>
 <script src = "modules/app.run.js"></script>
@@ -74,8 +83,7 @@
 <!--Custom Directives-->
 <script src = "modules/header/header.directive.js"></script>
 <script src = "modules/footer/myFooter.js"></script>
-<script src = "modules/view/view.component.js"></script>
-<script src = "modules/home/home.directive.js"></script>
-<script src = "modules/view/view.directive.js"></script>
+
+<script src= "javascript/multiselect.js"></script>
 </body>
 </html>

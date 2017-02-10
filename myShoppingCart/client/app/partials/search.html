@@ -1,8 +1,23 @@
+<!--search page-->
 
 <div class="col-sm-2 col-md-2">
-   <!-- <div range-slider ></div>-->
-    Arun
+
+    <div ><!--style="border:1px solid black;"-->
+        <price-slider product-list="sc.products" product-type="{{sc.productType}}"></price-slider><!--product-list = products-->
+    </div>
+
+    <!--Brand filter is applicable for only mobiles and l-->
+    <div ng-if = 'sc.productType == "Mobiles"  || sc.productType == "Laptops" '>
+        <brand-filter product-list="sc.products" product-type="{{sc.productType}}" brand-list="sc.brands"></brand-filter>
+    </div>
+
+    <div>
+        <offer-filter product-list="sc.products"  product-type="{{sc.productType}}" offer-list="sc.offers" ></offer-filter>
+    </div>
 </div>
+
+
+
 <div class="col-sm-8 col-md-8">
-    <display-products-list product-type = {{sc.producType}}></display-products-list>
+    <display-products-list  product-list="sc.products" product-type="{{sc.productType}}"></display-products-list><!--product-list = products-->
 </div>

@@ -1,17 +1,19 @@
 /**
  * Created by sb-c2-02 on 2/2/17.
+ *
+ * search page custom directive for price slider
  */
 
 (function()
 {
     'use strict';
-
     angular
         .module('searchModule')
         .component('priceSlider',
             {
                 bindings:
                 {
+                    productList :'=',
                     productType : '@'
                 },
                 templateUrl: '../../partials/price-slider.html',
@@ -21,64 +23,55 @@
     priceSliderController.$inject = ['$rootScope','searchFactory'];
     function priceSliderController($rootScope,searchFactory)
     {
-        console.log("price Slider controller")
+        console.log("Price Slider controller")
         var vm = this;
 
         if(vm.productType == "Mobiles" || vm.productType == "Laptops")
         {
-            console.log("In mobiles and laptops ***9*+*+*+")
-            setSlider(1000,85000,500);
+            $rootScope.minPrice = 1000;
+            $rootScope.maxPrice = 85000;
+            $rootScope.stepSize = 500;
         }
         else
         {
-            setSlider(10,500,10);
+            $rootScope.minPrice = 10;
+            $rootScope.maxPrice = 500;
+            $rootScope.stepSize = 10;
         }
+        setSlider();
 
-        //to set the slider to default values on clicking clear button
+        //to set the slider to default values on clicking clear filter
         vm.setDefault = function (prodType)
         {
-            console.log("Set Daefault")
-
-            if(prodType == "Mobiles" || prodType == "Laptops")
-            {
-
-                setSlider(1000,85000,500);
-            }
-            else
-            {
-                setSlider(10,500,10);
-            }
-
+            setSlider();
+            vm.productList = searchFactory.getProducts(vm.productType);
         }
-        function setSlider(min,max,step)
+
+        function setSlider()
         {
             console.log("Set slider")
+            vm.sliderDragged = false; //to show and hide the clear price slider filter
             vm.slider =
             {
-                minValue: min,
-                maxValue: max,
+                minValue: $rootScope.minPrice,
+                maxValue: $rootScope.maxPrice,
                 options: {
-                    floor: min,
-                    ceil: max,
+                    floor: $rootScope.minPrice,
+                    ceil: $rootScope.maxPrice,
                     translate: function(value)
                     {
                         return '&#8377;' + value;
                     },
-                    step: step,
+                    step: $rootScope.stepSize,
                     noSwitching: true,
-                    onEnd: function()
+                   /* onChange: function()*/
+                    onEnd: function ()
                     {
-                        console.log(vm.slider.minValue+"changed"+vm.slider.maxValue)
-                        /*var productsWithinRange = searchFactory.getProductsWithinRange(vm.slider.minValue,vm.slider.maxValue)*/
-
+                        vm.sliderDragged = true;
+                        vm.productList= searchFactory.getProductsWithinRange(vm.productType,vm.slider.minValue,vm.slider.maxValue)
                     }
                 }
             };
         }
-
     }
-
-
-
-
 }());
