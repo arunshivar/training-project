@@ -1,4 +1,5 @@
 /*
+ Created by Arun
     custom directive to display top rated items on the subtype of product
 */
 (function ()

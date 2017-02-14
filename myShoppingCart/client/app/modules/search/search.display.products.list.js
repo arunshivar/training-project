@@ -1,5 +1,5 @@
 /**
- * Created by sb-c2-02 on 1/2/17.
+ * Created by Arun on 1/2/17.
  *
  * Custom component to display list of products in search page
  */
