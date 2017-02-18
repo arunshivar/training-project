@@ -16,7 +16,6 @@
         var vm = this;
         console.log("In home controller");
         vm.products = $rootScope.products;
-
     }
 }());
 

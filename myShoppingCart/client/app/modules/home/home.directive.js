@@ -1,4 +1,7 @@
-/*custom directive to display top rated items on the subtype of product*/
+/*
+ Created by Arun
+    custom directive to display top rated items on the subtype of product
+*/
 (function ()
 {
     'use-strict'
@@ -27,12 +30,7 @@
             console.log("Link Function in toprated directive");
 
         }
-
-
-
         return directive;
-
     }
-
 
 }());

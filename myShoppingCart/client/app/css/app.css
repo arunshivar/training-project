@@ -90,10 +90,21 @@ footer {
     -o-transform:scale(1.25);
 }
 
-.scrollComments
+.scrollDiv
 {
     max-height: 150px;
     overflow-y: scroll;
+}
+/*.brandInput
+{
+    margin-bottom:5px;
+    box-sizing : border-box;
+}*/
+.filterInput
+{
+    width:150px;
+    margin-bottom:5px;
+    box-sizing : border-box;
 }
 
 .productName {
@@ -104,6 +115,20 @@ footer {
 
     margin-bottom: 0;
 }
+.filterName
+{
+    font-family: Georgia, serif;
+    /*color: #4e0533;*/
+    font-size: 15px;
+    font-variant: small-caps;
+
+    margin-bottom: 0;
+}
+
 .floatRight {
     float:right
 }
+
+
+
+

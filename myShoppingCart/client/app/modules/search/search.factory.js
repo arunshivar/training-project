@@ -1,6 +1,7 @@
 /**
- * Created by sb-c2-02 on 2/2/17.
- */
+ * Created by Arun on 2/2/17.
+ *
+ **/
 
 (function()
 {
@@ -14,18 +15,23 @@
     function searchFactory($rootScope)
     {
         var products = $rootScope.products;
+        var filteredProducts = [];
         var productsOfType = [];
-        var productsWithinRange = [];
-        console.log("search Factory")
+        var brands = [];
+        var offers = [];
+        console.log("Search Factory")
         var service =
         {
-            getProducts : getProducts,
-            getProductsWithinRange : getProductsWithinRange
+            getProductsOnType : getProductsOnType,
+            getBrands : getBrandsOnType,
+            getOffers : getOffers,
+            getProducts : getProducts
         };
-
         return service;
-        function getProducts(productType)
+        //get all the products based on product type mobiles, laptops and books
+        function getProductsOnType(productType)
         {
+            productsOfType = [];
             for(var i in products)
             {
                 if(products[i].subType == productType)
@@ -36,27 +42,199 @@
             return productsOfType;
         }
 
-        function getProductsWithinRange(productType,min,max)
+        //get brandnames based on the product type like mobiles, laptops and books
+        // to display in the brand filter in search page
+        function getBrandsOnType(productType)
         {
-            console.log("In get products with range "+min+" "+max);
-
-            //console.log($rootScope.products)
-
+            brands = [];
+            console.log("In get brands");
             for(var i in products)
             {
                 if(products[i].subType == productType)
                 {
-                    if (products[i].price >= min && products[i].price <= max)
+                    if (brands.indexOf(products[i].brand.trim()) == -1)
                     {
-                        console.log(products[i].price)
-                        productsWithinRange.push(products[i]);
+                        brands.push(products[i].brand.trim());
                     }
                 }
             }
-            return productsWithinRange;
-
+            return brands;
         }
 
+        //get Offers of a product type
+        function getOffers(productType)
+        {
+            console.log("In getProductsOnType on Offer");
+            offers = [];
+            offers.push("Bank");
+            offers.push("Exchange");
+            offers.push("EMI");
+            return offers;
+        }
 
+        /*
+            to get the products and return to search page based on the three filters
+        * */
+        function getProducts(productType,priceRange,brandsArray,offersArray)
+        {
+            if(priceRange != undefined && brandsArray.length == 0 && offersArray.length == 0)
+            {
+                return onPriceRange(productType,priceRange);
+            }
+            else if(priceRange == undefined && brandsArray.length != 0 && offersArray.length == 0)
+            {
+                return onBrands(productType,brandsArray);
+            }
+            else if(priceRange == undefined && brandsArray.length == 0 && offersArray.length !=0)
+            {
+                return onOffers(productType,offersArray);
+            }
+            else if(priceRange != undefined && brandsArray.length != 0 && offersArray.length == 0)
+            {
+                return priceAndBrand(productType,priceRange,brandsArray);
+            }
+            else if(priceRange !=undefined && brandsArray.length == 0 && offersArray.length != 0)
+            {
+                return priceAndOffers(productType,priceRange,offersArray)
+            }
+            else if(priceRange == undefined && brandsArray.length != 0 && offersArray.length != 0)
+            {
+                return brandAndOffers(productType,brandsArray,offersArray);
+            }
+            else if(priceRange != undefined && brandsArray.length != 0 && offersArray.length != 0)
+            {
+                return priceBrandOffer(productType,priceRange,brandsArray,offersArray);
+            }
+        }
+
+        function  onOffers(productType,offersArray)
+        {
+            filteredProducts = [];
+            for(var i in  products)
+            {
+                if(products[i].subType == productType)
+                {
+                    var offers = products[i].offers;
+                    for (var j in offersArray)
+                    {
+                        if (offers[0].type.includes(offersArray[j]))
+                        {
+                            filteredProducts.push(products[i]);
+                        }
+                    }
+                }
+            }
+            return filteredProducts;
+        }
+
+        function onBrands(productType,brandsArray)
+        {
+            filteredProducts = [];
+            for(var i in products)
+            {
+                if (products[i].subType == productType)
+                {
+                    if (brandsArray.indexOf(products[i].brand) >= 0)
+                    filteredProducts.push(products[i]);
+                }
+            }
+            return filteredProducts;
+        }
+
+        function onPriceRange(productType,priceRange)
+        {
+            filteredProducts = [];
+            for(var i in products)
+            {
+                if(products[i].subType == productType)
+                {
+                    if (products[i].price >= priceRange.min && products[i].price <= priceRange.max)
+                    {
+                        filteredProducts.push(products[i]);
+                    }
+                }
+            }
+            return filteredProducts;
+        }
+
+        function priceAndBrand(productType,priceRange,brandsArray)
+        {
+            filteredProducts = [];
+            for(var i in products)
+            {
+                if(products[i].subType == productType)
+                {
+                    if (products[i].price >=priceRange.min && products[i].price <= priceRange.max && brandsArray.includes(products[i].brand))
+                    {
+                        filteredProducts.push(products[i]);
+                    }
+                }
+
+            }
+            return filteredProducts;
+        }
+        function priceAndOffers(productType,priceRange,offersArray)
+        {
+            filteredProducts = [];
+            for(var i in  products)
+            {
+                if(products[i].subType == productType && products[i].price >= priceRange.min && products[i].price <= priceRange.max)
+                {
+                    var offers = products[i].offers;
+                    for (var j in offersArray)
+                    {
+                        if (offers[0].type.includes(offersArray[j]))
+                        {
+                            filteredProducts.push(products[i]);
+                        }
+                    }
+                }
+            }
+            return filteredProducts;
+        }
+
+        function brandAndOffers(productType,brandsArray,offersArray)
+        {
+            filteredProducts = [];
+            for(var i in products)
+            {
+                if(products[i].subType == productType && brandsArray.includes(products[i].brand))
+                {
+                    var offers = products[i].offers;
+                    for (var j in offersArray)
+                    {
+                        if (offers[0].type.includes(offersArray[j]))
+                        {
+                            filteredProducts.push(products[i]);
+                        }
+                    }
+                }
+
+            }
+            return filteredProducts;
+        }
+
+        function priceBrandOffer(productType,priceRange,brandsArray,offersArray)
+        {
+            filteredProducts = [];
+            for(var i in products)
+            {
+                if(products[i].subType == productType)
+                {
+                    if (products[i].price >=priceRange.min && products[i].price <= priceRange.max && brandsArray.includes(products[i].brand))
+                    {
+                        var offers = products[i].offers;
+                        for (var j in offersArray)
+                        {
+                            if (offers[0].type.includes(offersArray[j]))
+                            {
+                                filteredProducts.push(products[i]);
+                            }
+                        }
+                    }
+                }
+            }
+            return filteredProducts;
+        }
     }
 }());

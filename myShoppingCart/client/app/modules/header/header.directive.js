@@ -1,5 +1,7 @@
-
-/*custom directive for header used in index.html */
+/*Created by Arun
+* */
+/*custom directive for header used in index.html
+* with search box and navigate to view page on selected product in search box*/
 (function ()
 {
     angular

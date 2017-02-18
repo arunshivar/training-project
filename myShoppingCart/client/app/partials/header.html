@@ -15,7 +15,7 @@
             <a class="dropbtn">Books</a>
             <div class="dropdown-content">
                 <a ui-sref='search({productType:"fiction"})'>Fiction</a>
-                <a ui-sref='search({productType:"comic"})'>Comic</a>
+               <!-- <a ui-sref='search({productType:"comic"})'>Comic</a>-->
                 <a ui-sref='search({productType:"biography"})'>Biographies</a>
             </div>
         </li>
@@ -29,7 +29,7 @@
 <div class="row">
     <div class="col-sm-offset-4 col-sm-5">
 
-        <ui-select  ng-model = 'MyHCtrl.prod' theme='bootstrap'  on-select="MyHCtrl.onSelect(MyHCtrl.prod.id)">;
+        <ui-select  ng-model = 'MyHCtrl.prod' theme='bootstrap'   on-select="MyHCtrl.onSelect(MyHCtrl.prod.id)">;
 
             <ui-select-match placeHolder="Search for Product or Brand " id="automplete">
                 {{$select.selected.name}}
@@ -45,6 +45,8 @@
 
                 </div>
             </ui-select-choices>
+
+            <!--<ui-select-no-choice></ui-select-no-choice>-->
         </ui-select>
     </div>
 </div>

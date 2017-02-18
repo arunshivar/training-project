@@ -1,5 +1,7 @@
 /**
- * Created by sb-c2-02 on 1/2/17.
+ * Created by Arun on 1/2/17.
+ *
+ *
  */
 
 (function ()
@@ -8,14 +10,20 @@
         .module('searchModule')
         .controller('searchController',searchController);
 
-    searchController.$inject = ['$stateParams','$rootScope'];
-    function searchController($stateParams)
+    searchController.$inject = ['$stateParams','searchFactory'];
+    function searchController($stateParams,searchFactory)
     {
         console.log('Search Controller');
         vm = this;
         console.log($stateParams.productType)
-        vm.producType = $stateParams.productType;
+        vm.productType = $stateParams.productType;
+        vm.products = searchFactory.getProductsOnType(vm.productType);
 
+        //get the brandnames only if product type is mobiles and laptops books doesn't have any brand
+        if(vm.productType == "Mobiles" || vm.productType == "Laptops")
+            vm.brands = searchFactory.getBrands(vm.productType);
+
+        vm.offers = searchFactory.getOffers(vm.productType);
     }
 
 }());
