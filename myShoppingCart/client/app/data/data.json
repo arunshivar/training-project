@@ -2708,7 +2708,7 @@
     "price":  110.00,
     "description": "Curfewed Night is a moving memoir on the conflict in Kashmir by Basharat Peer, an EMInent and renowned Indian journalist.",
     "type": "books",
-    "subType": "Fiction",
+    "subType": "fiction",
     "by": "Basharat Peer",
     "imgPath": "BOOK_PRD_5",
     "rating" : 4.5,
@@ -2740,7 +2740,7 @@
     "price":  180.00,
     "description": "Sequel to the best-selling Dongri to Dubai, S. Hussain Zaidi’s Byculla to Bangkok returns to the Mumbai Underworld and tells the story of its dons.",
     "type": "books",
-    "subType": "Fiction",
+    "subType": "fiction",
     "by": "Zaidi, S. Hussain",
     "imgPath": "BOOK_PRD_6",
     "rating" : 4.2,
@@ -2772,7 +2772,7 @@
     "price":  199.00,
     "description": "Suresh Krissna tells the story of the South Indian film legend who has become one of the greatest actors of his generation: the Superstar Rajnikant in My Days With Baasha: The Rajnikanth Phenomenon.",
     "type": "books",
-    "subType": "Fiction",
+    "subType": "fiction",
     "by": "Suresh Krissna,Malathi Rangarajan",
     "imgPath": "BOOK_PRD_7",
     "rating" : 4.6,
@@ -2959,5 +2959,39 @@
         "percentage": "5 % off"
       }
     ]
+  },
+
+  {
+    "id":"BOOK_PRD_13",
+    "name": "WITHOUT FEAR - PB",
+    "price":  245.00,
+    "description": "Without Fear: The Life & Trial Of Bhagat Singh is an intense and close look into the life and ideologies of Bhagat Singh, one of India’s well known freedom fighters and revolutionaries.",
+    "type": "books",
+    "subType": "biography",
+    "by": "Nayar, Kuldip",
+    "imgPath": "BOOK_PRD_13",
+    "rating" : 4.6,
+    "comments": [
+
+      {
+        "text": "Please read it",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "Read, Think, Debate the Perspective, but don't Judge the Epic!",
+        "rating": "3",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Axis Bank",
+        "percentage": "5 % off"
+      }
+    ]
   }
 ]
+

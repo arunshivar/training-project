@@ -1,5 +1,5 @@
 /**
- * Created by sb-c2-02 on 24/1/17.
+ * Created by Arun on 24/1/17.
  *
  * custom directive for footer
  */

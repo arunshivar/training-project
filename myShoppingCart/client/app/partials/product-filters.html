@@ -1,0 +1,61 @@
+<div>
+    <!--
+        Price Slider Filter
+     -->
+    <div>
+        <h5 class="filterName">Price Filter</h5>
+        <rzslider rz-slider-model="pfc.slider.minValue"
+                  rz-slider-high="pfc.slider.maxValue"
+                  rz-slider-options="pfc.slider.options">
+        </rzslider>
+
+        <div ng-hide="!pfc.sliderDragged" class="ng-hide">
+            <a  ng-click="pfc.setDefault(pfc.productType);" style="text-decoration: none;">
+                <span>Clear</span><!--class="glyphicon glyphicon-remove"-->
+            </a><!--class="floatRight"-->
+        </div>
+
+    </div>
+    <!--
+        Brand Filter
+    -->
+    <div ng-if = 'pfc.productType == "Mobiles"  || pfc.productType == "Laptops" '>
+        <h5 class="filterName">Filter on Brand</h5>
+        <div>
+
+            <input type="text" ng-model="pfc.brandName" class = "filterInput">
+            <div ng-hide="!pfc.checkedBrand" class="ng-hide">
+                <a  ng-click="pfc.clearBrands();" style="text-decoration: none;">
+                    <span >Clear</span>
+                </a>
+            </div>
+            <div class = "scrollDiv">
+                <div ng-repeat = "brand in pfc.brandList | filter : pfc.brandName ">
+                    <input type="checkbox" checklist-model="pfc.brands.array" checklist-value="brand"
+                           ng-click="pfc.brandChecked()">
+                    {{brand}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h5 class="filterName">Filter on Offer</h5>
+        <div>
+            <!--<input type="text" ng-model="pfc.offerType" class = "filterInput">-->
+            <div ng-hide="!pfc.checkedOffer" class="ng-hide">
+                <a  ng-click="pfc.clearOffers();" style="text-decoration: none;">
+                    <span>Clear</span><!--class="glyphicon glyphicon-remove"-->
+                </a>
+            </div>
+
+            <div ><!--class = "scrollDiv"-->
+                <div ng-repeat = "offer in pfc.offerList | filter : pfc.offerType">
+                    <input type="checkbox" checklist-model="pfc.offers.array" checklist-value="offer"
+                           ng-click="pfc.offerChecked()">
+                    {{offer}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

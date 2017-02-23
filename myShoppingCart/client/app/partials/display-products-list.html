@@ -1,8 +1,13 @@
 <!--Display list of products of selected type in search page-->
-<div >
-    <h4>{{dplc.productType}} List</h4>
+
+<div class="center" ng-if="dplc.productList.length == 0">
+
+    <img ng-src="{{'../data/images/no-products-found.jpeg'}} " ng-alt="No Product Found" class="img-thumbnail" width="150" height="150" style="border:0px;margin:0px;"/>
+</div>
+<div ng-if="dplc.productList.length != 0">
+    <h4 class="filterName">{{dplc.productType}} List</h4>
     <hr/>
-    <div class = "imgRepeat" ng-repeat="product in dplc.productList | orderBy : '-rating' track by $index" ><!--| filter: { subType: dplc.productType } | limitTo: 15-->
+    <div class = "imgRepeat" ng-repeat="product in dplc.productList | orderBy : '-price' track by $index" ><!--| filter: { subType: dplc.productType } | limitTo: 15-->
         <figure class="zoom_img">
             <a ui-sref='view({id:product.id})'>
                 <img ng-src="{{'../data/images/'+product.imgPath+'.jpeg'}} " ng-alt="{{product.name}}" ng-title="{{product.name}}" class="img-thumbnail" width="120" height="120" style="border:0px;margin:0px;"/>

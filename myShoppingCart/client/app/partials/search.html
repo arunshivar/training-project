@@ -1,23 +1,12 @@
 <!--search page-->
+<div class="row">
 
-<div class="col-sm-2 col-md-2">
-
-    <div ><!--style="border:1px solid black;"-->
-        <price-slider product-list="sc.products" product-type="{{sc.productType}}"></price-slider><!--product-list = products-->
+    <div class="col-sm-2 col-md-2">
+        <product-filters product-list="sc.products" brand-list="sc.brands" offer-list="sc.offers" product-type="{{sc.productType}}"></product-filters>
     </div>
 
-    <!--Brand filter is applicable for only mobiles and l-->
-    <div ng-if = 'sc.productType == "Mobiles"  || sc.productType == "Laptops" '>
-        <brand-filter product-list="sc.products" product-type="{{sc.productType}}" brand-list="sc.brands"></brand-filter>
+    <div class="col-sm-8 col-md-8">
+        <display-products-list  product-list="sc.products" product-type="{{sc.productType}}"></display-products-list><!--product-list = products-->
     </div>
 
-    <div>
-        <offer-filter product-list="sc.products"  product-type="{{sc.productType}}" offer-list="sc.offers" ></offer-filter>
-    </div>
-</div>
-
-
-
-<div class="col-sm-8 col-md-8">
-    <display-products-list  product-list="sc.products" product-type="{{sc.productType}}"></display-products-list><!--product-list = products-->
 </div>

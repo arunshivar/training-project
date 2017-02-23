@@ -1,5 +1,5 @@
 /**
- * Created by sb-c2-02 on 1/2/17.
+ * Created by Arun on 1/2/17.
  *
  *
  */
@@ -17,7 +17,7 @@
         vm = this;
         console.log($stateParams.productType)
         vm.productType = $stateParams.productType;
-        vm.products = searchFactory.getProducts(vm.productType);
+        vm.products = searchFactory.getProductsOnType(vm.productType);
 
         //get the brandnames only if product type is mobiles and laptops books doesn't have any brand
         if(vm.productType == "Mobiles" || vm.productType == "Laptops")
