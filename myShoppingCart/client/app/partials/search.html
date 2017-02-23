@@ -1,10 +1,12 @@
 <!--search page-->
+<div class="row">
 
-<div class="col-sm-2 col-md-2">
-    <product-filters product-list="sc.products" brand-list="sc.brands" offer-list="sc.offers" product-type="{{sc.productType}}"></product-filters>
-</div>
+    <div class="col-sm-2 col-md-2">
+        <product-filters product-list="sc.products" brand-list="sc.brands" offer-list="sc.offers" product-type="{{sc.productType}}"></product-filters>
+    </div>
 
+    <div class="col-sm-8 col-md-8">
+        <display-products-list  product-list="sc.products" product-type="{{sc.productType}}"></display-products-list><!--product-list = products-->
+    </div>
 
-<div class="col-sm-8 col-md-8">
-    <display-products-list  product-list="sc.products" product-type="{{sc.productType}}"></display-products-list><!--product-list = products-->
 </div>

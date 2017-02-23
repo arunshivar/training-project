@@ -110,11 +110,8 @@
             {
                 vm.brandName = undefined;
                 vm.checkedBrand = true;
-                console.log("Checked brands")
                 vm.productList = searchFactory.getProducts(vm.productType,vm.priceRange,vm.brands.array,vm.offers.array);//vm.priceRange,vm.brands,vm.offers)
-                console.log(vm.productList);
             }
-
         }
 
         //to clear all the checked brand names
@@ -122,9 +119,7 @@
         {
             vm.brands.array = [];
             vm.checkedBrand = false;
-            //vm.productList = searchFactory.getProductsOnType(vm.productType);
             vm.productList = searchFactory.getProducts(vm.productType,vm.priceRange,vm.brands.array,vm.offers.array);
-
         }
 
         //event function to get the products of checked offer type
@@ -149,10 +144,5 @@
             vm.checkedOffer = false;
             vm.productList= searchFactory.getProducts(vm.productType,vm.priceRange,vm.brands.array,vm.offers.array);
         }
-
-
-
-
-
     }//controller
 }());

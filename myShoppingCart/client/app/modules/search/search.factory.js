@@ -77,34 +77,51 @@
         * */
         function getProducts(productType,priceRange,brandsArray,offersArray)
         {
+            var finalProducts = [];
             if(priceRange != undefined && brandsArray.length == 0 && offersArray.length == 0)
             {
                 return onPriceRange(productType,priceRange);
+                //finalProducts =  onPriceRange(productType,priceRange);
             }
             else if(priceRange == undefined && brandsArray.length != 0 && offersArray.length == 0)
             {
                 return onBrands(productType,brandsArray);
+                //finalProducts =  onBrands(productType,brandsArray);
             }
             else if(priceRange == undefined && brandsArray.length == 0 && offersArray.length !=0)
             {
                 return onOffers(productType,offersArray);
+                //finalProducts =  onOffers(productType,offersArray);
             }
             else if(priceRange != undefined && brandsArray.length != 0 && offersArray.length == 0)
             {
                 return priceAndBrand(productType,priceRange,brandsArray);
+                //finalProducts = priceAndBrand(productType,priceRange,brandsArray);
+
             }
             else if(priceRange !=undefined && brandsArray.length == 0 && offersArray.length != 0)
             {
                 return priceAndOffers(productType,priceRange,offersArray)
+                //finalProducts =  priceAndOffers(productType,priceRange,offersArray)
             }
             else if(priceRange == undefined && brandsArray.length != 0 && offersArray.length != 0)
             {
                 return brandAndOffers(productType,brandsArray,offersArray);
+                //finalProducts =  brandAndOffers(productType,brandsArray,offersArray);
             }
             else if(priceRange != undefined && brandsArray.length != 0 && offersArray.length != 0)
             {
                 return priceBrandOffer(productType,priceRange,brandsArray,offersArray);
+                //finalProducts =  priceBrandOffer(productType,priceRange,brandsArray,offersArray);
             }
+
+            /*if(finalProducts.length == 0)
+            {
+                //finalProducts.push(products[products.length - 1]);
+                //console.log("****** "+products[products.length-1].id+" *******");
+                finalProducts.push(products[products.length - 1])
+            }*/
+            //return finalProducts;
         }
 
         function  onOffers(productType,offersArray)

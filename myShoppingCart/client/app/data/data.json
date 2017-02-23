@@ -2959,6 +2959,39 @@
         "percentage": "5 % off"
       }
     ]
+  },
+
+  {
+    "id":"BOOK_PRD_13",
+    "name": "WITHOUT FEAR - PB",
+    "price":  245.00,
+    "description": "Without Fear: The Life & Trial Of Bhagat Singh is an intense and close look into the life and ideologies of Bhagat Singh, one of India’s well known freedom fighters and revolutionaries.",
+    "type": "books",
+    "subType": "biography",
+    "by": "Nayar, Kuldip",
+    "imgPath": "BOOK_PRD_13",
+    "rating" : 4.6,
+    "comments": [
+
+      {
+        "text": "Please read it",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "Read, Think, Debate the Perspective, but don't Judge the Epic!",
+        "rating": "3",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Axis Bank",
+        "percentage": "5 % off"
+      }
+    ]
   }
 ]
 

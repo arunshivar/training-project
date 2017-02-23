@@ -1,8 +1,18 @@
-<header>MyShoppingCart</header>
+<div>
+    <header>
+        <div ><!--class="container"-->
+            <div class="row">
+                <div class="col-md-2 col-sm-2">
+                    <a class="myAnchor" ui-sref='/'>MyShoppingCart</a>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
 
 <!-- Bootstrap nav bar -->
+<div><!--class="col-md-8 col-sm-8"-->
 <nav class="navbar" role="navigation">
-
     <ul class="nav navbar-nav">
         <li class="dropdown">
             <a class="dropbtn">Electronics</a>
@@ -15,19 +25,17 @@
             <a class="dropbtn">Books</a>
             <div class="dropdown-content">
                 <a ui-sref='search({productType:"fiction"})'>Fiction</a>
-               <!-- <a ui-sref='search({productType:"comic"})'>Comic</a>-->
+                <!-- <a ui-sref='search({productType:"comic"})'>Comic</a>-->
                 <a ui-sref='search({productType:"biography"})'>Biographies</a>
             </div>
         </li>
     </ul>
 
 </nav>
-
+</div>
 <!--search box-->
-
-<!--<div  class="center-block   ">--><!--style = 'float:none' class="col-md-10 col-md-10"-->
 <div class="row">
-    <div class="col-sm-offset-4 col-sm-5">
+    <div class=" col-sm-offset-5 col-md-5"><!--class="col-sm-offset-2 col-sm-5 col-md-58 col-md-offset-2 "-->
 
         <ui-select  ng-model = 'MyHCtrl.prod' theme='bootstrap'   on-select="MyHCtrl.onSelect(MyHCtrl.prod.id)">;
 

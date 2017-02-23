@@ -1,5 +1,10 @@
 <!--Display list of products of selected type in search page-->
-<div>
+
+<div class="center" ng-if="dplc.productList.length == 0">
+
+    <img ng-src="{{'../data/images/no-products-found.jpeg'}} " ng-alt="No Product Found" class="img-thumbnail" width="150" height="150" style="border:0px;margin:0px;"/>
+</div>
+<div ng-if="dplc.productList.length != 0">
     <h4 class="filterName">{{dplc.productType}} List</h4>
     <hr/>
     <div class = "imgRepeat" ng-repeat="product in dplc.productList | orderBy : '-price' track by $index" ><!--| filter: { subType: dplc.productType } | limitTo: 15-->

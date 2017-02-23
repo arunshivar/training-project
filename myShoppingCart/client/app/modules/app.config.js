@@ -16,7 +16,7 @@
         console.log("App Config");
         /*$locationProvider.html5Mode(true);*/
 
-        /*home page state to search a product by name and displays top rated items*/
+        /*home page state and displays top rated items*/
         var homeState =
         {
             name:'/',
