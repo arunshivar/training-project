@@ -1,7 +1,7 @@
 <!--Display product with detailed description in view page-->
 <div class="col-sm-10 col-md-10">
     <div class="modal-body row">
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-3 col-xs-4">
             <figure  ng-if = 'dpc.subType == "Mobiles"'>
 
                 <img ng-src="{{'../data/images/'+dpc.paramId+'.jpeg'}}" class="img-thumbnail"   width="150" height="150" style="border:0px;margin:0px;"/>
@@ -19,7 +19,7 @@
 
 
 
-        <div class="col-md-8 col-sm-8">
+        <div class="col-md-8 col-sm-8 col-xs-8 col-lg-8">
             <dl>
                 <dt class = "productName">{{dpc.name}}</dt>
                 <small><dd ng-if='dpc.brand'>-by {{dpc.brand}}</dd>

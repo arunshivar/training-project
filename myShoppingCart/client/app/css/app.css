@@ -4,15 +4,14 @@
     margin-top:50px;
     padding-bottom: 60px;
     overflow: hidden;
-    /*border-left: 1px solid gray;*/
-    /*padding: 10px 50px 25px;*/
-    /*border: 1px solid gray;*/
-
-
 }
+
 .content-wrapper
 {
     min-height: 450px;
+    /*width:100%;
+    min-width:1000px;
+    height:auto;*/
 }
 div.searchBox
 {
@@ -32,7 +31,10 @@ header {
     background-color: #C36464;
     color: #fff;
     padding: 10px;
-    /*text-align: left;*/
+    /*width:100%;
+    min-width:1000px;
+    height:auto;*/
+
 }
 
 footer {
@@ -41,6 +43,9 @@ footer {
     color: #fff;
     font-size: 12px;
     background-color: #C36464;
+    /*width:100%;
+    min-width:1000px;
+    height:auto;*/
 }
 
 .imgRepeat
@@ -50,14 +55,13 @@ footer {
     margin-left: 3em;
 }
 
-
-
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10000;
 }
 
 .dropdown-content a {
@@ -66,6 +70,7 @@ footer {
     text-decoration: none;
     display: block;
     text-align: left;
+    z-index: 10000;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1}

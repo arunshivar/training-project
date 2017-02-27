@@ -1,20 +1,24 @@
 <!--to display similar products in view page of selected type-->
 
-<button type="button" class="btn btn-primary" ng-disabled="curPage == 0"
-        ng-click="curPage = curPage-1"> PREV</button>
+<div class="row">
+    <div class="col-md-10 col-sm-10 col-xs-10">
+        <button type="button" class="btn btn-primary" ng-disabled="curPage == 0"
+                ng-click="curPage = curPage-1"> PREV</button>
 
-<div class = "imgRepeat" ng-repeat="product in productList| filter: { subType: productType } | orderBy : '-rating'  | pagination: curPage * pageSize | limitTo: pageSize " > <!--ng-if="product.id!=vc.params.id"-->
-    <figure class="zoom_img">
-        <a ui-sref='view({id:product.id})'>
-            <img ng-src="{{'../data/images/'+product.imgPath+'.jpeg'}} " ng-alt="{{product.name}}" ng-title="{{product.name}}" class="img-thumbnail" width="120" height="120" style="border:0px;margin:0px;"/>
-        </a>
-    </figure>
-    {{product.name}}<br/>
-    Price : {{product.price | currency:'&#8377;'}}<br/>
-    <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it>
+        <div class = "imgRepeat" ng-repeat="product in productList| filter: { subType: productType } | orderBy : '-rating'  | pagination: curPage * pageSize | limitTo: pageSize " > <!--ng-if="product.id!=vc.params.id"-->
+            <figure class="zoom_img">
+                <a ui-sref='view({id:product.id})'>
+                    <img ng-src="{{'../data/images/'+product.imgPath+'.jpeg'}} " ng-alt="{{product.name}}" ng-title="{{product.name}}" class="img-thumbnail" width="120" height="120" style="border:0px;margin:0px;"/>
+                </a>
+            </figure>
+            {{product.name}}<br/>
+            Price : {{product.price | currency:'&#8377;'}}<br/>
+            <ng-rate-it ng-model= product.rating  read-only="true" ></ng-rate-it>
 
+        </div>
+        <!-- -->
+        <button type="button" class="btn btn-primary"
+                ng-disabled="curPage >= numberOfPages(productType) - 1"
+                ng-click="curPage = curPage+1">NEXT </button>
+    </div>
 </div>
-<!-- -->
-<button type="button" class="btn btn-primary"
-        ng-disabled="curPage >= numberOfPages(productType) - 1"
-        ng-click="curPage = curPage+1">NEXT </button>
