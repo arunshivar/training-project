@@ -12,6 +12,7 @@
                 'ui.select',
                 'ngSanitize',
                 'ngRateIt',
+                'headerModule',
                 'homeModule',
                 'viewModule',
                 'searchModule',

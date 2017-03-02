@@ -5,7 +5,7 @@
 (function ()
 {
     angular
-        .module('myshop')
+        .module('headerModule')
         .directive('myHeader',myHeader);
 
     myHeader.$inject = ['$state'];

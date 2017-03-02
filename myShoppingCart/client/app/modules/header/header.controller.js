@@ -8,15 +8,24 @@
 {
     "use strict";
     angular
-        .module('homeModule')
+        .module('headerModule')
         .controller('HeaderController',HeaderController);
 
-    HeaderController.$inject = ['$state','$rootScope'];
-    function HeaderController($state)
+    HeaderController.$inject = ['$http'];
+    function HeaderController($http)
     {
         var vm = this;
         console.log('In header Controller');
-        vm.products = $rootScope.products;
+        $http.get('/api/v1/products/list')
+            .success(function(data)
+            {
+                console.log(data)
+                vm.products = data;
+            })
+            .error(function()
+            {
+                console.log("Failed to get data");
+            });
 
     }
 

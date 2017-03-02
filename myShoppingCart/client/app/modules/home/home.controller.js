@@ -10,12 +10,30 @@
         .controller('HomeController',HomeController);
 
 
-    HomeController.$inject = ['$rootScope'];
-    function HomeController($rootScope)/*homeFactory,$rootScope*/
+    HomeController.$inject = [];
+    function HomeController()/*homeFactory,$rootScope*/
     {
         var vm = this;
         console.log("In home controller");
-        vm.products = $rootScope.products;
+        //vm.products = $rootScope.products;
+
+
+        /*$http.get('/api/v1/products/list')
+            .success(function(data)
+            {
+                vm.products = data;
+            })
+            .error(function()
+            {
+                console.log("Failed to get data");
+            });*/
+
+        /*$http.get('/api/v1/products/list').
+        success(function(data, status, headers, config) {
+            //$scope.posts = data.posts;
+        });*/
+
+
     }
 }());
 
